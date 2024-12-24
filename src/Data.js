@@ -1,0 +1,110 @@
+export const projectData = [
+  {
+    supervisorName: "Dr. Abbas Yehia, Mohamed Darweesh",
+    supervisorEmail: "abbas.yehia@guc.edu.eg",
+    department: "Materials Engineering",
+    projectTitle: "Characterization of rubber blends (Butyl rubber/EPDM)",
+    researchField: "Materials Science and Engineering",
+    projectDescription: "Blending polymers, such as Butyl rubber and EPDM, can produce new materials with improved properties not present in the individual constituents.",
+    projectMethodology: "1. Select and weigh polymers\n2. Mix using a prabender with a humanizer\n3. Cure the blend\n4. Evaluate blend properties",
+    qualifications: "N/A",
+    furtherComments: "N/A",
+    eligibleDepartments: ["Materials Engineering"]
+  },
+  {
+    supervisorName: "Dr. Abbas Yehia",
+    supervisorEmail: "abbas.yehia@guc.edu.eg",
+    department: "Materials Science",
+    projectTitle: "Determination of life aging of styrene butadiene rubber products",
+    researchField: "Materials Science and Engineering",
+    projectDescription: "Study the effects of deteriorating agents like heat and stress on the lifespan of rubber products.",
+    projectMethodology: "1. Select rubber type\n2. Mix with specific additives\n3. Cure the rubber\n4. Determine stress/strain properties\n5. Use Arrhenius equation for lifetime calculation",
+    qualifications: "N/A",
+    furtherComments: "N/A",
+    eligibleDepartments: ["Materials Science and Engineering"]
+  },
+  {
+    supervisorName: "Dr. Abbas Yehia, Dr. Shash",
+    supervisorEmail: "abbas.yehia@guc.edu.eg",
+    department: "Materials Engineering and Design and Production Engineering",
+    projectTitle: "Determination of the softening point of plastics",
+    researchField: "Materials Science and Engineering",
+    projectDescription: "Develop a system to determine the softening point of plastics through temperature programming and mechanical setup.",
+    projectMethodology: "1. Obtain temperature-controlled oven\n2. Design sample holder\n3. Fix dial and start heating\n4. Record softening temperature",
+    qualifications: "N/A",
+    furtherComments: "N/A",
+    eligibleDepartments: ["Design and Production Engineering", "Materials Engineering"]
+  },
+  {
+    supervisorName: "Prof. Dr. Ahmed Abd El Aziz",
+    supervisorEmail: "ahmed.aziz@guc.edu.eg",
+    department: "Materials Engineering",
+    projectTitle: "Surface modification of biodegradable materials using plasma electrolytic oxidation for orthopedic implants",
+    researchField: "Biomaterials and Corrosion",
+    projectDescription: "Utilize plasma electrolytic oxidation to protect light alloys, improving biocompatibility and wear resistance for orthopedic implants.",
+    projectMethodology: "- Design PEO system cell\n- Test the PEO system\n- Characterize coating layer degradation in simulated body fluid and wear resistance",
+    qualifications: "Knowledge of corrosion and human biodegradable implants",
+    furtherComments: "One student",
+    eligibleDepartments: ["Design and Production Engineering", "Materials Engineering", "Mechatronics Engineering"]
+  },
+  {
+    supervisorName: "Prof. Dr. Ahmed Abd El Aziz",
+    supervisorEmail: "ahmed.aziz@guc.edu.eg",
+    department: "Materials Engineering",
+    projectTitle: "Construction and parameter control of delta 3D printing for furniture",
+    researchField: "Materials and Design",
+    projectDescription: "Design a delta 3D printer to produce furniture from agricultural waste, focusing on sustainability.",
+    projectMethodology: "- Construct delta 3D printer\n- Develop printer software\n- Validate printing parameters\n- Print a furniture model",
+    qualifications: "Knowledge of programming and 3D printing",
+    furtherComments: "One student",
+    eligibleDepartments: ["Design and Production Engineering", "Materials Engineering", "Mechatronics Engineering"]
+  },
+  {
+    supervisorName: "Prof. Dr. Ahmed Abd El Aziz",
+    supervisorEmail: "ahmed.aziz@guc.edu.eg",
+    department: "Materials Engineering",
+    projectTitle: "Construction of extruder for 3D printing of furniture",
+    researchField: "Materials and Design",
+    projectDescription: "Develop a 3D printing extruder system utilizing agricultural waste for eco-friendly production.",
+    projectMethodology: "- Design and construct extruder\n- Mount on 3D printer\n- Print a furniture model",
+    qualifications: "Knowledge of materials selection, design, and simulation",
+    furtherComments: "One student",
+    eligibleDepartments: ["Design and Production Engineering", "Materials Engineering", "Mechatronics Engineering"]
+  },
+  {
+    supervisorName: "Prof. Dr. Ahmed Abd El Aziz",
+    supervisorEmail: "ahmed.aziz@guc.edu.eg",
+    department: "Materials Engineering",
+    projectTitle: "Recent development in green hydrogen production for Fuel Cells",
+    researchField: "Green Energy Solution",
+    projectDescription: "Develop nano-porous catalysts for hydrogen production using dealloying techniques.",
+    projectMethodology: "- Fabricate Ni nano-porous catalyst\n- Compare with commercial Ni foam catalyst\n- Test efficiency for hydrogen production",
+    qualifications: "Knowledge of fuel cell design and renewable energy",
+    furtherComments: "One student",
+    eligibleDepartments: ["Design and Production Engineering", "Materials Engineering", "Mechatronics Engineering"]
+  },
+  {
+    supervisorName: "Prof. Dr. Ahmed Abd El Aziz, Dr. Anke Klingner",
+    supervisorEmail: "ahmed.aziz@guc.edu.eg",
+    department: "Materials Engineering",
+    projectTitle: "Electrospun nanofibers decorated with silver nanoparticles for wound healing",
+    researchField: "Materials and Design",
+    projectDescription: "Produce polymeric nanofibers with silver nanoparticles for biomedical applications like wound healing.",
+    projectMethodology: "- Select suitable polymers and materials\n- Employ electrospinning techniques\n- Prepare silver nanoparticles",
+    qualifications: "Knowledge of nanotechnology and materials selection",
+    furtherComments: "One student",
+    eligibleDepartments: ["Design and Production Engineering", "Materials Engineering", "Mechatronics Engineering"]
+  },
+  {
+    supervisorName: "Dr. Abbas Yehia, Dr. Amir Roushdy",
+    supervisorEmail: "abbas.yehia@guc.edu.eg",
+    department: "Materials Engineering and Mechatronics Engineering",
+    projectTitle: "Optimization of rubber additives in Styrene butadiene rubber",
+    researchField: "Materials Science and Engineering",
+    projectDescription: "Optimize additive concentrations in rubber to enhance performance.",
+    projectMethodology: "- Weigh additives\n- Mix materials using a roll mixer\n- Cure at 150°C\n- Determine physico-mechanical properties",
+    qualifications: "N/A",
+    furtherComments: "N/A",
+    eligibleDepartments: ["Materials Engineering", "Mechatronics Engineering"]
+  }
+];
