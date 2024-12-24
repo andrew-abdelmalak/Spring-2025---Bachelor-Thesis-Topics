@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Spring-2025---Bachelor-Thesis-Topics/static/css/main.940bc81b.css",
+    "main.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.48cba39d.js",
+    "static/js/959.ca8e05a9.chunk.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/959.ca8e05a9.chunk.js",
+    "index.html": "/Spring-2025---Bachelor-Thesis-Topics/index.html",
+    "main.940bc81b.css.map": "/Spring-2025---Bachelor-Thesis-Topics/static/css/main.940bc81b.css.map",
+    "main.48cba39d.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.48cba39d.js.map",
+    "959.ca8e05a9.chunk.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/959.ca8e05a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.940bc81b.css",
+    "static/js/main.48cba39d.js"
+  ]
+}
