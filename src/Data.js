@@ -11,7 +11,18 @@ export const projectData = [
     furtherComments: "N/A",
     eligibleDepartments: ["Materials Engineering"]
   },
-  
+  {
+    supervisorName: "Dr. Abbas Yehia",
+    supervisorEmail: "abbas.yehia@guc.edu.eg",
+    department: "Materials Science",
+    projectTitle: "Determination of life aging of styrene butadiene rubber products",
+    researchField: "Materials Science and Engineering",
+    projectDescription: "Study the effects of deteriorating agents like heat and stress on the lifespan of rubber products.",
+    projectMethodology: "1. Select rubber type\n2. Mix with specific additives\n3. Cure the rubber\n4. Determine stress/strain properties\n5. Use Arrhenius equation for lifetime calculation",
+    qualifications: "N/A",
+    furtherComments: "N/A",
+    eligibleDepartments: ["Materials Science and Engineering"]
+  },
   {
     supervisorName: "Dr. Abbas Yehia, Dr. Shash",
     supervisorEmail: "abbas.yehia@guc.edu.eg",
