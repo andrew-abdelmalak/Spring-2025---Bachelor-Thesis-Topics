@@ -85,43 +85,68 @@ const FilterDropdown = ({ label, options, selected, onChange, darkMode }) => {
 };
 
 // HighlightedText component remains the same as it hasn't changed
-const HighlightedText = ({ text = "", searchTerm = "", isDark = false }) => {
-  if (!searchTerm || !text) return text || "";
-  const parts = text.split(new RegExp(`(${searchTerm})`, 'gi'));
-  return (
-    <span>
-      {parts.map((part, i) => 
-        part.toLowerCase() === searchTerm.toLowerCase() ? 
-          <span key={i} className={`px-1 rounded ${isDark ? 'bg-yellow-700' : 'bg-yellow-200'}`}>{part}</span> : 
-          part
-      )}
-    </span>
-  );
+const HighlightedText = ({ text = "", searchTerm = "" }) => {
+  if (!searchTerm || !text) return <>{text}</>;
+
+  const parts = [];
+  let lastIndex = 0;
+  let index = text.toLowerCase().indexOf(searchTerm.toLowerCase());
+
+  while (index !== -1) {
+      parts.push(text.slice(lastIndex, index));
+      parts.push(
+          <span className="bg-yellow-200 rounded px-1">
+              {text.slice(index, index + searchTerm.length)}
+          </span>,
+      );
+      lastIndex = index + searchTerm.length;
+      index = text.toLowerCase().indexOf(searchTerm.toLowerCase(), lastIndex);
+  }
+
+  parts.push(text.slice(lastIndex));
+
+  return <>{parts}</>;
 };
 
-const ConfirmationModal = ({ isOpen, onClose, onConfirm, message, isDark = false }) => {
+const ConfirmationModal = ({
+  isOpen,
+  onClose,
+  onConfirm,
+  message,
+  confirmLabel = "Confirm",
+  cancelLabel = "Cancel",
+  confirmColor = "red",
+  isDark = false,
+}) => {
   if (!isOpen) return null;
-
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className={`rounded-lg p-6 max-w-md w-full mx-4 ${isDark ? 'bg-gray-800 text-white' : 'bg-white'}`}>
-        <h3 className="text-lg font-medium mb-4">{message}</h3>
-        <div className="flex justify-end gap-4">
-          <button
-            onClick={onClose}
-            className={`px-4 py-2 rounded-lg ${isDark ? 'bg-gray-700 hover:bg-gray-600' : 'bg-gray-200 hover:bg-gray-300'}`}
+      <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center">
+          <div
+              className={`rounded-lg p-6 w-full max-w-md mx-4 ${
+                  isDark ? 'bg-gray-800 text-white' : 'bg-white'
+              }`}
           >
-            Cancel
-          </button>
-          <button
-            onClick={onConfirm}
-            className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
-          >
-            Confirm
-          </button>
-        </div>
+              <h3 className="text-lg font-medium mb-4">{message}</h3>
+              <div className="flex justify-end gap-4">
+                  <button
+                      onClick={onClose}
+                      className={`px-4 py-2 rounded-lg ${
+                          isDark
+                              ? 'bg-gray-700 hover:bg-gray-600'
+                              : 'bg-gray-200 hover:bg-gray-300'
+                      }`}
+                  >
+                      {cancelLabel}
+                  </button>
+                  <button
+                      onClick={onConfirm}
+                      className={`px-4 py-2 text-white rounded-lg hover:bg-${confirmColor}-600 bg-${confirmColor}-500`}
+                  >
+                      {confirmLabel}
+                  </button>
+              </div>
+          </div>
       </div>
-    </div>
   );
 };
 
