@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Spring-2025---Bachelor-Thesis-Topics/static/css/main.40eeedd5.css",
-    "main.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.3bf1e3e3.js",
-    "static/js/959.ca8e05a9.chunk.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/959.ca8e05a9.chunk.js",
+    "main.css": "/Spring-2025---Bachelor-Thesis-Topics/static/css/main.a0c441fa.css",
+    "main.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.bc7a7369.js",
+    "static/js/488.9c92ff38.chunk.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/488.9c92ff38.chunk.js",
     "index.html": "/Spring-2025---Bachelor-Thesis-Topics/index.html",
-    "main.40eeedd5.css.map": "/Spring-2025---Bachelor-Thesis-Topics/static/css/main.40eeedd5.css.map",
-    "main.3bf1e3e3.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.3bf1e3e3.js.map",
-    "959.ca8e05a9.chunk.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/959.ca8e05a9.chunk.js.map"
+    "main.a0c441fa.css.map": "/Spring-2025---Bachelor-Thesis-Topics/static/css/main.a0c441fa.css.map",
+    "main.bc7a7369.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.bc7a7369.js.map",
+    "488.9c92ff38.chunk.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/488.9c92ff38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40eeedd5.css",
-    "static/js/main.3bf1e3e3.js"
+    "static/css/main.a0c441fa.css",
+    "static/js/main.bc7a7369.js"
   ]
 }
