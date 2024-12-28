@@ -14,18 +14,19 @@ const CardContent = ({ children, isDark = false }) => (
     <div className={`p-2 ${isDark ? 'text-gray-300' : ''}`}>{children}</div>
 );
 
-// FilterDropdown component (no major changes needed, relies on updated uniqueValues)
-const FilterDropdown = ({ label, options, selected, onChange, darkMode }) => {
+const FilterDropdown = ({ label, options, allOptions, selected, onChange, darkMode }) => {
     const [isOpen, setIsOpen] = useState(false);
-    const [searchTerm, setSearchTerm] = useState(''); // State for the search term
-    const dropdownRef = useRef(null); // Create a ref for the dropdown
+    const [searchTerm, setSearchTerm] = useState('');
+    const dropdownRef = useRef(null);
 
+    // Filter options based on the search term (using 'options' which contains unique values)
     const filteredOptions = useMemo(() => {
         if (!searchTerm) return options;
         const lowerCaseSearchTerm = searchTerm.toLowerCase();
         return options.filter(([value]) => value.toLowerCase().includes(lowerCaseSearchTerm));
     }, [options, searchTerm]);
 
+    // Separate available and unavailable options based on counts
     const availableOptions = filteredOptions.filter(([_, count]) => count > 0);
     const unavailableOptions = filteredOptions.filter(([_, count]) => count === 0);
 
@@ -46,25 +47,29 @@ const FilterDropdown = ({ label, options, selected, onChange, darkMode }) => {
         };
     }, [isOpen]);
 
+    // Handle checkbox change (for both unique and individual supervisor names)
+    const handleCheckboxChange = (value) => {
+        onChange(value); // Call the original onChange to update the multiFilters state in the parent
+    };
+
     return (
-        <div className="relative" ref={dropdownRef}> {/* Attach the ref to the parent div */}
+        <div className="relative" ref={dropdownRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
                 className={`w-full px-4 py-2 text-left rounded-lg flex justify-between items-center 
-                    ${darkMode ?
-                        'bg-gray-700 hover:bg-gray-600 text-white' :
-                        'bg-white border border-gray-200 hover:border-gray-300'}`}
+                    ${darkMode ? 'bg-gray-700 hover:bg-gray-600 text-white' : 'bg-white border border-gray-200 hover:border-gray-300'}`}
             >
-                {/* Corrected the display of the filter count */}
                 <span className="truncate">
-                    {selected.size > 0 ? `<span class="math-inline">\{label\} \(</span>{selected.size})` : label}
+                    {selected.size > 0 ? `${label} (${selected.size})` : label}
                 </span>
                 <ChevronDown className={`h-4 w-4 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`} />
             </button>
 
             {isOpen && (
-                <div className={`absolute z-50 w-full mt-1 rounded-lg shadow-lg overflow-hidden 
-                    ${darkMode ? 'bg-gray-700 border border-gray-600' : 'bg-white border border-gray-200'}`}>
+                <div
+                    className={`absolute z-50 w-full mt-1 rounded-lg shadow-lg overflow-hidden 
+                        ${darkMode ? 'bg-gray-700 border border-gray-600' : 'bg-white border border-gray-200'}`}
+                >
                     <div className="px-2 py-1">
                         <input
                             type="text"
@@ -77,18 +82,17 @@ const FilterDropdown = ({ label, options, selected, onChange, darkMode }) => {
                     </div>
 
                     <div className="max-h-60 overflow-y-auto">
+                        {/* Available options */}
                         {availableOptions.map(([value, count]) => (
                             <label
                                 key={value}
                                 className={`flex items-center px-4 py-2 cursor-pointer 
-                                    ${darkMode ?
-                                        'hover:bg-gray-600 text-gray-200' :
-                                        'hover:bg-gray-50 text-gray-700'}`}
+                                    ${darkMode ? 'hover:bg-gray-600 text-gray-200' : 'hover:bg-gray-50 text-gray-700'}`}
                             >
                                 <input
                                     type="checkbox"
                                     checked={selected.has(value)}
-                                    onChange={() => onChange(value)}
+                                    onChange={() => handleCheckboxChange(value)}
                                     className="rounded mr-3"
                                 />
                                 <span className="flex-1">{value}</span>
@@ -97,6 +101,8 @@ const FilterDropdown = ({ label, options, selected, onChange, darkMode }) => {
                                 </span>
                             </label>
                         ))}
+
+                        {/* Unavailable options (grayed out) */}
                         {unavailableOptions.map(([value, count]) => (
                             <label
                                 key={value}
@@ -121,8 +127,9 @@ const FilterDropdown = ({ label, options, selected, onChange, darkMode }) => {
     );
 };
 
+
 // HighlightedText component (no changes needed)
-const HighlightedText = ({ text = "", searchTerm = "" }) => {
+const HighlightedText = ({ text = "", searchTerm = "", isDark = false }) => {
     if (!searchTerm || typeof text !== 'string') return <>{text}</>;
 
     const parts = [];
@@ -132,7 +139,7 @@ const HighlightedText = ({ text = "", searchTerm = "" }) => {
     while (index !== -1) {
         parts.push(text.slice(lastIndex, index));
         parts.push(
-            <span className="bg-yellow-200 rounded px-1">
+            <span className={`${isDark ? 'bg-yellow-600' : 'bg-yellow-200'} rounded px-1`}>
                 {text.slice(index, index + searchTerm.length)}
             </span>,
         );
@@ -144,7 +151,6 @@ const HighlightedText = ({ text = "", searchTerm = "" }) => {
 
     return <>{parts}</>;
 };
-
 // ConfirmationModal component (no changes needed)
 const ConfirmationModal = ({
     isOpen,
@@ -215,14 +221,26 @@ export default function ThesisComparisonSystem() {
         searchTerm: ''
     });
 
-    useEffect(() => {
-        localStorage.setItem('darkMode', darkMode);
-        if (darkMode) {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark');
-        }
-    }, [darkMode]);
+    // Replace the existing dark mode useEffect (around line 293)
+useEffect(() => {
+    const root = document.documentElement;
+    const transition = 'background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out';
+    root.style.transition = transition;
+    localStorage.setItem('darkMode', darkMode);
+    
+    if (darkMode) {
+        root.classList.add('dark');
+    } else {
+        root.classList.remove('dark');
+    }
+
+    // Clean up transition after it completes
+    const timeoutId = setTimeout(() => {
+        root.style.transition = '';
+    }, 300);
+
+    return () => clearTimeout(timeoutId);
+}, [darkMode]);
 
     useEffect(() => {
         const savedPriorityList = localStorage.getItem('priorityList');
@@ -297,40 +315,93 @@ export default function ThesisComparisonSystem() {
         return result;
     }, [multiFilters, sortConfig, processedData]);
 
-    const uniqueValues = useMemo(() => {
-        const getFilteredCounts = (field, getValue = item => item[field]) => {
-            const counts = new Map();
+    // 1. Update the uniqueValues calculation to take current filters into account
+const uniqueValues = useMemo(() => {
+    // Helper function to check if an item passes current filters
+    const passesCurrentFilters = (item, excludeCategory = null) => {
+        if (excludeCategory !== 'supervisors' && 
+            multiFilters.supervisors.size > 0 && 
+            !multiFilters.supervisors.has(item.supervisorName) && 
+            !multiFilters.supervisors.has(item.coSupervisor)) {
+            return false;
+        }
+        
+        if (excludeCategory !== 'departments' && 
+            multiFilters.departments.size > 0 && 
+            !multiFilters.departments.has(item.department)) {
+            return false;
+        }
+        
+        if (excludeCategory !== 'fields' && 
+            multiFilters.fields.size > 0 && 
+            !multiFilters.fields.has(item.researchField)) {
+            return false;
+        }
+        
+        if (excludeCategory !== 'eligibleDepts' && 
+            multiFilters.eligibleDepts.size > 0 && 
+            !item.eligibleDepartments?.some(dept => multiFilters.eligibleDepts.has(dept))) {
+            return false;
+        }
+        
+        return true;
+    };
 
-            processedData.forEach(item => { // Use processedData for all items
-                if (field === 'supervisorName') {
-                    [item.supervisorName, item.coSupervisor].forEach(supervisor => {
-                        if (supervisor) {
-                            counts.set(supervisor.trim(), (counts.get(supervisor.trim()) || 0) + 1);
-                        }
-                    });
-                } else {
-                    const values = Array.isArray(getValue(item)) ?
-                        getValue(item) :
-                        [getValue(item)].flatMap(v => v ? v.split(/,\s*/) : []);
+    const getFilteredCounts = (field, excludeCategory = null) => {
+        const uniqueCounts = new Map();
+        const allCounts = new Map();
 
-                    values.forEach(value => {
-                        if (value) {
-                            counts.set(value.trim(), (counts.get(value.trim()) || 0) + 1);
-                        }
-                    });
-                }
-            });
+        processedData.forEach(item => {
+            // Only count if item passes other filters
+            if (!passesCurrentFilters(item, excludeCategory)) return;
 
-            return Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
-        };
+            if (field === 'supervisorName') {
+                [item.supervisorName, item.coSupervisor].forEach(supervisor => {
+                    if (supervisor) {
+                        const trimmedSupervisor = supervisor.trim();
+                        uniqueCounts.set(trimmedSupervisor, (uniqueCounts.get(trimmedSupervisor) || 0) + 1);
+                        allCounts.set(supervisor, (allCounts.get(supervisor) || 0) + 1);
+                    }
+                });
+            } else {
+                const values = Array.isArray(item[field]) ? 
+                    item[field] : 
+                    [item[field]].flatMap(v => v ? v.split(/,\s*/) : []);
+
+                values.forEach(value => {
+                    if (value) {
+                        uniqueCounts.set(value.trim(), (uniqueCounts.get(value.trim()) || 0) + 1);
+                    }
+                });
+            }
+        });
+
+        const sortedUniqueSupervisors = Array.from(uniqueCounts.entries())
+            .filter(([_, count]) => count > 0) // Only keep options with count > 0
+            .sort((a, b) => b[1] - a[1]);
+            
+        const sortedAllSupervisors = Array.from(allCounts.entries())
+            .filter(([_, count]) => count > 0)
+            .sort((a, b) => b[1] - a[1]);
+
+        const sortedUniqueCounts = Array.from(uniqueCounts.entries())
+            .filter(([_, count]) => count > 0)
+            .sort((a, b) => b[1] - a[1]);
 
         return {
-            supervisors: getFilteredCounts('supervisorName'),
-            departments: getFilteredCounts('department'),
-            fields: getFilteredCounts('researchField'),
-            eligibleDepts: getFilteredCounts('eligibleDepartments')
+            sortedUniqueSupervisors,
+            sortedAllSupervisors,
+            sortedUniqueCounts
         };
-    }, [processedData]); // Depend on processedData
+    };
+
+    return {
+        supervisors: getFilteredCounts('supervisorName', 'supervisors'),
+        departments: getFilteredCounts('department', 'departments').sortedUniqueCounts,
+        fields: getFilteredCounts('researchField', 'fields').sortedUniqueCounts,
+        eligibleDepts: getFilteredCounts('eligibleDepartments', 'eligibleDepts').sortedUniqueCounts
+    };
+}, [multiFilters, processedData]); // Add multiFilters as dependency
 
     const exportToExcel = (data, filename) => {
         try {
@@ -616,9 +687,10 @@ export default function ThesisComparisonSystem() {
                             )}
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                        <FilterDropdown
+                    <FilterDropdown
                             label="Supervisors"
-                            options={uniqueValues.supervisors}
+                            options={uniqueValues.supervisors.sortedUniqueSupervisors} // Display unique supervisor names
+                            allOptions={uniqueValues.supervisors.sortedAllSupervisors} // Use this for filtering logic (will not be displayed directly)
                             selected={multiFilters.supervisors}
                             onChange={(value) => handleMultiFilterChange('supervisors', value)}
                             darkMode={darkMode}
@@ -652,18 +724,17 @@ export default function ThesisComparisonSystem() {
             ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border border-gray-200'}`}>
                 <div className="overflow-x-auto">
                     <table className="w-full">
-                        <thead className={darkMode ? 'bg-gray-700' : 'bg-gradient-to-r from-gray-50 to-blue-50'}>
-                            <tr>
-                                <th className="px-4 py-3 w-8"></th>
-                                <th className="px-4 py-3 w-8"></th>
-                                <SortableHeader title="Supervisor(s)" sortKey="supervisorName" />
-                                <SortableHeader title="Project Title" sortKey="projectTitle" />
-                                <SortableHeader title="Research Field" sortKey="researchField" />
-                                <SortableHeader title="Department" sortKey="department" />
-                                <th className={`px-4 py-3 text-left 
-                                ${darkMode ? 'text-gray-200' : ''}`}>Eligibility</th>
-                            </tr>
-                        </thead>
+<thead className={darkMode ? 'bg-gray-700' : 'bg-gradient-to-r from-gray-50 to-blue-50'}>
+    <tr>
+        <th className="px-4 py-3 w-8"></th>
+        <th className="px-4 py-3 w-8"></th>
+        <SortableHeader title="Supervisor(s)" sortKey="supervisorName" />
+        <SortableHeader title="Project Title" sortKey="projectTitle" />
+        <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Research Field</th>
+        <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Department</th>
+        <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Eligibility</th>
+    </tr>
+</thead>
                         <tbody className={`divide-y ${darkMode ? 'divide-gray-700' : 'divide-gray-200'}`}>
                             {filteredAndSortedData.map((project, index) => (
                                 <React.Fragment key={`${project.projectTitle}-${index}`}>
