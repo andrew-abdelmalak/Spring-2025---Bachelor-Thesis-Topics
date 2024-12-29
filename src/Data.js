@@ -1,5 +1,76 @@
 export const projectData = [
   {
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": null,
+    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
+    "coSupervisorEmail": null,
+    "department": "Design and Production",
+    "projectTitle": "Construction and testing of 3D metallic components using WAAM printer ( EDPT )",
+    "researchField": "Manufacturing",
+    "projectDescription": "Wire Arc additive Manufacturing (WAAM) is one of the emerging additive manufacturing techniques. A set up is already constructed and available for use. It has been designed and used by previous BSc students. One or more products will be selected to be designed and manufactured using the WAAM process. The accuracy and quality of the obtained product will be tested and evaluated.",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": null,
+    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
+    "coSupervisorEmail": null,
+    "department": "Design and Production",
+    "projectTitle": "Design , fabrication and testing of bullet proof vests",
+    "researchField": "Design and Manufacturing",
+    "projectDescription": "An Egyptian company located in Cairo is producing bullet proof vests. However, their products are not efficient enough and need to be improved. Several materials type and thickness are suggested. The aim of the project is to design, fabricate and test bullet proof vests. The design is based on selecting different combinations of materials and thicknesses together with the fabrication procedure. Simulation of the behavior under shooting conditions will also be applied. The factory will offer the materials and facilities to fabricate and test the promising products.",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": null,
+    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
+    "coSupervisorEmail": null,
+    "department": "Design and Production",
+    "projectTitle": "12. Use of FEM to design 3D printed products with weight reduction",
+    "researchField": "Design and Manufacturing",
+    "projectDescription": "One of the advantages of 3D printed products is to produce mechanical components which can perform effectively but with the possibility of weight reduction. One or more components will be selected by the student and redesigned with a reduced weight using FEM software. One of the designed components will be selected for implementation and testing.",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": null,
+    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
+    "coSupervisorEmail": null,
+    "department": "Design and Production",
+    "projectTitle": "14. Upgrading the production line for flat of strips by Optimizing process parameters in an Egyptian factory",
+    "researchField": "Manufacturing",
+    "projectDescription": "Production of copper alloy flat strips is a base for multiple industrial applications. The production line starts by continuous casting followed by hot rolling then cold rolling. After hot rolling an oxide layer is formed on the strips and must be removed before cold rolling process , otherwise this oxide layer will be harmful for the cold rolled strips. In this project, it is required to suggest a suitable process such as milling , to remove the unnecessary oxide layer. The student will select the suitable tools and process parameters and will test them. The factory will provide the needed machines and tools as well as support needed for performing and evaluation of the different process parameters.",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+  {
     "supervisorName": "Dr. Abbas Yehia",
     "coSupervisor": "Dr. Amir Roushdy",
     "supervisorEmail": "abbas.yehia@guc.edu.eg",
@@ -84,695 +155,695 @@ export const projectData = [
     ]
   },
   {
-      "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-      "coSupervisor": "",
-      "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Materials engineering",
-      "projectTitle": "Surface modification of biodegradable materials using plasma electrolytic oxidation for orthopedic implants",
-      "researchField": "Biomaterials and Corrosion",
-      "projectDescription": "Plasma electrolytic oxidation (PEO), also referred to as micro-arc oxidation, is an amazing surface modification technique for the protection of light alloys, which is an environmentally friendly process to produce ceramic-like layers with certain barrier properties and high resistance against wear. These coatings have exhibited good biocompatibility and adhesion ability to the substrate. The aim of this bachelor project is to design a system for PEO and apply this system on Magnesium -Calcium bone alloy which is used in the application of orthopedic implants",
-      "projectMethodology": [
-        "- Design a cell of PEO system",
-        "- Testing the PEO system for light alloys (Mg-Ca implants)",
-        "- Characterization of the coating layer; Degradation in simulated body fluid and wear resistance"
-      ],
-      "qualifications": [
-        "Interested to work in human biodegradable implants, knowledge in corrosion, materials selection and system design"
-      ],
-      "furtherComments": "One student",
-      "eligibleDepartments": [
-        "Design and Production Engineering",
-        "Materials Engineering",
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-      "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-      "coSupervisor": "",
-      "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Materials engineering",
-      "projectTitle": "Construction and parameter control of delta 3D printing for furniture",
-      "researchField": "Materials and Design",
-      "projectDescription": "3D printing is a general term for different processes that share the same principle of making three dimensional objects from a digital file by laying down material in layers under computer control. Liquid Deposition Modeling (LDM) is one of these processes that is based on the extrusion of paste materials. The project aims to address the pressing need for eco-friendly alternatives in additive manufacturing by repurposing agricultural waste materials into functional, cost-effective, and sustainable printing substrates. The aim of this bachelor project is to design Delta 3 D printer and using this system for 3D printing of agriculture paste",
-      "projectMethodology": [
-        "- Design and construct delta 3D printer",
-        "- 3D printer software development",
-        "- Validation of liquid deposition 3D printing parameters",
-        "- Printing a small size model of furniture"
-      ],
-      "qualifications": [
-        "Interested to construct 3D printer, knowledge in programing"
-      ],
-      "furtherComments": "One student",
-      "eligibleDepartments": [
-        "Design and Production Engineering",
-        "Materials Engineering",
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-      "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-      "coSupervisor": "",
-      "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Materials engineering",
-      "projectTitle": "Construction of extruder for 3D printing of furniture",
-      "researchField": "Materials and Design",
-      "projectDescription": "3D printing is a general term for different processes that share the same principle of making three dimensional objects from a digital file by laying down material in layers under computer control. Liquid Deposition Modeling (LDM) is one of these processes that is based on the extrusion of paste materials. We are targeting to address the pressing need for eco-friendly alternatives in additive manufacturing by repurposing agricultural waste materials into functional, cost-effective, and sustainable printing substrates. The aim of this bachelor project is to design extruder for 3D printer and using this system to print agriculture paste",
-      "projectMethodology": [
-        "- Design and construct extruder",
-        "- Mounting the extruder in the 3D printer",
-        "- Printing a small size model of furniture"
-      ],
-      "qualifications": [
-        "Knowledge in materials selection, 3D printer, Design, modelling and simulation"
-      ],
-      "furtherComments": "One student",
-      "eligibleDepartments": [
-        "Design and Production Engineering",
-        "Materials Engineering",
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-      "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-      "coSupervisor": "",
-      "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Materials engineering",
-      "projectTitle": "Recent development in green hydrogen production for Fuel Cells",
-      "researchField": "Green energy solution",
-      "projectDescription": "The low temperature fuel cell (FC) is one today’s most promising clean energy technologies in the search to overcome both the energy reserve crisis and environmental pollution. Still the catalyst for production of hydrogen is the big issue controlling the efficiency of these cells. One of the smart techniques to produce nano-porous catalyst is the dealloying process which is considered the main benefit of corrosion engineering. The aim of this bachelor project is to develop nano-porous catalyst of Ni-Cu alloy using the recent technology of dealloying technique.",
-      "projectMethodology": [
-        "- Fabrication of nano porous Ni catalyst",
-        "- Comparison of Ni nano porous with commercial Ni Foam catalyst",
-        "- Efficiency of using the catalyst for hydrogen production"
-      ],
-      "qualifications": [
-        "Interested in design Fuel cell, knowledge in green and renewable energy"
-      ],
-      "furtherComments": "One student",
-      "eligibleDepartments": [
-        "Design and Production Engineering",
-        "Materials Engineering",
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-      "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-      "coSupervisor": "Dr. Anke Klingner",
-      "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Materials engineering",
-      "projectTitle": "Electrospun nanofibers decorated with silver nanoparticles for application in wound healing",
-      "researchField": "Materials and Design",
-      "projectDescription": "Todays, nanotechnology has offered several marvelous products particularly in medical application. One of the major successes of nanotechnology has been nanofibers. Electrospun nanofibers represent a novel class of materials that show great potential in many biomedical applications including biosensing, tissue engineering, drug delivery and wound healing. Electrospinning is a relatively simple and efficient technique to produce submicron to nanometer fibers from solutions of polymers, decorated with silver nanoparticles thus can be used for wound healing. The aim of this bachelor project is to produce polymeric nanofibers decorated with nano silver particles.",
-      "projectMethodology": [
-        "- Selection of the suitable polymers and the bioactive materials",
-        "- Elctrospunning techniques and parameter",
-        "- Preparation of silver nanoparticles-coprecipitation process"
-      ],
-      "qualifications": [
-        "Knowledge in materials selection and nanotechnology"
-      ],
-      "furtherComments": "One student",
-      "eligibleDepartments": [
-        "Design and Production Engineering",
-        "Materials Engineering",
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-      "supervisorName": "Ayman A. El-Badawy",
-      "coSupervisor": "",
-      "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Mechatronics Engineering",
-      "projectTitle": "Design of a miniature car-like robot and a software framework for single-agent robotics and control",
-      "researchField": "Control Systems",
-      "projectDescription": "This project involves designing a compact car-like robottailored for exploring single-agent robotic systems. The robot will be equipped with sensors, actuators, and an onboard computing system. The goal is to develop a modular software framework that supports control algorithms to enable tasks like path following, obstacle avoidance, and dynamic control in real-world environments.",
-      "projectMethodology": [
-        " Design Phase: Develop a CAD model of the robot, choose sensors (e.g., LiDAR, IMU) and actuators.",
-        " Fabrication: Assemble the robot with embedded hardware.",
-        " Software Development: Create a modular framework using Python/ROS for real-time control.",
-        " Algorithm Implementation: Implement control algorithms like PID or MPC.",
-        " Testing and Validation: Test the robot's navigation and control in a controlled environment."
-      ],
-      "qualifications": [
-        " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-      ],
-      "furtherComments": "",
-      "eligibleDepartments": [
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-      "supervisorName": "Ayman A. El-Badawy",
-      "coSupervisor": "",
-      "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Mechatronics Engineering",
-      "projectTitle": "Model Predictive Control of a Mobile Robot",
-      "researchField": "Control Systems",
-      "projectDescription": "This project focuses on applying Model Predictive Control (MPC) to a mobile robot for optimal navigation and control. MPC will be used to ensure the robot follows desired trajectories while avoiding obstacles and accounting for system constraints.",
-      "projectMethodology": [
-        " Model Development: Derive a mathematical model of the robot dynamics.",
-        " MPC Design: Formulate the cost function and constraints for the MPC problem.",
-        " Simulation: Use MATLAB or Python to simulate the robot's motion with MPC.",
-        " Implementation: Deploy the controller on a mobile robot.",
-        " Evaluation: Compare performance with traditional control strategies like PID."
-      ],
-      "qualifications": [
-        " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-      ],
-      "furtherComments": "",
-      "eligibleDepartments": [
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-      "supervisorName": "Ayman A. El-Badawy",
-      "coSupervisor": "",
-      "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Mechatronics Engineering",
-      "projectTitle": "Design of a miniature car-like robot and a software framework for single-agent robotics and estimation",
-      "researchField": "Control Systems",
-      "projectDescription": "This project aims to design a small-scale car-like robot integrated with a software framework for implementing state estimation techniques, such as Kalman Filters, to enhance localization and navigation capabilities.",
-      "projectMethodology": [
-        " Robot Design: Design and build the robot with sensors (e.g., GPS, encoders).",
-        " Framework Development: Create software for fusing sensor data and state estimation algorithms.",
-        " Estimation Algorithm: Implement Kalman/Extended Kalman Filters for localization.",
-        " Testing: Validate estimation accuracy in simulated and real-world settings."
-      ],
-      "qualifications": [
-        " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-      ],
-      "furtherComments": "",
-      "eligibleDepartments": [
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-      "supervisorName": "Ayman A. El-Badawy",
-      "coSupervisor": "",
-      "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Mechatronics Engineering",
-      "projectTitle": "Design of a miniature car-like robot and a software framework for multi-agent coordination",
-      "researchField": "Control Systems",
-      "projectDescription": "The project develops a fleet of small car-like robots and a software framework to study multi-agent coordination problems such as consensus, formation control, and distributed task allocation.",
-      "projectMethodology": [
-        " Hardware Design: Build multiple robots with communication modules.",
-        " Framework Development: Design distributed algorithms for communication and coordination.",
-        " Algorithm Implementation: Implement consensus algorithms like the leader-follower model.",
-        " Testing: Validate coordination tasks in simulation and real-world environments."
-      ],
-      "qualifications": [
-        " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-      ],
-      "furtherComments": "",
-      "eligibleDepartments": [
-        "Mechatronics Engineering"
-      ]
-    },
-    {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Centralized MPC for consensus of multi-agent systems",
-        "researchField": "Control Systems",
-        "projectDescription": "This project explores a centralized Model Predictive Control (MPC) approach to achieve consensus among multiple agents, optimizing their actions collectively to align states or achieve formation while considering system constraints.",
-        "projectMethodology": [
-          " Modeling: Represent agent dynamics and interactions in a centralized framework.",
-          " MPC Design: Formulate a global cost function for consensus with constraints.",
-          " Simulation: Test scenarios like formation control and synchronization using tools like MATLAB or Python.",
-          " Analysis: Evaluate performance in terms of convergence, computational load, and robustness."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Distributed MPC for consensus of multi-agent systems",
-        "researchField": "Control Systems",
-        "projectDescription": "This project explores the use of Distributed Model Predictive Control (DMPC) for achieving consensus in multi-agent systems, focusing on scenarios like formation control or flocking.",
-        "projectMethodology": [
-          " System Modeling: Model agent dynamics and interaction topology.",
-          " DMPC Design: Formulate local and global optimization problems for agents.",
-          " Algorithm Development: Implement distributed solvers for the consensus problem.",
-          " Simulation: Test DMPC in a simulated multi-agent environment"
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Design of a networked control system under network imperfections using MPC",
-        "researchField": "Control Systems",
-        "projectDescription": "This project examines the design of a networked control system where data exchange occurs over a communication network. Model Predictive Control (MPC) is used to handle challenges posed by network imperfections like latency, packet loss, and jitter.",
-        "projectMethodology": [
-          " System Modeling: Develop a model incorporating network delays and imperfections.",
-          " MPC Design: Modify MPC algorithms to account for network disturbances.",
-          " Simulation: Validate performance using tools like Simulink or Python.",
-          " Implementation: Test on a physical system with a networked control setup."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Design of Networked Multi-Agents under network imperfections using MPC",
-        "researchField": "Control Systems",
-        "projectDescription": "This project focuses on controlling a group of networked agents under communication imperfections. MPC will be applied to ensure coordinated behavior while compensating for issues like delays and data loss.",
-        "projectMethodology": [
-          " Agent Modeling: Define dynamics and inter-agent communication models.",
-          " MPC Integration: Design an MPC controller to address network issues.",
-          " Simulation: Test scenarios with imperfect communication in a simulated environment.",
-          " Real-World Validation: Deploy the system on physical agents."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Design of a miniature UAV and a software framework for single-agent robotics and control",
-        "researchField": "Control Systems",
-        "projectDescription": "This project involves designing a small Unmanned Aerial Vehicle (UAV) to study single-agent robotics and control. The UAV will integrate sensors, actuators, and control algorithms to perform tasks like stable hovering, trajectory tracking, and obstacle avoidance.",
-        "projectMethodology": [
-          "1. Design and Assembly: Create a lightweight UAV frame and equip it with necessary sensors (IMU, barometer) and actuators.",
-          "2. Software Development: Develop a software framework for flight control and navigation.",
-          "3. Control Implementation: Apply PID or MPC for stability and path tracking.",
-          "4. Testing: Validate performance through indoor and outdoor flight experiments."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Model Predictive Control of a miniature UAV",
-        "researchField": "Control Systems",
-        "projectDescription": "This project applies Model Predictive Control (MPC) to a miniature UAV to achieve precise control in trajectory following, stabilization, and obstacle avoidance while accounting for system constraints.",
-        "projectMethodology": [
-          " Modeling: Derive UAV dynamics considering constraints like motor limits.",
-          " Controller Design: Develop an MPC framework to solve the optimization problem in real-time.",
-          " Simulation: Use MATLAB/Simulink or Python for flight simulations.",
-          " Implementation: Deploy the controller on a real UAV platform.",
-          " Performance Evaluation: Test and compare with traditional control methods"
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Design of a miniature UAV and a software framework for single-agent robotics and estimation",
-        "researchField": "Control Systems",
-        "projectDescription": "This project designs a miniature UAV integrated with a software framework for state estimation, enabling precise localization and control in challenging environments.",
-        "projectMethodology": [
-          " UAV Design: Assemble a UAV with suitable sensors (GPS, IMU).",
-          " Software Framework: Implement state estimation algorithms like Kalman Filters.",
-          " Simulation: Test estimation performance in software environments.",
-          " Validation: Evaluate the UAV's localization accuracy in real-world conditions."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Design of a miniature UAV and a software framework for multi-agent coordination",
-        "researchField": "Control Systems",
-        "projectDescription": "This project involves designing multiple miniature UAVs and a software framework for exploring multiagent coordination tasks, such as formation control and collaborative navigation.",
-        "projectMethodology": [
-          " Hardware Design: Build UAVs equipped with communication modules.",
-          " Framework Development: Implement algorithms for inter-UAV communication and coordination.",
-          " Algorithm Implementation: Use distributed control techniques for tasks like formation flying.",
-          " Testing: Validate coordination in simulated and physical environments."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Simulation and implementation of a Flying Ad-hoc Network for Air to Air Communication of Micro Aerial Vehicles",
-        "researchField": "Control Systems",
-        "projectDescription": "This project explores the creation of a Flying Ad-hoc Network (FANET) for UAVs, enabling robust air-to-air communication. The system focuses on dynamic network topology, low latency, and reliability.",
-        "projectMethodology": [
-          " Network Modeling: Simulate FANET protocols in NS-3 or OMNeT++.",
-          " Algorithm Development: Optimize routing protocols for air-to-air communication.",
-          " Implementation: Deploy on UAVs equipped with communication modules.",
-          " Validation: Test performance in various mission scenarios."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Simulation and implementation of a Vehicular Ad-hoc Network for car to car mobile Communication and networking",
-        "researchField": "Control Systems",
-        "projectDescription": "This project investigates the development of a Vehicular Ad-hoc Network (VANET) to enable real-time carto-car communication for safety, navigation, and coordination in traffic systems.",
-        "projectMethodology": [
-          " Simulation: Use tools like SUMO or NS-3 to model VANETs.",
-          " Protocol Design: Develop efficient routing protocols for vehicular communication.",
-          " Implementation: Deploy the VANET system on car-like robots or simulators.",
-          " Testing: Validate in scenarios like collision avoidance and traffic optimization."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "System identification of network imperfections using machine learning",
-        "researchField": "Control Systems",
-        "projectDescription": "This project uses machine learning techniques to identify and model imperfections in communication networks, such as latency and packet loss.",
-        "projectMethodology": [
-          " Data Collection: Gather network performance data.",
-          " Feature Engineering: Identify key features affecting network quality.",
-          " Model Development: Train machine learning models to predict imperfections.",
-          " Validation: Test model accuracy on new data sets"
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "System identification of network imperfections using neural networks",
-        "researchField": "Control Systems",
-        "projectDescription": "This project applies neural networks to model and predict network imperfections, aiming for better system performance under variable network conditions.",
-        "projectMethodology": [
-          " Data Preparation: Preprocess network data for training.",
-          " Model Design: Build neural network architectures for system identification.",
-          " Training: Use techniques like backpropagation for optimization.",
-          " Testing: Evaluate on unseen network conditions"
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Distributed control of multi-robot partially observable Markov decision processes",
-        "researchField": "Control Systems",
-        "projectDescription": "This project addresses distributed control for multi-robot systems operating under POMDPs, enabling robots to make decisions with incomplete information",
-        "projectMethodology": [
-          " Model Definition: Define state, actions, and observation spaces for robots.",
-          " Algorithm Development: Implement distributed solvers for POMDPs.",
-          " Simulation: Test scenarios with limited observation.",
-          " Validation: Deploy in real-world multi-robot setups."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Consensus Control for Partially Observable Multi-vehicle Systems",
-        "researchField": "Control Systems",
-        "projectDescription": "This project develops consensus control strategies for multi-vehicle systems operating in environments with partial observability.",
-        "projectMethodology": [
-          " System Modeling: Define dynamics and observation models.",
-          " Control Design: Develop algorithms for achieving consensus under uncertainty.",
-          " Simulation: Use tools like MATLAB or Python for validation.",
-          " Implementation: Test with physical vehicles."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Distributed Control of Quadrotor Swarms with Multi-agent Reinforcement Learning algorithms",
-        "researchField": "Control Systems",
-        "projectDescription": "This project leverages multi-agent reinforcement learning (MARL) to enable distributed control of quadrotor swarms for tasks like formation flying and collaborative exploration.",
-        "projectMethodology": [
-          " Model Setup: Simulate quadrotor dynamics and swarm behavior.",
-          " Algorithm Development: Train MARL agents using techniques like Q-learning.",
-          " Simulation: Validate performance in tasks like obstacle avoidance.",
-          " Deployment: Test on quadrotor swarms in controlled environments."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Ayman A. El-Badawy",
-        "coSupervisor": "",
-        "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics Engineering",
-        "projectTitle": "Distributed Control of miniature-car like robots with Multi-agent Reinforcement Learning algorithms",
-        "researchField": "Control Systems",
-        "projectDescription": "This project explores MARL for distributed control of car-like robots, enabling them to coordinate in tasks like traffic management or collaborative navigation.",
-        "projectMethodology": [
-          " System Modeling: Simulate car dynamics and interactions.",
-          " Reinforcement Learning: Train agents using MARL frameworks.",
-          " Simulation Testing: Validate in realistic traffic scenarios.",
-          " Real-world Validation: Deploy algorithms on miniature car robots."
-        ],
-        "qualifications": [
-          " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
-        ],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Dr.Walid Omran",
-        "coSupervisor": "",
-        "supervisorEmail": "walid.omran@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics",
-        "projectTitle": "IOT Based Smart Energy Meter",
-        "researchField": "Smart Grids/Embedded Systems",
-        "projectDescription": "By utilizing embedded systems technology, this thesis focuses on the design and implementation of a prototype for a smart energy meter that can monitor, record, analyze and control electricity consumption in real-time in a smart home. The prototype will have different capabilities such as the ability to communicate with the customer to provide real time data about the electricity consumption in order to take the necessary actions.",
-        "projectMethodology": [
-          "Research – Simulations – Hardware Implementation"
-        ],
-        "qualifications": [],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Dr. Walid Omran",
-        "coSupervisor": "",
-        "supervisorEmail": "walid.omran@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics",
-        "projectTitle": "Auxiliary Control of Electric vehicles Via Embedded Systems",
-        "researchField": "Electric Vehicles/Embedded Systems",
-        "projectDescription": "Electric vehicles have several auxiliary systems that assist safe and comfortable driving. Among these systems is the automatic vehicle speed controller, lane change assisting system and parking assisting system. The objective of this project is to design and implement a prototype for different auxiliary control systems that can be implemented in an electric vehicle.",
-        "projectMethodology": [
-          "Research – Simulations – Hardware Implementation"
-        ],
-        "qualifications": [],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Dr. Walid Omran",
-        "coSupervisor": "",
-        "supervisorEmail": "walid.omran@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics",
-        "projectTitle": "Rule-Based Energy Management System for Plug-in-Hybrid Electric Vehicles",
-        "researchField": "Hybrid Electric Vehicles",
-        "projectDescription": "Hybrid Electric Vehicles have an electric motor (EM) to assist the operation of the internal combustion engine (ICE) aiming to reduce the fuel consumption. In this thesis, it is required to develop and simulate a rule based strategy for the power split between the EM and ICE based on the different vehicle parameters. The strategy aims to reduce the fuel consumption while preserving the battery life of the vehicle.",
-        "projectMethodology": [
-          "Research – Simulations"
-        ],
-        "qualifications": [],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Dr. Walid Omran",
-        "coSupervisor": "",
-        "supervisorEmail": "walid.omran@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics",
-        "projectTitle": "Optimal Energy Management System for Plug-in-Hybrid Electric Vehicles",
-        "researchField": "Hybrid Electric Vehicles",
-        "projectDescription": "The aim of this thesis is to split the required driving power/torque in Hybrid Electric Vehicles between the electric motor and the internal combustion engine to reduce the fuel consumption. To achieve this task, the problem is formulated as an optimization problem and solved using a suitable optimization technique to find the optimal power/torque split under different driving conditions. Several case studies will be simulated to ensure the effectiveness of the proposed approach.",
-        "projectMethodology": [
-          "Research – Simulations"
-        ],
-        "qualifications": [],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Dr. Walid Omran",
-        "coSupervisor": "",
-        "supervisorEmail": "walid.omran@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics",
-        "projectTitle": "Modeling and Analysis of a Dual Motor Electric Vehicle",
-        "researchField": "Electric Vehicles",
-        "projectDescription": "This bachelor thesis aims to develop and analyze a comprehensive model of a dual motor electric vehicle. The focus will be on understanding the dynamics and performance characteristics of the vehicle powered by two independent electric motors, which can enhance traction, improve acceleration, and provide more efficient power distribution.",
-        "projectMethodology": [
-          "Research – Simulations"
-        ],
-        "qualifications": [],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
-        ]
-      },
-      {
-        "supervisorName": "Dr. Walid Omran",
-        "coSupervisor": "",
-        "supervisorEmail": "walid.omran@guc.edu.eg",
-        "coSupervisorEmail": null,
-        "department": "Mechatronics",
-        "projectTitle": "Control of a Single Motor Battery Electric Vehicle",
-        "researchField": "Electric Vehicles",
-        "projectDescription": "This bachelor project aims to develop and control a model of a single motor electric vehicle. The focus will be on understanding the dynamics and performance characteristics of the vehicle and developing a battery management system for the vehicle.",
-        "projectMethodology": [
-          "Research – Simulations"
-        ],
-        "qualifications": [],
-        "furtherComments": "",
-        "eligibleDepartments": [
-          "Mechatronics Engineering"
+    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
+    "coSupervisor": "",
+    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Materials engineering",
+    "projectTitle": "Surface modification of biodegradable materials using plasma electrolytic oxidation for orthopedic implants",
+    "researchField": "Biomaterials and Corrosion",
+    "projectDescription": "Plasma electrolytic oxidation (PEO), also referred to as micro-arc oxidation, is an amazing surface modification technique for the protection of light alloys, which is an environmentally friendly process to produce ceramic-like layers with certain barrier properties and high resistance against wear. These coatings have exhibited good biocompatibility and adhesion ability to the substrate. The aim of this bachelor project is to design a system for PEO and apply this system on Magnesium -Calcium bone alloy which is used in the application of orthopedic implants",
+    "projectMethodology": [
+      "- Design a cell of PEO system",
+      "- Testing the PEO system for light alloys (Mg-Ca implants)",
+      "- Characterization of the coating layer; Degradation in simulated body fluid and wear resistance"
+    ],
+    "qualifications": [
+      "Interested to work in human biodegradable implants, knowledge in corrosion, materials selection and system design"
+    ],
+    "furtherComments": "One student",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
+    "coSupervisor": "",
+    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Materials engineering",
+    "projectTitle": "Construction and parameter control of delta 3D printing for furniture",
+    "researchField": "Materials and Design",
+    "projectDescription": "3D printing is a general term for different processes that share the same principle of making three dimensional objects from a digital file by laying down material in layers under computer control. Liquid Deposition Modeling (LDM) is one of these processes that is based on the extrusion of paste materials. The project aims to address the pressing need for eco-friendly alternatives in additive manufacturing by repurposing agricultural waste materials into functional, cost-effective, and sustainable printing substrates. The aim of this bachelor project is to design Delta 3 D printer and using this system for 3D printing of agriculture paste",
+    "projectMethodology": [
+      "- Design and construct delta 3D printer",
+      "- 3D printer software development",
+      "- Validation of liquid deposition 3D printing parameters",
+      "- Printing a small size model of furniture"
+    ],
+    "qualifications": [
+      "Interested to construct 3D printer, knowledge in programing"
+    ],
+    "furtherComments": "One student",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
+    "coSupervisor": "",
+    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Materials engineering",
+    "projectTitle": "Construction of extruder for 3D printing of furniture",
+    "researchField": "Materials and Design",
+    "projectDescription": "3D printing is a general term for different processes that share the same principle of making three dimensional objects from a digital file by laying down material in layers under computer control. Liquid Deposition Modeling (LDM) is one of these processes that is based on the extrusion of paste materials. We are targeting to address the pressing need for eco-friendly alternatives in additive manufacturing by repurposing agricultural waste materials into functional, cost-effective, and sustainable printing substrates. The aim of this bachelor project is to design extruder for 3D printer and using this system to print agriculture paste",
+    "projectMethodology": [
+      "- Design and construct extruder",
+      "- Mounting the extruder in the 3D printer",
+      "- Printing a small size model of furniture"
+    ],
+    "qualifications": [
+      "Knowledge in materials selection, 3D printer, Design, modelling and simulation"
+    ],
+    "furtherComments": "One student",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
+    "coSupervisor": "",
+    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Materials engineering",
+    "projectTitle": "Recent development in green hydrogen production for Fuel Cells",
+    "researchField": "Green energy solution",
+    "projectDescription": "The low temperature fuel cell (FC) is one today’s most promising clean energy technologies in the search to overcome both the energy reserve crisis and environmental pollution. Still the catalyst for production of hydrogen is the big issue controlling the efficiency of these cells. One of the smart techniques to produce nano-porous catalyst is the dealloying process which is considered the main benefit of corrosion engineering. The aim of this bachelor project is to develop nano-porous catalyst of Ni-Cu alloy using the recent technology of dealloying technique.",
+    "projectMethodology": [
+      "- Fabrication of nano porous Ni catalyst",
+      "- Comparison of Ni nano porous with commercial Ni Foam catalyst",
+      "- Efficiency of using the catalyst for hydrogen production"
+    ],
+    "qualifications": [
+      "Interested in design Fuel cell, knowledge in green and renewable energy"
+    ],
+    "furtherComments": "One student",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
+    "coSupervisor": "Dr. Anke Klingner",
+    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Materials engineering",
+    "projectTitle": "Electrospun nanofibers decorated with silver nanoparticles for application in wound healing",
+    "researchField": "Materials and Design",
+    "projectDescription": "Todays, nanotechnology has offered several marvelous products particularly in medical application. One of the major successes of nanotechnology has been nanofibers. Electrospun nanofibers represent a novel class of materials that show great potential in many biomedical applications including biosensing, tissue engineering, drug delivery and wound healing. Electrospinning is a relatively simple and efficient technique to produce submicron to nanometer fibers from solutions of polymers, decorated with silver nanoparticles thus can be used for wound healing. The aim of this bachelor project is to produce polymeric nanofibers decorated with nano silver particles.",
+    "projectMethodology": [
+      "- Selection of the suitable polymers and the bioactive materials",
+      "- Elctrospunning techniques and parameter",
+      "- Preparation of silver nanoparticles-coprecipitation process"
+    ],
+    "qualifications": [
+      "Knowledge in materials selection and nanotechnology"
+    ],
+    "furtherComments": "One student",
+    "eligibleDepartments": [
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design of a miniature car-like robot and a software framework for single-agent robotics and control",
+    "researchField": "Control Systems",
+    "projectDescription": "This project involves designing a compact car-like robottailored for exploring single-agent robotic systems. The robot will be equipped with sensors, actuators, and an onboard computing system. The goal is to develop a modular software framework that supports control algorithms to enable tasks like path following, obstacle avoidance, and dynamic control in real-world environments.",
+    "projectMethodology": [
+      " Design Phase: Develop a CAD model of the robot, choose sensors (e.g., LiDAR, IMU) and actuators.",
+      " Fabrication: Assemble the robot with embedded hardware.",
+      " Software Development: Create a modular framework using Python/ROS for real-time control.",
+      " Algorithm Implementation: Implement control algorithms like PID or MPC.",
+      " Testing and Validation: Test the robot's navigation and control in a controlled environment."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Model Predictive Control of a Mobile Robot",
+    "researchField": "Control Systems",
+    "projectDescription": "This project focuses on applying Model Predictive Control (MPC) to a mobile robot for optimal navigation and control. MPC will be used to ensure the robot follows desired trajectories while avoiding obstacles and accounting for system constraints.",
+    "projectMethodology": [
+      " Model Development: Derive a mathematical model of the robot dynamics.",
+      " MPC Design: Formulate the cost function and constraints for the MPC problem.",
+      " Simulation: Use MATLAB or Python to simulate the robot's motion with MPC.",
+      " Implementation: Deploy the controller on a mobile robot.",
+      " Evaluation: Compare performance with traditional control strategies like PID."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design of a miniature car-like robot and a software framework for single-agent robotics and estimation",
+    "researchField": "Control Systems",
+    "projectDescription": "This project aims to design a small-scale car-like robot integrated with a software framework for implementing state estimation techniques, such as Kalman Filters, to enhance localization and navigation capabilities.",
+    "projectMethodology": [
+      " Robot Design: Design and build the robot with sensors (e.g., GPS, encoders).",
+      " Framework Development: Create software for fusing sensor data and state estimation algorithms.",
+      " Estimation Algorithm: Implement Kalman/Extended Kalman Filters for localization.",
+      " Testing: Validate estimation accuracy in simulated and real-world settings."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design of a miniature car-like robot and a software framework for multi-agent coordination",
+    "researchField": "Control Systems",
+    "projectDescription": "The project develops a fleet of small car-like robots and a software framework to study multi-agent coordination problems such as consensus, formation control, and distributed task allocation.",
+    "projectMethodology": [
+      " Hardware Design: Build multiple robots with communication modules.",
+      " Framework Development: Design distributed algorithms for communication and coordination.",
+      " Algorithm Implementation: Implement consensus algorithms like the leader-follower model.",
+      " Testing: Validate coordination tasks in simulation and real-world environments."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Centralized MPC for consensus of multi-agent systems",
+    "researchField": "Control Systems",
+    "projectDescription": "This project explores a centralized Model Predictive Control (MPC) approach to achieve consensus among multiple agents, optimizing their actions collectively to align states or achieve formation while considering system constraints.",
+    "projectMethodology": [
+      " Modeling: Represent agent dynamics and interactions in a centralized framework.",
+      " MPC Design: Formulate a global cost function for consensus with constraints.",
+      " Simulation: Test scenarios like formation control and synchronization using tools like MATLAB or Python.",
+      " Analysis: Evaluate performance in terms of convergence, computational load, and robustness."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Distributed MPC for consensus of multi-agent systems",
+    "researchField": "Control Systems",
+    "projectDescription": "This project explores the use of Distributed Model Predictive Control (DMPC) for achieving consensus in multi-agent systems, focusing on scenarios like formation control or flocking.",
+    "projectMethodology": [
+      " System Modeling: Model agent dynamics and interaction topology.",
+      " DMPC Design: Formulate local and global optimization problems for agents.",
+      " Algorithm Development: Implement distributed solvers for the consensus problem.",
+      " Simulation: Test DMPC in a simulated multi-agent environment"
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design of a networked control system under network imperfections using MPC",
+    "researchField": "Control Systems",
+    "projectDescription": "This project examines the design of a networked control system where data exchange occurs over a communication network. Model Predictive Control (MPC) is used to handle challenges posed by network imperfections like latency, packet loss, and jitter.",
+    "projectMethodology": [
+      " System Modeling: Develop a model incorporating network delays and imperfections.",
+      " MPC Design: Modify MPC algorithms to account for network disturbances.",
+      " Simulation: Validate performance using tools like Simulink or Python.",
+      " Implementation: Test on a physical system with a networked control setup."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design of Networked Multi-Agents under network imperfections using MPC",
+    "researchField": "Control Systems",
+    "projectDescription": "This project focuses on controlling a group of networked agents under communication imperfections. MPC will be applied to ensure coordinated behavior while compensating for issues like delays and data loss.",
+    "projectMethodology": [
+      " Agent Modeling: Define dynamics and inter-agent communication models.",
+      " MPC Integration: Design an MPC controller to address network issues.",
+      " Simulation: Test scenarios with imperfect communication in a simulated environment.",
+      " Real-World Validation: Deploy the system on physical agents."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design of a miniature UAV and a software framework for single-agent robotics and control",
+    "researchField": "Control Systems",
+    "projectDescription": "This project involves designing a small Unmanned Aerial Vehicle (UAV) to study single-agent robotics and control. The UAV will integrate sensors, actuators, and control algorithms to perform tasks like stable hovering, trajectory tracking, and obstacle avoidance.",
+    "projectMethodology": [
+      "1. Design and Assembly: Create a lightweight UAV frame and equip it with necessary sensors (IMU, barometer) and actuators.",
+      "2. Software Development: Develop a software framework for flight control and navigation.",
+      "3. Control Implementation: Apply PID or MPC for stability and path tracking.",
+      "4. Testing: Validate performance through indoor and outdoor flight experiments."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Model Predictive Control of a miniature UAV",
+    "researchField": "Control Systems",
+    "projectDescription": "This project applies Model Predictive Control (MPC) to a miniature UAV to achieve precise control in trajectory following, stabilization, and obstacle avoidance while accounting for system constraints.",
+    "projectMethodology": [
+      " Modeling: Derive UAV dynamics considering constraints like motor limits.",
+      " Controller Design: Develop an MPC framework to solve the optimization problem in real-time.",
+      " Simulation: Use MATLAB/Simulink or Python for flight simulations.",
+      " Implementation: Deploy the controller on a real UAV platform.",
+      " Performance Evaluation: Test and compare with traditional control methods"
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design of a miniature UAV and a software framework for single-agent robotics and estimation",
+    "researchField": "Control Systems",
+    "projectDescription": "This project designs a miniature UAV integrated with a software framework for state estimation, enabling precise localization and control in challenging environments.",
+    "projectMethodology": [
+      " UAV Design: Assemble a UAV with suitable sensors (GPS, IMU).",
+      " Software Framework: Implement state estimation algorithms like Kalman Filters.",
+      " Simulation: Test estimation performance in software environments.",
+      " Validation: Evaluate the UAV's localization accuracy in real-world conditions."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design of a miniature UAV and a software framework for multi-agent coordination",
+    "researchField": "Control Systems",
+    "projectDescription": "This project involves designing multiple miniature UAVs and a software framework for exploring multiagent coordination tasks, such as formation control and collaborative navigation.",
+    "projectMethodology": [
+      " Hardware Design: Build UAVs equipped with communication modules.",
+      " Framework Development: Implement algorithms for inter-UAV communication and coordination.",
+      " Algorithm Implementation: Use distributed control techniques for tasks like formation flying.",
+      " Testing: Validate coordination in simulated and physical environments."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Simulation and implementation of a Flying Ad-hoc Network for Air to Air Communication of Micro Aerial Vehicles",
+    "researchField": "Control Systems",
+    "projectDescription": "This project explores the creation of a Flying Ad-hoc Network (FANET) for UAVs, enabling robust air-to-air communication. The system focuses on dynamic network topology, low latency, and reliability.",
+    "projectMethodology": [
+      " Network Modeling: Simulate FANET protocols in NS-3 or OMNeT++.",
+      " Algorithm Development: Optimize routing protocols for air-to-air communication.",
+      " Implementation: Deploy on UAVs equipped with communication modules.",
+      " Validation: Test performance in various mission scenarios."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Simulation and implementation of a Vehicular Ad-hoc Network for car to car mobile Communication and networking",
+    "researchField": "Control Systems",
+    "projectDescription": "This project investigates the development of a Vehicular Ad-hoc Network (VANET) to enable real-time carto-car communication for safety, navigation, and coordination in traffic systems.",
+    "projectMethodology": [
+      " Simulation: Use tools like SUMO or NS-3 to model VANETs.",
+      " Protocol Design: Develop efficient routing protocols for vehicular communication.",
+      " Implementation: Deploy the VANET system on car-like robots or simulators.",
+      " Testing: Validate in scenarios like collision avoidance and traffic optimization."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "System identification of network imperfections using machine learning",
+    "researchField": "Control Systems",
+    "projectDescription": "This project uses machine learning techniques to identify and model imperfections in communication networks, such as latency and packet loss.",
+    "projectMethodology": [
+      " Data Collection: Gather network performance data.",
+      " Feature Engineering: Identify key features affecting network quality.",
+      " Model Development: Train machine learning models to predict imperfections.",
+      " Validation: Test model accuracy on new data sets"
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "System identification of network imperfections using neural networks",
+    "researchField": "Control Systems",
+    "projectDescription": "This project applies neural networks to model and predict network imperfections, aiming for better system performance under variable network conditions.",
+    "projectMethodology": [
+      " Data Preparation: Preprocess network data for training.",
+      " Model Design: Build neural network architectures for system identification.",
+      " Training: Use techniques like backpropagation for optimization.",
+      " Testing: Evaluate on unseen network conditions"
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Distributed control of multi-robot partially observable Markov decision processes",
+    "researchField": "Control Systems",
+    "projectDescription": "This project addresses distributed control for multi-robot systems operating under POMDPs, enabling robots to make decisions with incomplete information",
+    "projectMethodology": [
+      " Model Definition: Define state, actions, and observation spaces for robots.",
+      " Algorithm Development: Implement distributed solvers for POMDPs.",
+      " Simulation: Test scenarios with limited observation.",
+      " Validation: Deploy in real-world multi-robot setups."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Consensus Control for Partially Observable Multi-vehicle Systems",
+    "researchField": "Control Systems",
+    "projectDescription": "This project develops consensus control strategies for multi-vehicle systems operating in environments with partial observability.",
+    "projectMethodology": [
+      " System Modeling: Define dynamics and observation models.",
+      " Control Design: Develop algorithms for achieving consensus under uncertainty.",
+      " Simulation: Use tools like MATLAB or Python for validation.",
+      " Implementation: Test with physical vehicles."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Distributed Control of Quadrotor Swarms with Multi-agent Reinforcement Learning algorithms",
+    "researchField": "Control Systems",
+    "projectDescription": "This project leverages multi-agent reinforcement learning (MARL) to enable distributed control of quadrotor swarms for tasks like formation flying and collaborative exploration.",
+    "projectMethodology": [
+      " Model Setup: Simulate quadrotor dynamics and swarm behavior.",
+      " Algorithm Development: Train MARL agents using techniques like Q-learning.",
+      " Simulation: Validate performance in tasks like obstacle avoidance.",
+      " Deployment: Test on quadrotor swarms in controlled environments."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Ayman A. El-Badawy",
+    "coSupervisor": "",
+    "supervisorEmail": "ayman.elbadawy@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Distributed Control of miniature-car like robots with Multi-agent Reinforcement Learning algorithms",
+    "researchField": "Control Systems",
+    "projectDescription": "This project explores MARL for distributed control of car-like robots, enabling them to coordinate in tasks like traffic management or collaborative navigation.",
+    "projectMethodology": [
+      " System Modeling: Simulate car dynamics and interactions.",
+      " Reinforcement Learning: Train agents using MARL frameworks.",
+      " Simulation Testing: Validate in realistic traffic scenarios.",
+      " Real-world Validation: Deploy algorithms on miniature car robots."
+    ],
+    "qualifications": [
+      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr.Walid Omran",
+    "coSupervisor": "",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics",
+    "projectTitle": "IOT Based Smart Energy Meter",
+    "researchField": "Smart Grids/Embedded Systems",
+    "projectDescription": "By utilizing embedded systems technology, this thesis focuses on the design and implementation of a prototype for a smart energy meter that can monitor, record, analyze and control electricity consumption in real-time in a smart home. The prototype will have different capabilities such as the ability to communicate with the customer to provide real time data about the electricity consumption in order to take the necessary actions.",
+    "projectMethodology": [
+      "Research – Simulations – Hardware Implementation"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics",
+    "projectTitle": "Auxiliary Control of Electric vehicles Via Embedded Systems",
+    "researchField": "Electric Vehicles/Embedded Systems",
+    "projectDescription": "Electric vehicles have several auxiliary systems that assist safe and comfortable driving. Among these systems is the automatic vehicle speed controller, lane change assisting system and parking assisting system. The objective of this project is to design and implement a prototype for different auxiliary control systems that can be implemented in an electric vehicle.",
+    "projectMethodology": [
+      "Research – Simulations – Hardware Implementation"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics",
+    "projectTitle": "Rule-Based Energy Management System for Plug-in-Hybrid Electric Vehicles",
+    "researchField": "Hybrid Electric Vehicles",
+    "projectDescription": "Hybrid Electric Vehicles have an electric motor (EM) to assist the operation of the internal combustion engine (ICE) aiming to reduce the fuel consumption. In this thesis, it is required to develop and simulate a rule based strategy for the power split between the EM and ICE based on the different vehicle parameters. The strategy aims to reduce the fuel consumption while preserving the battery life of the vehicle.",
+    "projectMethodology": [
+      "Research – Simulations"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics",
+    "projectTitle": "Optimal Energy Management System for Plug-in-Hybrid Electric Vehicles",
+    "researchField": "Hybrid Electric Vehicles",
+    "projectDescription": "The aim of this thesis is to split the required driving power/torque in Hybrid Electric Vehicles between the electric motor and the internal combustion engine to reduce the fuel consumption. To achieve this task, the problem is formulated as an optimization problem and solved using a suitable optimization technique to find the optimal power/torque split under different driving conditions. Several case studies will be simulated to ensure the effectiveness of the proposed approach.",
+    "projectMethodology": [
+      "Research – Simulations"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics",
+    "projectTitle": "Modeling and Analysis of a Dual Motor Electric Vehicle",
+    "researchField": "Electric Vehicles",
+    "projectDescription": "This bachelor thesis aims to develop and analyze a comprehensive model of a dual motor electric vehicle. The focus will be on understanding the dynamics and performance characteristics of the vehicle powered by two independent electric motors, which can enhance traction, improve acceleration, and provide more efficient power distribution.",
+    "projectMethodology": [
+      "Research – Simulations"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics",
+    "projectTitle": "Control of a Single Motor Battery Electric Vehicle",
+    "researchField": "Electric Vehicles",
+    "projectDescription": "This bachelor project aims to develop and control a model of a single motor electric vehicle. The focus will be on understanding the dynamics and performance characteristics of the vehicle and developing a battery management system for the vehicle.",
+    "projectMethodology": [
+      "Research – Simulations"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
     ]
   },
   {
@@ -822,53 +893,53 @@ export const projectData = [
     ]
   },
   {
-      "supervisorName": "Assoc. Prof. Amir Roushdy",
-      "coSupervisor": "",
-      "supervisorEmail": "amir.ali@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Mechatronics Eng. Department",
-      "projectTitle": "Embedded System Controller Development with Bond Graph Optimization",
-      "researchField": "Control Systems, Mechatronics, System Modeling and Optimization",
-      "projectDescription": "This project involves the complete design and development of an embedded system controller using the bond graph technique for design optimization and validation. Starting from scratch, students will create a reliable and efficient system tailored to control mechatronic applications. The project includes developing hardware architecture, firmware programming, and testing under different operating conditions. The final deliverable will demonstrate superior performance in energy efficiency, processing speed, and cost- effectiveness, making it a valuable contribution to embedded system technologies.",
-      "projectMethodology": [
-        "• Study of bond graph modeling techniques for system optimization.",
-        "• Design and simulation of embedded system architecture.",
-        "• Hardware implementation and firmware development.",
-        "• Testing and debugging under various operating conditions.",
-        "• Optimization based on performance metrics."
-      ],
-      "qualifications": [
-        "• Knowledge of embedded systems and microcontroller programming.",
-        "• Understanding of bond graph modeling techniques.",
-        "• Familiarity with circuit design and hardware implementation."
-      ],
-      "furtherComments": "• Ensure the controller is adaptable to various mechatronic applications.",
-      "eligibleDepartments": [
+    "supervisorName": "Assoc. Prof. Amir Roushdy",
+    "coSupervisor": "",
+    "supervisorEmail": "amir.ali@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Eng. Department",
+    "projectTitle": "Embedded System Controller Development with Bond Graph Optimization",
+    "researchField": "Control Systems, Mechatronics, System Modeling and Optimization",
+    "projectDescription": "This project involves the complete design and development of an embedded system controller using the bond graph technique for design optimization and validation. Starting from scratch, students will create a reliable and efficient system tailored to control mechatronic applications. The project includes developing hardware architecture, firmware programming, and testing under different operating conditions. The final deliverable will demonstrate superior performance in energy efficiency, processing speed, and cost- effectiveness, making it a valuable contribution to embedded system technologies.",
+    "projectMethodology": [
+      "• Study of bond graph modeling techniques for system optimization.",
+      "• Design and simulation of embedded system architecture.",
+      "• Hardware implementation and firmware development.",
+      "• Testing and debugging under various operating conditions.",
+      "• Optimization based on performance metrics."
+    ],
+    "qualifications": [
+      "• Knowledge of embedded systems and microcontroller programming.",
+      "• Understanding of bond graph modeling techniques.",
+      "• Familiarity with circuit design and hardware implementation."
+    ],
+    "furtherComments": "• Ensure the controller is adaptable to various mechatronic applications.",
+    "eligibleDepartments": [
       "Design and Production Engineering",
       "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
-      "supervisorName": "Assoc. Prof. Amir Roushdy",
-      "coSupervisor": "",
-      "supervisorEmail": "amir.ali@guc.edu.eg",
-      "coSupervisorEmail": null,
-      "department": "Mechatronics Eng. Department",
-      "projectTitle": "Vision-Assisted Robotic Grasping with Force Control",
-      "researchField": "Robotics, Computer Vision, Force Control Systems",
-      "projectDescription": "The project aims to equip a telepresence robot with a vision system to enable intelligent object grasping and manipulation. By integrating a camera with the robotic arm, the system will detect and identify objects in real time, analyze their physical properties, and adjust the grip force accordingly. The focus will be on handling diverse materials, such as soft fabrics and rigid objects, without causing damage. This innovation has potential applications in industries like logistics, manufacturing, and healthcare, where precision handling of objects is crucial.",
-      "projectMethodology": [
-        "• Design and integrate a vision system with the robotic arm.",
-        "• Develop algorithms for object detection, force adjustment, and real-time manipulation.",
-        "• Test and validate the system with diverse materials."
-      ],
-      "qualifications": [
-          "• Knowledge of image processing and robotics.",
-          "• Experience with programming languages like Python or C++."
-        ],
-      "furtherComments": "• Emphasize accuracy in handling fragile and irregular objects.",
-      "eligibleDepartments": [
+    "supervisorName": "Assoc. Prof. Amir Roushdy",
+    "coSupervisor": "",
+    "supervisorEmail": "amir.ali@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Mechatronics Eng. Department",
+    "projectTitle": "Vision-Assisted Robotic Grasping with Force Control",
+    "researchField": "Robotics, Computer Vision, Force Control Systems",
+    "projectDescription": "The project aims to equip a telepresence robot with a vision system to enable intelligent object grasping and manipulation. By integrating a camera with the robotic arm, the system will detect and identify objects in real time, analyze their physical properties, and adjust the grip force accordingly. The focus will be on handling diverse materials, such as soft fabrics and rigid objects, without causing damage. This innovation has potential applications in industries like logistics, manufacturing, and healthcare, where precision handling of objects is crucial.",
+    "projectMethodology": [
+      "• Design and integrate a vision system with the robotic arm.",
+      "• Develop algorithms for object detection, force adjustment, and real-time manipulation.",
+      "• Test and validate the system with diverse materials."
+    ],
+    "qualifications": [
+      "• Knowledge of image processing and robotics.",
+      "• Experience with programming languages like Python or C++."
+    ],
+    "furtherComments": "• Emphasize accuracy in handling fragile and irregular objects.",
+    "eligibleDepartments": [
       "Design and Production Engineering",
       "Materials Engineering",
       "Mechatronics Engineering"
@@ -1607,7 +1678,7 @@ export const projectData = [
     "department": "Mechatronics",
     "projectTitle": "Conceptional design and manufacturing of Torque Motor for Bosch Servo valve (Modeling and Material analysis) sponsored by Ezzsteel-Siemens and Bohler companies.",
     "researchField": "Mechatronics – Material science – Electrohydraulics",
-    "projectDescription": "The need to study the conception design and to make reverse Engineering of servo valves torque motors is very essential for the local manufacturing of this critical component serving a wide range of industrial applications. Reverse Engineering for the torque motor components in terms of modeling, 3D scanning is required. Further steps related to machining of components and electrical | Supplementary notes: Conceptional Design for Torque motors: https://drive.google.com/file/d/1exnoIYy-d50o1ZmVHJh9JqAUH5vYnBao/view | Electromagnetic motors: https://drive.google.com/file/d/1KlGfBNgJWkd1RaElV6vRZJVyeCc_keZn/view?usp=drive_link",    "projectMethodology": [
+    "projectDescription": "The need to study the conception design and to make reverse Engineering of servo valves torque motors is very essential for the local manufacturing of this critical component serving a wide range of industrial applications. Reverse Engineering for the torque motor components in terms of modeling, 3D scanning is required. Further steps related to machining of components and electrical | Supplementary notes: Conceptional Design for Torque motors: https://drive.google.com/file/d/1exnoIYy-d50o1ZmVHJh9JqAUH5vYnBao/view | Electromagnetic motors: https://drive.google.com/file/d/1KlGfBNgJWkd1RaElV6vRZJVyeCc_keZn/view?usp=drive_link", "projectMethodology": [
       "1. Overview of the electrohydraulic valves.",
       "2. Basic function of servo valves",
       "3. Modeling of Torque motor.",
@@ -1667,7 +1738,7 @@ export const projectData = [
     "department": "Mechatronics",
     "projectTitle": "Conceptional design and manufacturing of Torque Motor for Bosch Servo valve (reverse Engineering for exciting coils -Electric wiring- assembly process and system validation test) sponsored by Ezzsteel-Siemens and Bohler companies.",
     "researchField": "Mechatronics – Material science – Electrohydraulics",
-    "projectDescription": "The need to study the conception design and to make reverse Engineering of servo valves torque motors is very essential for the local manufacturing of this critical component serving a wide range of industrial applications. Reverse Engineering for the torque motor components in terms of control coils, assembly of all parts of torque motor and system validation and testing at Ezzsteel workshop. | Supplementary notes: Conceptional Design for Torque motors: https://drive.google.com/file/d/1exnoIYy-d50o1ZmVHJh9JqAUH5vYnBao/view | Electromagnetic motors: https://drive.google.com/file/d/1KlGfBNgJWkd1RaElV6vRZJVyeCc_keZn/view?usp=drive_link",    "projectMethodology": [
+    "projectDescription": "The need to study the conception design and to make reverse Engineering of servo valves torque motors is very essential for the local manufacturing of this critical component serving a wide range of industrial applications. Reverse Engineering for the torque motor components in terms of control coils, assembly of all parts of torque motor and system validation and testing at Ezzsteel workshop. | Supplementary notes: Conceptional Design for Torque motors: https://drive.google.com/file/d/1exnoIYy-d50o1ZmVHJh9JqAUH5vYnBao/view | Electromagnetic motors: https://drive.google.com/file/d/1KlGfBNgJWkd1RaElV6vRZJVyeCc_keZn/view?usp=drive_link", "projectMethodology": [
       "1. Overview of the electrohydraulic valves.",
       "2. Basic function of servo valves",
       "3. Modeling of Torque motor.",
@@ -2576,7 +2647,7 @@ export const projectData = [
       "Process Optimization of Super Austenitic Stainless Steel Desalination Pumps"
     ],
     "qualifications": [
-        "Strong background in mechanical engineering principles, including materials science, mechanical design, and fluid dynamics."
+      "Strong background in mechanical engineering principles, including materials science, mechanical design, and fluid dynamics."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -2747,9 +2818,9 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-    "Design and Production Engineering",
-    "Materials Engineering",
-    "Mechatronics Engineering"
+      "Design and Production Engineering",
+      "Materials Engineering",
+      "Mechatronics Engineering"
     ]
   },
   {
@@ -3366,7 +3437,7 @@ export const projectData = [
     "supervisorName": "Dr. Mohamed Elwi",
     "coSupervisor": "Dr. Ahmed Shash, Dr. Amr ElNemr",
     "supervisorEmail": "mohamed.elwi@guc.edu.eg",
-    "coSupervisorEmail": ["ahmed.shash@guc.edu.eg","amr.elnemr@guc.edu.eg"],
+    "coSupervisorEmail": ["ahmed.shash@guc.edu.eg", "amr.elnemr@guc.edu.eg"],
     "department": "Materials Engineering",
     "projectTitle": "Utilization of recycled industrial wastes in the concrete mixture",
     "researchField": "Construction materials design",

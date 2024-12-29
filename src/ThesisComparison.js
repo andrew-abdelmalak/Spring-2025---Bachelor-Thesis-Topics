@@ -174,8 +174,8 @@ const ConfirmationModal = ({
                     <button
                         onClick={onClose}
                         className={`px-4 py-2 rounded-lg ${isDark
-                                ? 'bg-gray-700 hover:bg-gray-600'
-                                : 'bg-gray-200 hover:bg-gray-300'
+                            ? 'bg-gray-700 hover:bg-gray-600'
+                            : 'bg-gray-200 hover:bg-gray-300'
                             }`}
                     >
                         {cancelLabel}
@@ -222,25 +222,25 @@ export default function ThesisComparisonSystem() {
     });
 
     // Replace the existing dark mode useEffect (around line 293)
-useEffect(() => {
-    const root = document.documentElement;
-    const transition = 'background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out';
-    root.style.transition = transition;
-    localStorage.setItem('darkMode', darkMode);
-    
-    if (darkMode) {
-        root.classList.add('dark');
-    } else {
-        root.classList.remove('dark');
-    }
+    useEffect(() => {
+        const root = document.documentElement;
+        const transition = 'background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out';
+        root.style.transition = transition;
+        localStorage.setItem('darkMode', darkMode);
 
-    // Clean up transition after it completes
-    const timeoutId = setTimeout(() => {
-        root.style.transition = '';
-    }, 300);
+        if (darkMode) {
+            root.classList.add('dark');
+        } else {
+            root.classList.remove('dark');
+        }
 
-    return () => clearTimeout(timeoutId);
-}, [darkMode]);
+        // Clean up transition after it completes
+        const timeoutId = setTimeout(() => {
+            root.style.transition = '';
+        }, 300);
+
+        return () => clearTimeout(timeoutId);
+    }, [darkMode]);
 
     useEffect(() => {
         const savedPriorityList = localStorage.getItem('priorityList');
@@ -300,108 +300,108 @@ useEffect(() => {
             return matchesSearch && matchesSupervisor && matchesDepartment &&
                 matchesField && matchesEligibility;
         });
-        
-        if (sortConfig.key && sortConfig.direction) { 
-            result.sort((a, b) => { 
-                const aValue = String(a[sortConfig.key] || '').toLowerCase(); 
-                const bValue = String(b[sortConfig.key] || '').toLowerCase(); 
-                if (sortConfig.direction === 'asc') { 
-                    return aValue.localeCompare(bValue); 
-                } 
-                return bValue.localeCompare(aValue); 
-            }); 
+
+        if (sortConfig.key && sortConfig.direction) {
+            result.sort((a, b) => {
+                const aValue = String(a[sortConfig.key] || '').toLowerCase();
+                const bValue = String(b[sortConfig.key] || '').toLowerCase();
+                if (sortConfig.direction === 'asc') {
+                    return aValue.localeCompare(bValue);
+                }
+                return bValue.localeCompare(aValue);
+            });
         }
-        
+
         return result;
     }, [multiFilters, sortConfig, processedData]);
 
     // 1. Update the uniqueValues calculation to take current filters into account
-const uniqueValues = useMemo(() => {
-    // Helper function to check if an item passes current filters
-    const passesCurrentFilters = (item, excludeCategory = null) => {
-        if (excludeCategory !== 'supervisors' && 
-            multiFilters.supervisors.size > 0 && 
-            !multiFilters.supervisors.has(item.supervisorName) && 
-            !multiFilters.supervisors.has(item.coSupervisor)) {
-            return false;
-        }
-        
-        if (excludeCategory !== 'departments' && 
-            multiFilters.departments.size > 0 && 
-            !multiFilters.departments.has(item.department)) {
-            return false;
-        }
-        
-        if (excludeCategory !== 'fields' && 
-            multiFilters.fields.size > 0 && 
-            !multiFilters.fields.has(item.researchField)) {
-            return false;
-        }
-        
-        if (excludeCategory !== 'eligibleDepts' && 
-            multiFilters.eligibleDepts.size > 0 && 
-            !item.eligibleDepartments?.some(dept => multiFilters.eligibleDepts.has(dept))) {
-            return false;
-        }
-        
-        return true;
-    };
-
-    const getFilteredCounts = (field, excludeCategory = null) => {
-        const uniqueCounts = new Map();
-        const allCounts = new Map();
-
-        processedData.forEach(item => {
-            // Only count if item passes other filters
-            if (!passesCurrentFilters(item, excludeCategory)) return;
-
-            if (field === 'supervisorName') {
-                [item.supervisorName, item.coSupervisor].forEach(supervisor => {
-                    if (supervisor) {
-                        const trimmedSupervisor = supervisor.trim();
-                        uniqueCounts.set(trimmedSupervisor, (uniqueCounts.get(trimmedSupervisor) || 0) + 1);
-                        allCounts.set(supervisor, (allCounts.get(supervisor) || 0) + 1);
-                    }
-                });
-            } else {
-                const values = Array.isArray(item[field]) ? 
-                    item[field] : 
-                    [item[field]].flatMap(v => v ? v.split(/,\s*/) : []);
-
-                values.forEach(value => {
-                    if (value) {
-                        uniqueCounts.set(value.trim(), (uniqueCounts.get(value.trim()) || 0) + 1);
-                    }
-                });
+    const uniqueValues = useMemo(() => {
+        // Helper function to check if an item passes current filters
+        const passesCurrentFilters = (item, excludeCategory = null) => {
+            if (excludeCategory !== 'supervisors' &&
+                multiFilters.supervisors.size > 0 &&
+                !multiFilters.supervisors.has(item.supervisorName) &&
+                !multiFilters.supervisors.has(item.coSupervisor)) {
+                return false;
             }
-        });
 
-        const sortedUniqueSupervisors = Array.from(uniqueCounts.entries())
-            .filter(([_, count]) => count > 0) // Only keep options with count > 0
-            .sort((a, b) => b[1] - a[1]);
-            
-        const sortedAllSupervisors = Array.from(allCounts.entries())
-            .filter(([_, count]) => count > 0)
-            .sort((a, b) => b[1] - a[1]);
+            if (excludeCategory !== 'departments' &&
+                multiFilters.departments.size > 0 &&
+                !multiFilters.departments.has(item.department)) {
+                return false;
+            }
 
-        const sortedUniqueCounts = Array.from(uniqueCounts.entries())
-            .filter(([_, count]) => count > 0)
-            .sort((a, b) => b[1] - a[1]);
+            if (excludeCategory !== 'fields' &&
+                multiFilters.fields.size > 0 &&
+                !multiFilters.fields.has(item.researchField)) {
+                return false;
+            }
+
+            if (excludeCategory !== 'eligibleDepts' &&
+                multiFilters.eligibleDepts.size > 0 &&
+                !item.eligibleDepartments?.some(dept => multiFilters.eligibleDepts.has(dept))) {
+                return false;
+            }
+
+            return true;
+        };
+
+        const getFilteredCounts = (field, excludeCategory = null) => {
+            const uniqueCounts = new Map();
+            const allCounts = new Map();
+
+            processedData.forEach(item => {
+                // Only count if item passes other filters
+                if (!passesCurrentFilters(item, excludeCategory)) return;
+
+                if (field === 'supervisorName') {
+                    [item.supervisorName, item.coSupervisor].forEach(supervisor => {
+                        if (supervisor) {
+                            const trimmedSupervisor = supervisor.trim();
+                            uniqueCounts.set(trimmedSupervisor, (uniqueCounts.get(trimmedSupervisor) || 0) + 1);
+                            allCounts.set(supervisor, (allCounts.get(supervisor) || 0) + 1);
+                        }
+                    });
+                } else {
+                    const values = Array.isArray(item[field]) ?
+                        item[field] :
+                        [item[field]].flatMap(v => v ? v.split(/,\s*/) : []);
+
+                    values.forEach(value => {
+                        if (value) {
+                            uniqueCounts.set(value.trim(), (uniqueCounts.get(value.trim()) || 0) + 1);
+                        }
+                    });
+                }
+            });
+
+            const sortedUniqueSupervisors = Array.from(uniqueCounts.entries())
+                .filter(([_, count]) => count > 0) // Only keep options with count > 0
+                .sort((a, b) => b[1] - a[1]);
+
+            const sortedAllSupervisors = Array.from(allCounts.entries())
+                .filter(([_, count]) => count > 0)
+                .sort((a, b) => b[1] - a[1]);
+
+            const sortedUniqueCounts = Array.from(uniqueCounts.entries())
+                .filter(([_, count]) => count > 0)
+                .sort((a, b) => b[1] - a[1]);
+
+            return {
+                sortedUniqueSupervisors,
+                sortedAllSupervisors,
+                sortedUniqueCounts
+            };
+        };
 
         return {
-            sortedUniqueSupervisors,
-            sortedAllSupervisors,
-            sortedUniqueCounts
+            supervisors: getFilteredCounts('supervisorName', 'supervisors'),
+            departments: getFilteredCounts('department', 'departments').sortedUniqueCounts,
+            fields: getFilteredCounts('researchField', 'fields').sortedUniqueCounts,
+            eligibleDepts: getFilteredCounts('eligibleDepartments', 'eligibleDepts').sortedUniqueCounts
         };
-    };
-
-    return {
-        supervisors: getFilteredCounts('supervisorName', 'supervisors'),
-        departments: getFilteredCounts('department', 'departments').sortedUniqueCounts,
-        fields: getFilteredCounts('researchField', 'fields').sortedUniqueCounts,
-        eligibleDepts: getFilteredCounts('eligibleDepartments', 'eligibleDepts').sortedUniqueCounts
-    };
-}, [multiFilters, processedData]); // Add multiFilters as dependency
+    }, [multiFilters, processedData]); // Add multiFilters as dependency
 
     const exportToExcel = (data, filename) => {
         try {
@@ -425,7 +425,7 @@ const uniqueValues = useMemo(() => {
         // Reset expanded rows whenever filters change
         setExpandedRows(new Set());
     };
-    
+
 
     const clearFilters = () => {
         setMultiFilters({
@@ -587,7 +587,7 @@ const uniqueValues = useMemo(() => {
                                 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
                                 <span>Projects: {filteredAndSortedData.length}</span>
                                 <span>•</span>
-                                <span>Last Updated: 12/26/2024 1:56:55 PM</span>
+                                <span>Last Updated: 12/29/2024 5:06:09 PM</span>
                             </div>
                         </div>
                         <div className="flex flex-wrap gap-2">
@@ -687,7 +687,7 @@ const uniqueValues = useMemo(() => {
                             )}
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <FilterDropdown
+                        <FilterDropdown
                             label="Supervisors"
                             options={uniqueValues.supervisors.sortedUniqueSupervisors} // Display unique supervisor names
                             allOptions={uniqueValues.supervisors.sortedAllSupervisors} // Use this for filtering logic (will not be displayed directly)
@@ -724,25 +724,25 @@ const uniqueValues = useMemo(() => {
             ${darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border border-gray-200'}`}>
                 <div className="overflow-x-auto">
                     <table className="w-full">
-<thead className={darkMode ? 'bg-gray-700' : 'bg-gradient-to-r from-gray-50 to-blue-50'}>
-    <tr>
-        <th className="px-4 py-3 w-8"></th>
-        <th className="px-4 py-3 w-8"></th>
-        <SortableHeader title="Supervisor(s)" sortKey="supervisorName" />
-        <SortableHeader title="Project Title" sortKey="projectTitle" />
-        <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Research Field</th>
-        <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Department</th>
-        <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Eligibility</th>
-    </tr>
-</thead>
+                        <thead className={darkMode ? 'bg-gray-700' : 'bg-gradient-to-r from-gray-50 to-blue-50'}>
+                            <tr>
+                                <th className="px-4 py-3 w-8"></th>
+                                <th className="px-4 py-3 w-8"></th>
+                                <SortableHeader title="Supervisor(s)" sortKey="supervisorName" />
+                                <SortableHeader title="Project Title" sortKey="projectTitle" />
+                                <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Research Field</th>
+                                <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Department</th>
+                                <th className={`px-4 py-3 text-left ${darkMode ? 'text-gray-200' : ''}`}>Eligibility</th>
+                            </tr>
+                        </thead>
                         <tbody className={`divide-y ${darkMode ? 'divide-gray-700' : 'divide-gray-200'}`}>
                             {filteredAndSortedData.map((project, index) => (
                                 <React.Fragment key={`${project.projectTitle}-${index}`}>
                                     <tr
                                         className={`transition-colors cursor-pointer 
                                         ${darkMode ?
-                                            'hover:bg-gray-700' :
-                                            'hover:bg-blue-50'}`}
+                                                'hover:bg-gray-700' :
+                                                'hover:bg-blue-50'}`}
                                         onClick={() => {
                                             setExpandedRows(prev => {
                                                 const newSet = new Set(prev);
@@ -836,116 +836,116 @@ const uniqueValues = useMemo(() => {
                                                 {(project.eligibleDepartments || []).map((dept, idx) => (
                                                     <span key={idx} className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium 
                                                       ${darkMode ? 'bg-emerald-900 text-emerald-200' : 'bg-emerald-100 text-emerald-800'}`}>
-                                                      <HighlightedText
-                                                          text={dept}
-                                                          searchTerm={multiFilters.searchTerm}
-                                                          isDark={darkMode}
-                                                      />
-                                                  </span>
-                                              ))}
-                                          </div>
-                                      </td>
-                                  </tr>
-                                  {expandedRows.has(index) && (
-                                      <tr>
-                                          <td colSpan="7" className={`px-6 py-4 ${darkMode ? 'bg-gray-700' : 'bg-blue-50'}`}>
-                                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                                  <Card isDark={darkMode}>
-                                                      <CardContent isDark={darkMode}>
-                                                          <h3 className={`font-medium mb-2 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-                                                              Project Description
-                                                          </h3>
-                                                          <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                                                              <HighlightedText
-                                                                  text={project.projectDescription}
-                                                                  searchTerm={multiFilters.searchTerm}
-                                                                  isDark={darkMode}
-                                                              />
-                                                          </p>
-                                                      </CardContent>
-                                                  </Card>
+                                                        <HighlightedText
+                                                            text={dept}
+                                                            searchTerm={multiFilters.searchTerm}
+                                                            isDark={darkMode}
+                                                        />
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    {expandedRows.has(index) && (
+                                        <tr>
+                                            <td colSpan="7" className={`px-6 py-4 ${darkMode ? 'bg-gray-700' : 'bg-blue-50'}`}>
+                                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                                    <Card isDark={darkMode}>
+                                                        <CardContent isDark={darkMode}>
+                                                            <h3 className={`font-medium mb-2 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                                                                Project Description
+                                                            </h3>
+                                                            <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                                                                <HighlightedText
+                                                                    text={project.projectDescription}
+                                                                    searchTerm={multiFilters.searchTerm}
+                                                                    isDark={darkMode}
+                                                                />
+                                                            </p>
+                                                        </CardContent>
+                                                    </Card>
 
-                                                  <Card isDark={darkMode}>
-                                                      <CardContent isDark={darkMode}>
-                                                          <h3 className={`font-medium mb-2 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-                                                              Methodology
-                                                          </h3>
-                                                          <div className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                                                              {(project.projectMethodology || []).map((step, i) => {
-                                                                   const stepParts = step.split(/(\d+-\s*)/).filter(part => part); // Split step into parts
-                                                                   return(
-                                                                      <div key={i} className="flex items-start mb-2">
-                                                                          <span className="mr-2">{i + 1}-</span>
-                                                                              <HighlightedText
-                                                                                  text={stepParts.join('')}
-                                                                                  searchTerm={multiFilters.searchTerm}
-                                                                                  isDark={darkMode}
-                                                                              />
-                                                                      </div>
+                                                    <Card isDark={darkMode}>
+                                                        <CardContent isDark={darkMode}>
+                                                            <h3 className={`font-medium mb-2 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                                                                Methodology
+                                                            </h3>
+                                                            <div className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                                                                {(project.projectMethodology || []).map((step, i) => {
+                                                                    const stepParts = step.split(/(\d+-\s*)/).filter(part => part); // Split step into parts
+                                                                    return (
+                                                                        <div key={i} className="flex items-start mb-2">
+                                                                            <span className="mr-2">{i + 1}-</span>
+                                                                            <HighlightedText
+                                                                                text={stepParts.join('')}
+                                                                                searchTerm={multiFilters.searchTerm}
+                                                                                isDark={darkMode}
+                                                                            />
+                                                                        </div>
                                                                     )
-                                                              })}
-                                                          </div>
-                                                      </CardContent>
-                                                  </Card>
+                                                                })}
+                                                            </div>
+                                                        </CardContent>
+                                                    </Card>
 
-                                                  <Card isDark={darkMode}>
-                                                      <CardContent isDark={darkMode}>
-                                                          <h3 className={`font-medium mb-2 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-                                                              Qualifications & Requirements
-                                                          </h3>
-                                                          <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                                                              <HighlightedText
-                                                                  text={project.qualifications}
-                                                                  searchTerm={multiFilters.searchTerm}
-                                                                  isDark={darkMode}
-                                                              />
-                                                          </p>
-                                                      </CardContent>
-                                                  </Card>
+                                                    <Card isDark={darkMode}>
+                                                        <CardContent isDark={darkMode}>
+                                                            <h3 className={`font-medium mb-2 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                                                                Qualifications & Requirements
+                                                            </h3>
+                                                            <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                                                                <HighlightedText
+                                                                    text={project.qualifications}
+                                                                    searchTerm={multiFilters.searchTerm}
+                                                                    isDark={darkMode}
+                                                                />
+                                                            </p>
+                                                        </CardContent>
+                                                    </Card>
 
-                                                  <Card isDark={darkMode}>
-                                                      <CardContent isDark={darkMode}>
-                                                          <h3 className={`font-medium mb-2 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
-                                                              Additional Information
-                                                          </h3>
-                                                          {project.furtherComments && (
-                                                              <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
-                                                                  <HighlightedText
-                                                                      text={project.furtherComments}
-                                                                      searchTerm={multiFilters.searchTerm}
-                                                                      isDark={darkMode}
-                                                                  />
-                                                              </p>
-                                                          )}
-                                                      </CardContent>
-                                                  </Card>
-                                              </div>
-                                          </td>
-                                      </tr>
-                                  )}
-                              </React.Fragment>
-                          ))}
-                      </tbody>
-                  </table>
-              </div>
-          </div>
-          {showPriorityList && <PriorityListModal />}
+                                                    <Card isDark={darkMode}>
+                                                        <CardContent isDark={darkMode}>
+                                                            <h3 className={`font-medium mb-2 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
+                                                                Additional Information
+                                                            </h3>
+                                                            {project.furtherComments && (
+                                                                <p className={`text-sm ${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>
+                                                                    <HighlightedText
+                                                                        text={project.furtherComments}
+                                                                        searchTerm={multiFilters.searchTerm}
+                                                                        isDark={darkMode}
+                                                                    />
+                                                                </p>
+                                                            )}
+                                                        </CardContent>
+                                                    </Card>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    )}
+                                </React.Fragment>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {showPriorityList && <PriorityListModal />}
 
-          <ConfirmationModal
-              isOpen={showClearConfirmation}
-              onClose={() => setShowClearConfirmation(false)}
-              onConfirm={clearPriorityList}
-              message="Are you sure you want to clear the priority list? This action cannot be undone."
-              isDark={darkMode}
-          />
+            <ConfirmationModal
+                isOpen={showClearConfirmation}
+                onClose={() => setShowClearConfirmation(false)}
+                onConfirm={clearPriorityList}
+                message="Are you sure you want to clear the priority list? This action cannot be undone."
+                isDark={darkMode}
+            />
 
-          <ConfirmationModal
-              isOpen={showWhatsAppConfirmation}
-              onClose={() => setShowWhatsAppConfirmation(false)}
-              onConfirm={handleWhatsAppHelp}
-              message="You will be redirected to WhatsApp to contact support. Continue?"
-              isDark={darkMode}
-          />
-      </div>
-  );
+            <ConfirmationModal
+                isOpen={showWhatsAppConfirmation}
+                onClose={() => setShowWhatsAppConfirmation(false)}
+                onConfirm={handleWhatsAppHelp}
+                message="You will be redirected to WhatsApp to contact support. Continue?"
+                isDark={darkMode}
+            />
+        </div>
+    );
 }
