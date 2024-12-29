@@ -12,7 +12,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
       "Materials Engineering",
       "Mechatronics Engineering"
     ]
@@ -30,8 +29,7 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
+      "Mechatronics Engineering"
     ]
   },
   {
@@ -47,7 +45,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
       "Materials Engineering",
       "Mechatronics Engineering"
     ]
@@ -65,7 +62,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
       "Materials Engineering",
       "Mechatronics Engineering"
     ]
