@@ -742,6 +742,184 @@ const useModalClose = (isOpen, onClose) => {
     }, [isOpen, onClose]);
 };
 
+const FilterDropdown = ({ label, options, allOptions, selected, onChange, darkMode }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [searchTerm, setSearchTerm] = useState('');
+    const dropdownRef = useRef(null);
+
+    // Filter options based on the search term (using 'options' which contains unique values)
+    const filteredOptions = useMemo(() => {
+        if (!searchTerm) return options;
+        const lowerCaseSearchTerm = searchTerm.toLowerCase();
+        return options.filter(([value]) => value.toLowerCase().includes(lowerCaseSearchTerm));
+    }, [options, searchTerm]);
+
+    // Separate available and unavailable options based on counts
+    const availableOptions = filteredOptions.filter(([_, count]) => count > 0);
+    const unavailableOptions = filteredOptions.filter(([_, count]) => count === 0);
+
+    // Close the dropdown when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+                setIsOpen(false);
+            }
+        };
+
+        if (isOpen) {
+            document.addEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isOpen]);
+
+    // Handle checkbox change (for both unique and individual supervisor names)
+    const handleCheckboxChange = (value) => {
+        onChange(value); // Call the original onChange to update the multiFilters state in the parent
+    };
+
+    return (
+        <div className="relative" ref={dropdownRef}>
+            <button
+                onClick={() => setIsOpen(!isOpen)}
+                className={`w-full px-4 py-2 text-left rounded-lg flex justify-between items-center 
+                    ${darkMode ? 'bg-gray-700 hover:bg-gray-600 text-white' : 'bg-white border border-gray-200 hover:border-gray-300'}`}
+            >
+                <span className="truncate">
+                    {selected.size > 0 ? `${label} (${selected.size})` : label}
+                </span>
+                <ChevronDown className={`h-4 w-4 ${darkMode ? 'text-gray-400' : 'text-gray-500'}`} />
+            </button>
+
+            {isOpen && (
+                <div
+                    className={`absolute z-50 w-full mt-1 rounded-lg shadow-lg overflow-hidden 
+                        ${darkMode ? 'bg-gray-700 border border-gray-600' : 'bg-white border border-gray-200'}`}
+                >
+                    <div className="px-2 py-1">
+                        <input
+                            type="text"
+                            placeholder={`Search ${label}...`}
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                            className={`w-full px-2 py-1 rounded-md text-sm 
+                                ${darkMode ? 'bg-gray-600 text-white placeholder-gray-400' : 'bg-gray-100 text-gray-900 placeholder-gray-500'}`}
+                        />
+                    </div>
+
+                    <div className="max-h-60 overflow-y-auto">
+                        {/* Available options */}
+                        {availableOptions.map(([value, count]) => (
+                            <label
+                                key={value}
+                                className={`flex items-center px-4 py-2 cursor-pointer 
+                                    ${darkMode ? 'hover:bg-gray-600 text-gray-200' : 'hover:bg-gray-50 text-gray-700'}`}
+                            >
+                                <input
+                                    type="checkbox"
+                                    checked={selected.has(value)}
+                                    onChange={() => handleCheckboxChange(value)}
+                                    className="rounded mr-3"
+                                />
+                                <span className="flex-1">{value}</span>
+                                <span className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
+                                    ({count})
+                                </span>
+                            </label>
+                        ))}
+
+                        {/* Unavailable options (grayed out) */}
+                        {unavailableOptions.map(([value, count]) => (
+                            <label
+                                key={value}
+                                className={`flex items-center px-4 py-2 cursor-not-allowed opacity-50 
+                                    ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}
+                            >
+                                <input
+                                    type="checkbox"
+                                    disabled
+                                    className="rounded mr-3"
+                                />
+                                <span className="flex-1">{value}</span>
+                                <span className="text-sm">
+                                    (0)
+                                </span>
+                            </label>
+                        ))}
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
+
+
+// HighlightedText component (no changes needed)
+const HighlightedText = ({ text = "", searchTerm = "", isDark = false }) => {
+    if (!searchTerm || typeof text !== 'string') return <>{text}</>;
+
+    const parts = [];
+    let lastIndex = 0;
+    let index = text.toLowerCase().indexOf(searchTerm.toLowerCase());
+
+    while (index !== -1) {
+        parts.push(text.slice(lastIndex, index));
+        parts.push(
+            <span className={`${isDark ? 'bg-yellow-600' : 'bg-yellow-200'} rounded px-1`}>
+                {text.slice(index, index + searchTerm.length)}
+            </span>,
+        );
+        lastIndex = index + searchTerm.length;
+        index = text.toLowerCase().indexOf(searchTerm.toLowerCase(), lastIndex);
+    }
+
+    parts.push(text.slice(lastIndex));
+
+    return <>{parts}</>;
+};
+// ConfirmationModal component (no changes needed)
+const ConfirmationModal = ({
+    isOpen,
+    onClose,
+    onConfirm,
+    message,
+    confirmLabel = "Confirm",
+    cancelLabel = "Cancel",
+    confirmColor = "red",
+    isDark = false,
+}) => {
+    if (!isOpen) return null;
+    return (
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center">
+            <div
+                className={`rounded-lg p-6 w-full max-w-md mx-4 ${isDark ? 'bg-gray-800 text-white' : 'bg-white'
+                    }`}
+            >
+                <h3 className="text-lg font-medium mb-4">{message}</h3>
+                <div className="flex justify-end gap-4">
+                    <button
+                        onClick={onClose}
+                        className={`px-4 py-2 rounded-lg ${isDark
+                            ? 'bg-gray-700 hover:bg-gray-600'
+                            : 'bg-gray-200 hover:bg-gray-300'
+                            }`}
+                    >
+                        {cancelLabel}
+                    </button>
+                    <button
+                        onClick={onConfirm}
+                        className={`px-4 py-2 text-white rounded-lg hover:bg-<span class="math-inline">\{confirmColor\}\-600 bg\-</span>{confirmColor}-500`}
+                    >
+                        {confirmLabel}
+                    </button>
+                </div>
+            </div>
+        </div>
+    );
+};
+
 export default function ThesisComparisonSystem() {
     const [expandedRows, setExpandedRows] = useState(new Set());
     const [showFilters, setShowFilters] = useState(false);
