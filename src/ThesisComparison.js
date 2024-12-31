@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import ReactDOM from 'react-dom';
-import { Search, ChevronDown, Filter, X, Trash2, GripVertical } from 'lucide-react';
+import { Search, ChevronDown, Filter, X, Trash2 } from 'lucide-react';
 import { projectData } from './Data'; // Assuming you're using Data.js
 import * as XLSX from 'xlsx';
 import { useDebounce } from 'use-debounce'; // Install this package: npm install use-debounce
@@ -27,7 +27,22 @@ const FilterDropdown = ({ label, options, selected, onChange }) => {
     const [searchTerm, setSearchTerm] = useState('');
     const dropdownRef = useRef(null);
 
-    useModalClose(isOpen, () => setIsOpen(false));
+    // Add click outside handler
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+                setIsOpen(false);
+            }
+        };
+
+        if (isOpen) {
+            document.addEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isOpen]);
 
     // Filter options based on the search term and only show non-zero counts
     const filteredOptions = useMemo(() => {
@@ -206,7 +221,7 @@ const SortableHeader = React.memo(({ title, sortKey, sortConfig, handleSort }) =
     );
 });
 
-const ProjectDetailsPopup = React.memo(({ project, onClose }) => {
+export const ProjectDetailsPopup = React.memo(({ project, onClose }) => {
     useModalClose(true, onClose);
 
     if (!project) return null;
@@ -339,258 +354,154 @@ const ProjectDetailsPopup = React.memo(({ project, onClose }) => {
     );
 });
 
-const PriorityListModal = React.memo(({
+const PriorityListModal = ({
     priorityList,
     setPriorityList,
     setShowPriorityList,
     setShowClearConfirmation,
     exportToExcel,
-    setSelectedProjects
+    setSelectedProjects,
+    setToast
 }) => {
     useModalClose(true, () => setShowPriorityList(false));
 
-    const [selectedProject, setSelectedProject] = useState(null);
     const [draggingIndex, setDraggingIndex] = useState(null);
-    const [dragOverIndex, setDragOverIndex] = useState(null);
     const dragProject = useRef(null);
     const draggedOverProject = useRef(null);
 
-    useEffect(() => {
-        const handleEscape = (e) => {
-            if (e.key === 'Escape') {
-                e.stopPropagation();
-                if (selectedProject) {
-                    setSelectedProject(null);
-                } else {
-                    setShowPriorityList(false);
-                }
-            }
-        };
+    // Simple drag and drop sorting - no position tracking needed
+    const handleSort = useCallback(() => {
+        if (dragProject.current === null || draggedOverProject.current === null) return;
 
-        document.addEventListener('keydown', handleEscape);
-        return () => document.removeEventListener('keydown', handleEscape);
-    }, [selectedProject, setShowPriorityList]);
+        setPriorityList(prevList => {
+            const newList = [...prevList];
+            const draggedItem = newList[dragProject.current];
+            
+            // Remove the dragged item
+            newList.splice(dragProject.current, 1);
+            // Insert it at the new position
+            newList.splice(draggedOverProject.current, 0, draggedItem);
+            
+            return newList;
+        });
 
-    const handleSort = () => {
-        const listClone = [...priorityList];
-        const temp = listClone[dragProject.current];
-        listClone[dragProject.current] = listClone[draggedOverProject.current];
-        listClone[draggedOverProject.current] = temp;
-        setPriorityList(listClone);
+        // Reset drag refs
+        dragProject.current = null;
+        draggedOverProject.current = null;
         setDraggingIndex(null);
-        setDragOverIndex(null);
-    };
+    }, [setPriorityList]);
 
+    // Remove from priority list
     const removeFromPriorityList = useCallback((projectTitle) => {
-        setPriorityList((prev) => prev.filter((project) => project.projectTitle !== projectTitle));
-        setSelectedProjects((prev) => {
+        setPriorityList(prev => prev.filter(p => p.projectTitle !== projectTitle));
+        setSelectedProjects(prev => {
             const newSet = new Set(prev);
             newSet.delete(projectTitle);
             return newSet;
         });
     }, [setPriorityList, setSelectedProjects]);
 
-    // Calculate item position during drag
-    const getItemStyle = (index) => {
-        if (dragOverIndex === null || draggingIndex === null) return {};
-
-        if (index === draggingIndex) {
-            return {
-                zIndex: 3,
-                transform: `translateY(${(dragOverIndex - draggingIndex) * 100}%)`,
-                transition: 'transform 0.15s ease-in-out'
-            };
-        }
-
-        if (dragOverIndex > draggingIndex && index > draggingIndex && index <= dragOverIndex) {
-            return {
-                transform: 'translateY(-100%)',
-                transition: 'transform 0.15s ease-in-out'
-            };
-        }
-
-        if (dragOverIndex < draggingIndex && index < draggingIndex && index >= dragOverIndex) {
-            return {
-                transform: 'translateY(100%)',
-                transition: 'transform 0.15s ease-in-out'
-            };
-        }
-
-        return {
-            transform: 'translateY(0)',
-            transition: 'transform 0.15s ease-in-out'
-        };
-    };
-
     return (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50"
             onClick={(e) => {
-                if (e.target === e.currentTarget) {
-                    if (selectedProject) {
-                        setSelectedProject(null);
-                    } else {
-                        setShowPriorityList(false);
-                    }
-                }
+                if (e.target === e.currentTarget) setShowPriorityList(false);
             }}
         >
-            <div className="rounded-xl p-6 w-full md:w-3/4 max-h-[80vh] overflow-y-auto m-4 
-                bg-white/90 backdrop-blur-lg border border-gray-200">
-                <div className="flex justify-between items-center mb-6 pb-4 border-b border-gray-200">
-                    <h2 className="text-xl font-bold text-gray-900">
-                        Priority ({priorityList.length})
-                    </h2>
-                    <div className="flex gap-4">
-                        <button
-                            onClick={() => exportToExcel(priorityList, 'priority_list.xlsx')}
-                            className="px-6 py-2.5 text-base bg-purple-500 text-white rounded-lg hover:bg-purple-600"
-                        >
-                            Export List
-                        </button>
-                        <button
-                            onClick={() => setShowClearConfirmation(true)}
-                            className="px-6 py-2.5 text-base bg-red-500 text-white rounded-lg hover:bg-red-600"
-                        >
-                            Clear List
-                        </button>
-                        <button
-                            onClick={() => setShowPriorityList(false)}
-                            className="p-2.5 text-gray-500 hover:text-gray-700 rounded-lg hover:bg-gray-100"
-                        >
-                            <X className="h-6 w-6" />
-                        </button>
+            <div className="rounded-xl w-full md:w-4/5 lg:w-3/4 m-4 
+                bg-white/90 backdrop-blur-lg border border-gray-200 flex flex-col max-h-[85vh]">
+                {/* Header section */}
+                <div className="sticky top-0 z-10 bg-white/90 backdrop-blur-lg border-b border-gray-200">
+                    <div className="flex justify-between items-center p-4">
+                        <h2 className="text-2xl font-bold text-gray-900">
+                            Priority List ({priorityList.length})
+                        </h2>
+                        <div className="flex gap-3">
+                            <button
+                                onClick={() => exportToExcel(priorityList, 'priority_list.xlsx')}
+                                className="px-6 py-2.5 text-base bg-purple-500 text-white rounded-lg hover:bg-purple-600"
+                            >
+                                Export List
+                            </button>
+                            <button
+                                onClick={() => setShowClearConfirmation(true)}
+                                className="px-6 py-2.5 text-base bg-red-500 text-white rounded-lg hover:bg-red-600"
+                            >
+                                Clear List
+                            </button>
+                            <button
+                                onClick={() => setShowPriorityList(false)}
+                                className="p-2.5 text-gray-500 hover:text-gray-700 rounded-lg hover:bg-gray-100"
+                            >
+                                <X className="h-6 w-6" />
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                <div className="space-y-3 relative">
-                    {priorityList.map((project, index) => (
-                        <motion.div
-                            key={project.projectTitle}
-                            layout
-                            initial={false}
-                            style={getItemStyle(index)}
-                            animate={{
-                                scale: draggingIndex === index ? 1.02 : 1,
-                                boxShadow: draggingIndex === index
-                                    ? '0 8px 16px rgba(0, 0, 0, 0.1)'
-                                    : '0 2px 4px rgba(0, 0, 0, 0.05)',
-                            }}
-                            transition={{
-                                type: "spring",
-                                stiffness: 300,
-                                damping: 30
-                            }}
-                            className={`flex items-center gap-4 p-4 rounded-lg relative
-                                ${draggingIndex === index
-                                    ? 'bg-blue-50 border-blue-300 z-10'
-                                    : dragOverIndex === index
-                                        ? 'bg-blue-50/50 border-blue-200'
-                                        : 'bg-gray-50 hover:bg-gray-100'} 
-                                border border-gray-200 transition-colors duration-200`}
-                            onClick={() => setSelectedProject(project)}
+                {/* List content */}
+                <div className="overflow-y-auto flex-1 p-3 space-y-2">
+                    {/* Create fixed cells with numbers first */}
+                    {Array.from({ length: priorityList.length }, (_, index) => (
+                        <div
+                            key={`cell-${index + 1}`}
+                            className="relative"
                         >
-                            {/* Drag Handle */}
-                            <motion.div
-                                className="cursor-move p-2 hover:bg-gray-200 rounded transition-colors"
+                            {/* Fixed number cell */}
+                            <div className="absolute left-0 top-0 bottom-0 w-12 flex items-center justify-center 
+                                border-r border-gray-200 bg-gray-50 rounded-l-lg select-none">
+                                <span className="font-medium text-gray-500">
+                                    {index + 1}
+                                </span>
+                            </div>
+
+                            {/* Draggable project content */}
+                            <div
                                 draggable
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.95 }}
-                                onDragStart={(e) => {
+                                onDragStart={() => {
                                     dragProject.current = index;
                                     setDraggingIndex(index);
-                                    // Create a ghost image that's invisible
-                                    const ghost = e.target.cloneNode(true);
-                                    ghost.style.display = "none";
-                                    document.body.appendChild(ghost);
-                                    e.dataTransfer.setDragImage(ghost, 0, 0);
-                                    setTimeout(() => document.body.removeChild(ghost), 0);
                                 }}
                                 onDragEnter={() => {
                                     draggedOverProject.current = index;
-                                    setDragOverIndex(index);
                                 }}
-                                onDragEnd={() => {
-                                    handleSort();
-                                    setDragOverIndex(null);
-                                }}
-                                onDragOver={(e) => {
-                                    e.preventDefault();
-                                    e.dataTransfer.dropEffect = "move";
-                                }}
-                                onClick={(e) => e.stopPropagation()}
+                                onDragEnd={handleSort}
+                                onDragOver={(e) => e.preventDefault()}
+                                className={`flex items-center gap-2 p-2.5 rounded-lg 
+                                    ${draggingIndex === index ? 'bg-blue-50' : 'bg-gray-50 hover:bg-gray-100'} 
+                                    border border-gray-200 transition-colors duration-200 cursor-move`}
                             >
-                                <GripVertical className="h-5 w-5 text-gray-400" />
-                            </motion.div>
+                                {/* Spacer to account for fixed number width */}
+                                <div className="w-12" />
 
-                            {/* Position Number with Animation */}
-                            <motion.div
-                                className={`w-8 h-8 flex items-center justify-center rounded-full 
-                                    ${draggingIndex === index ? 'bg-blue-200 text-blue-800' : 'bg-blue-100 text-blue-700'} 
-                                    font-medium transition-colors duration-200`}
-                                animate={{
-                                    scale: dragOverIndex === index ? 1.1 : 1,
-                                    rotate: draggingIndex === index ? [0, -5, 5, 0] : 0
-                                }}
-                                transition={{
-                                    scale: { type: "spring", stiffness: 300, damping: 20 },
-                                    rotate: { duration: 0.2 }
-                                }}
-                            >
-                                {dragOverIndex === index && draggingIndex !== null
-                                    ? draggingIndex + 1
-                                    : draggingIndex === index && dragOverIndex !== null
-                                        ? dragOverIndex + 1
-                                        : index + 1}
-                            </motion.div>
-
-                            {/* Project Content */}
-                            <motion.div
-                                className="flex-1"
-                                animate={{
-                                    x: dragOverIndex === index ? 10 : 0
-                                }}
-                                transition={{
-                                    type: "spring",
-                                    stiffness: 300,
-                                    damping: 30
-                                }}
-                            >
-                                <div className="font-medium text-gray-900">
-                                    {project.projectTitle}
+                                {/* Project Details */}
+                                <div className="flex-1 min-w-0">
+                                    <div className="flex items-center gap-2">
+                                        <div className="font-medium text-gray-900 truncate">
+                                            {priorityList[index]?.projectTitle}
+                                        </div>
+                                    </div>
+                                    <div className="text-sm text-gray-500 truncate">
+                                        {priorityList[index]?.supervisorName}
+                                        {priorityList[index]?.coSupervisor && 
+                                            `, ${priorityList[index]?.coSupervisor}`}
+                                    </div>
                                 </div>
-                                <div className="text-sm text-gray-500">
-                                    {project.supervisorName}
-                                    {project.coSupervisor && `, ${project.coSupervisor}`}
-                                </div>
-                            </motion.div>
 
-                            {/* Remove Button */}
-                            <motion.button
-                                whileHover={{ scale: 1.1 }}
-                                whileTap={{ scale: 0.95 }}
-                                onClick={(e) => {
-                                    e.stopPropagation();
-                                    removeFromPriorityList(project.projectTitle);
-                                }}
-                                className="p-2 rounded text-red-500 hover:bg-red-100 
-                                    transition-colors"
-                            >
-                                <Trash2 className="h-5 w-5" />
-                            </motion.button>
-                        </motion.div>
+                                <button
+                                    onClick={() => removeFromPriorityList(priorityList[index]?.projectTitle)}
+                                    className="p-2 rounded-lg text-red-500 hover:bg-red-50 
+                                        transition-colors"
+                                >
+                                    <Trash2 className="h-5 w-5" />
+                                </button>
+                            </div>
+                        </div>
                     ))}
                 </div>
             </div>
-
-            {selectedProject && (
-                <ProjectDetailsPopup
-                    project={selectedProject}
-                    onClose={() => setSelectedProject(null)}
-                />
-            )}
         </div>
     );
-});
+};
 
 // Add a new Toast component
 const Toast = React.memo(({ message, type = 'success', onClose }) => {
@@ -743,23 +654,104 @@ const useModalClose = (isOpen, onClose) => {
 };
 
 export default function ThesisComparisonSystem() {
-    const [expandedRows, setExpandedRows] = useState(new Set());
-    const [showFilters, setShowFilters] = useState(false);
+    // Load initial states from localStorage with proper Set conversion
+    const initialStates = useMemo(() => {
+        try {
+            const savedFilters = JSON.parse(localStorage.getItem('filters')) || {
+                supervisors: [],
+                departments: [],
+                fields: [],
+                eligibleDepts: [],
+                searchTerm: ''
+            };
+
+            // Convert arrays to Sets
+            return {
+                filters: {
+                    supervisors: new Set(savedFilters.supervisors),
+                    departments: new Set(savedFilters.departments),
+                    fields: new Set(savedFilters.fields),
+                    eligibleDepts: new Set(savedFilters.eligibleDepts),
+                    searchTerm: savedFilters.searchTerm
+                },
+                expandedRows: new Set(JSON.parse(localStorage.getItem('expandedRows')) || []),
+                sortConfig: JSON.parse(localStorage.getItem('sortConfig')) || { key: null, direction: null },
+                scrollPosition: parseInt(localStorage.getItem('scrollPosition')) || 0,
+                showFilters: localStorage.getItem('showFilters') === 'true'
+            };
+        } catch (error) {
+            console.error('Error loading saved states:', error);
+            return {
+                filters: {
+                    supervisors: new Set(),
+                    departments: new Set(),
+                    fields: new Set(),
+                    eligibleDepts: new Set(),
+                    searchTerm: ''
+                },
+                expandedRows: new Set(),
+                sortConfig: { key: null, direction: null },
+                scrollPosition: 0,
+                showFilters: false
+            };
+        }
+    }, []);
+
+    // Initialize states with saved values
+    const [multiFilters, setMultiFilters] = useState(initialStates.filters);
+    const [expandedRows, setExpandedRows] = useState(initialStates.expandedRows);
+    const [sortConfig, setSortConfig] = useState(initialStates.sortConfig);
+    const [showFilters, setShowFilters] = useState(initialStates.showFilters);
+
+    // Reference for the table container
+    const tableContainerRef = useRef(null);
+
+    // Save states with proper Set conversion
+    useEffect(() => {
+        try {
+            // Convert Sets to arrays for storage
+            const filtersForStorage = {
+                supervisors: Array.from(multiFilters.supervisors),
+                departments: Array.from(multiFilters.departments),
+                fields: Array.from(multiFilters.fields),
+                eligibleDepts: Array.from(multiFilters.eligibleDepts),
+                searchTerm: multiFilters.searchTerm
+            };
+
+            localStorage.setItem('filters', JSON.stringify(filtersForStorage));
+            localStorage.setItem('expandedRows', JSON.stringify(Array.from(expandedRows)));
+            localStorage.setItem('sortConfig', JSON.stringify(sortConfig));
+            localStorage.setItem('showFilters', showFilters.toString());
+        } catch (error) {
+            console.error('Error saving states:', error);
+        }
+    }, [multiFilters, expandedRows, sortConfig, showFilters]);
+
+    // Save scroll position when scrolling
+    useEffect(() => {
+        const container = tableContainerRef.current;
+        if (!container) return;
+
+        const handleScroll = () => {
+            localStorage.setItem('scrollPosition', container.scrollTop.toString());
+        };
+
+        container.addEventListener('scroll', handleScroll);
+
+        // Restore scroll position
+        container.scrollTop = initialStates.scrollPosition;
+
+        return () => {
+            container.removeEventListener('scroll', handleScroll);
+        };
+    }, [initialStates.scrollPosition]);
+
     const [selectedProjects, setSelectedProjects] = useState(new Set());
     const [priorityList, setPriorityList] = useState([]);
     const [showPriorityList, setShowPriorityList] = useState(false);
     const [showClearConfirmation, setShowClearConfirmation] = useState(false);
     const [showWhatsAppConfirmation, setShowWhatsAppConfirmation] = useState(false);
-    const [sortConfig, setSortConfig] = useState({ key: null, direction: null });
     const [isLoading, setIsLoading] = useState(false);
-
-    const [multiFilters, setMultiFilters] = useState({
-        supervisors: new Set(),
-        departments: new Set(),
-        fields: new Set(),
-        eligibleDepts: new Set(),
-        searchTerm: ''
-    });
 
     const [debouncedSearchTerm] = useDebounce(multiFilters.searchTerm, 300);
 
@@ -914,36 +906,50 @@ export default function ThesisComparisonSystem() {
         // Function to get filtered counts for each category
         const getFilteredCounts = (field, excludeCategory = null) => {
             const counts = new Map();
-            const allValues = new Set();
+            const allValues = new Map(); // Changed to Map to store lowercase keys with original values
 
             // First pass: collect all possible values
             processedData.forEach(item => {
                 if (field === 'supervisorName') {
                     [item.supervisorName, item.coSupervisor].forEach(value => {
-                        if (value) allValues.add(value.trim());
+                        if (value) {
+                            const lowerValue = value.trim().toLowerCase();
+                            if (!allValues.has(lowerValue)) {
+                                allValues.set(lowerValue, value.trim());
+                            }
+                        }
                     });
                 } else if (field === 'eligibleDepartments') {
-                    (item[field] || []).forEach(value => allValues.add(value));
-                } else {
-                    if (item[field]) allValues.add(item[field]);
+                    (item[field] || []).forEach(value => {
+                        const lowerValue = value.toLowerCase();
+                        if (!allValues.has(lowerValue)) {
+                            allValues.set(lowerValue, value);
+                        }
+                    });
+                } else if (item[field]) {
+                    const lowerValue = item[field].toLowerCase();
+                    if (!allValues.has(lowerValue)) {
+                        allValues.set(lowerValue, item[field]);
+                    }
                 }
             });
 
             // Second pass: count occurrences considering filters
-            allValues.forEach(value => {
+            allValues.forEach((originalValue, lowerValue) => {
                 let count = 0;
                 processedData.forEach(item => {
                     if (!passesCurrentFilters(item, excludeCategory)) return;
 
                     if (field === 'supervisorName') {
-                        if (item.supervisorName === value || item.coSupervisor === value) count++;
+                        if (item.supervisorName?.toLowerCase() === lowerValue ||
+                            item.coSupervisor?.toLowerCase() === lowerValue) count++;
                     } else if (field === 'eligibleDepartments') {
-                        if (item[field]?.includes(value)) count++;
+                        if (item[field]?.some(dept => dept.toLowerCase() === lowerValue)) count++;
                     } else {
-                        if (item[field] === value) count++;
+                        if (item[field]?.toLowerCase() === lowerValue) count++;
                     }
                 });
-                counts.set(value, count);
+                counts.set(originalValue, count);
             });
 
             return Array.from(counts.entries())
@@ -1100,7 +1106,7 @@ export default function ThesisComparisonSystem() {
         setPendingChanges([]);
         setShowClearConfirmation(false);
         setToast({ message: 'Priority list cleared!', type: 'success' });
-    }, []);
+    }, [setPriorityList, setSelectedProjects, setToast]);
 
     const handleWhatsAppHelp = useCallback(() => {
         const message = encodeURIComponent('Samooo 3lekooo El Tlaga Feha Maya 2al-Ana G3an Awee');
@@ -1167,10 +1173,13 @@ export default function ThesisComparisonSystem() {
                 }
             });
 
-            return newList;
+            // Recalculate positions for all items
+            return newList.map((project, index) => ({
+                ...project,
+                position: index + 1 // Position is 1-based
+            }));
         });
 
-        // Clear pending changes but keep checkboxes selected
         setPendingChanges([]);
     }, [pendingChanges]);
 
@@ -1299,10 +1308,8 @@ export default function ThesisComparisonSystem() {
                     eligibleDepts: new Set(),
                     searchTerm: ''
                 });
-            } else if (searchInput.trim()) {
-                applySearch();
             }
-        }, [multiFilters.searchTerm, searchInput, setMultiFilters, hasActiveFilters, applySearch]);
+        }, [multiFilters.searchTerm, hasActiveFilters, setMultiFilters]);
 
         const handleSearchChange = useCallback((e) => {
             setSearchInput(e.target.value);
@@ -1338,24 +1345,20 @@ export default function ThesisComparisonSystem() {
                                     onKeyDown={handleKeyPress}
                                 />
                             </div>
-                            <Tooltip
-                                text={multiFilters.searchTerm || hasActiveFilters ? "Clear All" : "Apply Search"}
-                                description={multiFilters.searchTerm || hasActiveFilters
-                                    ? "Clear all search terms and filters"
-                                    : "Apply search term to filter projects"}
-                            >
-                                <button
-                                    onClick={handleSearchButton}
-                                    disabled={!searchInput.trim() && !multiFilters.searchTerm && !hasActiveFilters}
-                                    className={`px-4 py-2.5 text-base font-medium rounded-lg transition-colors min-w-[100px] 
-                                        ${!searchInput.trim() && !multiFilters.searchTerm && !hasActiveFilters
-                                            ? 'text-gray-400 cursor-not-allowed border border-gray-100'
-                                            : 'text-blue-600 hover:text-blue-700 hover:bg-blue-50 border border-blue-200'
-                                        }`}
+                            {(multiFilters.searchTerm || hasActiveFilters) && (
+                                <Tooltip
+                                    text="Clear All"
+                                    description="Clear all search terms and filters"
                                 >
-                                    {multiFilters.searchTerm || hasActiveFilters ? 'Clear All' : 'Apply'}
-                                </button>
-                            </Tooltip>
+                                    <button
+                                        onClick={handleSearchButton}
+                                        className="px-4 py-2.5 text-base font-medium rounded-lg transition-colors min-w-[100px] 
+                                            text-blue-600 hover:text-blue-700 hover:bg-blue-50 border border-blue-200"
+                                    >
+                                        Clear All
+                                    </button>
+                                </Tooltip>
+                            )}
                         </div>
 
                         {/* Action buttons section - fixed width with consistent spacing */}
@@ -1454,29 +1457,66 @@ export default function ThesisComparisonSystem() {
         };
     }, [showPriorityList, showFilters]);
 
-    // Update modal opening functions to push state
-    const openPriorityList = useCallback(() => {
-        window.history.pushState({ modal: 'priority' }, '');
-        setShowPriorityList(true);
-    }, []);
+    // Update useEffect to watch for filter and sort changes
+    useEffect(() => {
+        setExpandedRows(new Set());
+    }, [multiFilters, sortConfig]);
 
-    const openFilters = useCallback(() => {
-        window.history.pushState({ modal: 'filters' }, '');
-        setShowFilters(true);
-    }, []);
+    // Reset selected projects to match priority list when opening modal
+    useEffect(() => {
+        if (showPriorityList) {
+            setSelectedProjects(new Set(priorityList.map(project => project.projectTitle)));
+            setPendingChanges([]); // Clear any pending changes
+        }
+    }, [showPriorityList, priorityList]);
+
+    // Add handler for check all functionality
+    const handleCheckAll = useCallback(() => {
+        if (filteredAndSortedData.every(project => selectedProjects.has(project.projectTitle))) {
+            // If all filtered items are selected, unselect all items (not just filtered ones)
+            setSelectedProjects(new Set());
+            setPendingChanges(priorityList.map(project => ({
+                type: 'remove',
+                project
+            })));
+        } else {
+            // Select all filtered projects
+            const newSelected = new Set(filteredAndSortedData.map(project => project.projectTitle));
+            setSelectedProjects(newSelected);
+
+            // Calculate pending changes
+            const newChanges = [];
+
+            // Add 'remove' changes for existing priority items not in filtered data
+            priorityList.forEach(project => {
+                if (!filteredAndSortedData.some(p => p.projectTitle === project.projectTitle)) {
+                    newChanges.push({ type: 'remove', project });
+                }
+            });
+
+            // Add 'add' changes for new selections
+            filteredAndSortedData.forEach(project => {
+                if (!priorityList.some(p => p.projectTitle === project.projectTitle)) {
+                    newChanges.push({ type: 'add', project });
+                }
+            });
+
+            setPendingChanges(newChanges);
+        }
+    }, [filteredAndSortedData, selectedProjects, priorityList]);
 
     return (
         <div className="min-h-screen p-4 mx-auto max-w-8xl bg-gradient-to-br from-gray-50/90 to-blue-50/90">
             <Header
                 filteredAndSortedData={filteredAndSortedData}
                 exportToExcel={exportToExcel}
-                setShowPriorityList={openPriorityList}
+                setShowPriorityList={setShowPriorityList}
                 handleUpdatePriority={handleUpdatePriority}
                 pendingChanges={pendingChanges}
                 clearFilters={clearFilters}
                 multiFilters={multiFilters}
                 setMultiFilters={setMultiFilters}
-                setShowFilters={openFilters}
+                setShowFilters={setShowFilters}
                 showFilters={showFilters}
                 setShowWhatsAppConfirmation={setShowWhatsAppConfirmation}
                 priorityList={priorityList}
@@ -1536,14 +1576,53 @@ export default function ThesisComparisonSystem() {
                 )}
             </AnimatePresence>
 
-            <div className={`rounded-xl shadow-lg mx-2 mb-2 flex-1 
-                ${'bg-white/80 border-gray-200'}`}>
-                <div className="relative h-[calc(100vh-143px)]"> {/* Adjusted from -130px to -180px to account for header and padding */}
-                    <div className="absolute inset-0 overflow-auto">
+            <div className={`rounded-xl shadow-lg mx-2 mb-2 flex-1 bg-white/80 border-gray-200`}>
+                <div className="relative h-[calc(100vh-143px)]">
+                    <div
+                        ref={tableContainerRef}
+                        className="absolute inset-0 overflow-auto"
+                    >
                         <table className="w-full table-fixed">
                             <thead className="sticky top-0 z-40 shadow-sm backdrop-blur-lg bg-white/90 border-b border-gray-200">
                                 <tr>
-                                    <th className="w-[72px] px-4 py-3"></th>
+                                    <th className="w-[72px] px-4 py-3">
+                                        <div className="flex items-center justify-start gap-2.5 pl-1">
+                                            <Tooltip
+                                                text={filteredAndSortedData.every(project => selectedProjects.has(project.projectTitle))
+                                                    ? "Unselect All" : "Select All"}
+                                                description={`Click to ${filteredAndSortedData.every(project => selectedProjects.has(project.projectTitle))
+                                                    ? 'unselect' : 'select'} all visible projects`}
+                                            >
+                                                <div
+                                                    onClick={handleCheckAll}
+                                                    className={`cursor-pointer p-2 rounded-lg transition-all active:scale-95
+                                                        ${filteredAndSortedData.every(project => selectedProjects.has(project.projectTitle))
+                                                            ? 'hover:bg-red-50 active:bg-red-100'
+                                                            : 'hover:bg-blue-50 active:bg-blue-100'
+                                                        }`}
+                                                >
+                                                    <input
+                                                        type="checkbox"
+                                                        checked={filteredAndSortedData.length > 0 &&
+                                                            filteredAndSortedData.every(project =>
+                                                                selectedProjects.has(project.projectTitle)
+                                                            )}
+                                                        indeterminate={filteredAndSortedData.some(project =>
+                                                            selectedProjects.has(project.projectTitle)
+                                                        ) && !filteredAndSortedData.every(project =>
+                                                            selectedProjects.has(project.projectTitle)
+                                                        )}
+                                                        onChange={() => { }} // Handled by div onClick
+                                                        className={`rounded w-4 h-4 cursor-pointer transition-all focus:ring-2
+                                                            ${filteredAndSortedData.every(project => selectedProjects.has(project.projectTitle))
+                                                                ? 'hover:border-red-500 focus:ring-red-500'
+                                                                : 'hover:border-blue-500 focus:ring-blue-500'
+                                                            }`}
+                                                    />
+                                                </div>
+                                            </Tooltip>
+                                        </div>
+                                    </th>
                                     <SortableHeader title="Supervisor(s)" sortKey="supervisorName" sortConfig={sortConfig} handleSort={handleSort} className="w-[22%]" />
                                     <SortableHeader title="Project Title" sortKey="projectTitle" sortConfig={sortConfig} handleSort={handleSort} className="w-[30%]" />
                                     <th className={`w-[16%] px-4 py-3 text-left`}>Research Field</th>
@@ -1555,32 +1634,42 @@ export default function ThesisComparisonSystem() {
                                 {filteredAndSortedData.map((project, index) => (
                                     <React.Fragment key={`${project.projectTitle}-${index}`}>
                                         <tr
-                                            onClick={() => {
-                                                setExpandedRows((prev) => {
-                                                    const newSet = new Set(prev);
-                                                    if (prev.has(index)) {
-                                                        newSet.delete(index);
-                                                    } else {
-                                                        newSet.add(index);
-                                                    }
-                                                    return newSet;
-                                                });
+                                            onClick={(e) => {
+                                                // Only expand if not clicking the checkbox area
+                                                if (!e.target.closest('.checkbox-area')) {
+                                                    setExpandedRows((prev) => {
+                                                        const newSet = new Set(prev);
+                                                        if (prev.has(index)) {
+                                                            newSet.delete(index);
+                                                        } else {
+                                                            newSet.add(index);
+                                                        }
+                                                        return newSet;
+                                                    });
+                                                }
                                             }}
                                             className={`cursor-pointer hover:bg-gray-50/80 transition-colors group`}
                                         >
                                             <td className="px-4 py-4">
-                                                <div className="flex items-center justify-start gap-2.5 pl-1">
+                                                <div className="flex items-center justify-start gap-2.5 pl-1 checkbox-area">
                                                     <Tooltip
                                                         text="Add to Priority List"
                                                         description="Select this project to add it to your priority list"
                                                     >
-                                                        <input
-                                                            type="checkbox"
-                                                            checked={selectedProjects.has(project.projectTitle)}
-                                                            onChange={() => handleProjectSelection(project.projectTitle)}
-                                                            className="rounded w-3.5 h-3.5"
-                                                            onClick={(e) => e.stopPropagation()}
-                                                        />
+                                                        <div
+                                                            onClick={(e) => {
+                                                                e.stopPropagation();
+                                                                handleProjectSelection(project.projectTitle);
+                                                            }}
+                                                            className="cursor-pointer"
+                                                        >
+                                                            <input
+                                                                type="checkbox"
+                                                                checked={selectedProjects.has(project.projectTitle)}
+                                                                onChange={() => { }} // Handled by div onClick
+                                                                className="rounded w-3.5 h-3.5"
+                                                            />
+                                                        </div>
                                                     </Tooltip>
                                                     <Tooltip
                                                         text={expandedRows.has(index) ? "Hide Details" : "Show Details"}
@@ -1753,6 +1842,7 @@ export default function ThesisComparisonSystem() {
                     setShowClearConfirmation={setShowClearConfirmation}
                     exportToExcel={exportToExcel}
                     setSelectedProjects={setSelectedProjects}
+                    setToast={setToast}
                 />
             )}
 
