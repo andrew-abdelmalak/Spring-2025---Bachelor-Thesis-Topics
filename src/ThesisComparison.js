@@ -1584,8 +1584,8 @@ export default function ThesisComparisonSystem() {
                                                     </Tooltip>
                                                     <Tooltip
                                                         text={expandedRows.has(index) ? "Hide Details" : "Show Details"}
-                                                        description={expandedRows.has(index) 
-                                                            ? "Click to collapse project details" 
+                                                        description={expandedRows.has(index)
+                                                            ? "Click to collapse project details"
                                                             : "Click to expand and view full project details"}
                                                     >
                                                         <motion.div
