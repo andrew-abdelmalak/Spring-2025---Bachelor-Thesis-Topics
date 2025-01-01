@@ -2821,24 +2821,6 @@ export const projectData = [
   },
   {
     "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Upgrading the control of the available WAAM printer for fabrication of metallic engineering products",
-    "researchField": "",
-    "projectDescription": "Wire Arc additive Manufacturing (WAAM) is one of the emerging additive manufacturing techniques. A set up is already constructed and available for use. It has been designed and used by previous BSc students for testing it . The student will first check the control system used as well as the software .and make necessary modifications if needed. The software for controlling the torch movement needs to be updated to be more user friendly, if possible. Then, it will be used to manufacture a product which will be decided upon during the work. The accuracy and quality of the obtained product will be tested and evaluated. Different process parameters can be used based on AI previous results",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
     "coSupervisor": "Dr Hebatulla Ashraf",
     "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
     "coSupervisorEmail": null,
@@ -3383,8 +3365,7 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Mechatronics Engineering"
+      "Materials Engineering"
     ]
   },
   {
