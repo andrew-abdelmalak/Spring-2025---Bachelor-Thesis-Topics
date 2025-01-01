@@ -1,4 +1,32 @@
 export const projectData = [
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "supervisorName": "Nahed El Mahallawy",
     "coSupervisor": null,
@@ -109,45 +137,6 @@ export const projectData = [
     "furtherComments": "",
     "eligibleDepartments": [
       "Material science and engineerting"
-    ]
-  },
-  {
-    "supervisorName": "Dr. Abbas Yehia",
-    "coSupervisor": "Mohamed Darweesh",
-    "supervisorEmail": "abbas.yehia@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Characterization of rubber blends (Butyl rubber/EPDM)",
-    "researchField": "Materials Science and Engineering",
-    "projectDescription": "To create a new engineering, you must go to blending technique. If you blend to types of polymers (rubber and plastics), you can get new properties ie good properties not present in the blend constituents.",
-    "projectMethodology": [
-      "1- Select 2 polymers such as Butyl rubber and EPDM,",
-      "2- Weigh deferent concentration from both polymer,",
-      "3- Use a good mixer such as prabender to humanize the blend, then add a humanizer to get good mix,",
-      "4- Cure the product,",
-      "5- Evaluate the properties of the obtained blends"
-    ],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Dr. Abbas Yehia",
-    "coSupervisor": "Dr. Shash",
-    "supervisorEmail": "abbas.yehia@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Determination of the softening point of plastics",
-    "researchField": "Materials Science and Engineering",
-    "projectDescription": "1- Get an over with temperature programing, ( room temp.to 250oC) 2- Design a sample holder, 3- Fix dial to the system, 4- Start heating, 5- Fix the temperature at the point of plastic soften",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
     ]
   },
   {
@@ -1403,50 +1392,6 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Anke Klingner",
-    "coSupervisor": "Mohamed Elwi",
-    "supervisorEmail": "anke_klingner@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Physics/MNRlab",
-    "projectTitle": "robotic snake – design, simulation, construction and testing",
-    "researchField": "MCTR",
-    "projectDescription": "By mimicking the locomotion of snakes, snakebots can be used for tasks in multiple industries that traditional robots or human workers may find challenging or impossible to accomplish safely. In medical technology, miniature versions of Snakebots have been developed for endoscopic and minimally invasive procedures. An example is the medical snakebot developed at Carnegie Mellon University, which is capable of maneuvering around organs inside a human chest cavity. In the project, a robotic snake should be designed. After simulation of the movement it should be constructed and tested.",
-    "projectMethodology": [
-      "The student should study current literature on the topic. Then, a possible design should be selected and simulated. A prototype should be constructed and tested."
-    ],
-    "qualifications": [
-      "Matlab or python"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Anke Klingner",
-    "coSupervisor": "Mohamed Elwi",
-    "supervisorEmail": "anke_klingner@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Physics/MNRlab",
-    "projectTitle": "magnetic micro robots for biomedical applications",
-    "researchField": "MCTR",
-    "projectDescription": "Microrobots have promising applications in human internal medicine. Magnetic fields are suitable for microrobot actuation. Microrobots are produced and then the swimming performance is tested a different frequencies. Microrobots should be activated to swim in a planned path.",
-    "projectMethodology": [
-      "The student should study current literature on the topic. Then, microrobots are fabricated. Videos of the microrobots at different actuation frequencies are obtained and analyzed. After understanding the actuation mechanism, a specific path should be planned and the microrobot should follow it."
-    ],
-    "qualifications": [
-      "Matlab or python"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
     "supervisorName": "Hisham Elsherif",
     "coSupervisor": "Dr. Walid",
     "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
@@ -2251,203 +2196,6 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Dr. Mohamed Elwi",
-    "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Magnetic Nanoparticle Wires Embedded in Polymer Films for Sensor Applications",
-    "researchField": "Materials for Sensor applications",
-    "projectDescription": "This project aims to prepare magnetic nanoparticle wires within polymer films for sensor applications. A solution of magnetite (Fe₃O₄) nanoparticles and polymer will be cast into films under an external applied magnetic field, aligning the nanoparticles to form micro/nanowires. The resulting films will be analyzed for their structural, electrical, and mechanical properties to evaluate their potential as sensors.",
-    "projectMethodology": [
-      "Film Preparation: Disperse magnetite nanoparticles in a polymer solution. Cast the solution into films while applying a magnetic field to align nanoparticles into wire-like structures.",
-      "Characterization: Optical microscope, SEM, XRD and to analyze the size, size distribution and alignment of nanoparticle wires. Using open-source ImageJ software to quantify the wire alignment and distribution.",
-      "Sensor Development: Investigate the optical changes in the free-standing films during mechanical stretching to understand the sensor response."
-    ],
-    "qualifications": [
-      "Basic knowledge of materials engineering.",
-      "Willing to familiarize yourself with techniques for nanoparticle dispersion and film preparation.",
-      "Familiar with mechanical testing.",
-      "Good analytical and laboratory skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Dr. Mohamed Elwi",
-    "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Preparation and Characterization of Carbon-Coated Titania Fibers for Fuel Cell applications",
-    "researchField": "Materials for energy applications",
-    "projectDescription": "This project focuses on preparing titania (TiO₂) fibers using the electrospinning technique and enhancing their conductivity by coating the fibers with carbon. The resulting fiber mats will be evaluated for their suitability as fuel cell electrodes. Electrical conductivity, mechanical robustness, and chemical stability of the electrodes will be examined to ensure optimal performance for fuel cell applications.",
-    "projectMethodology": [
-      "Electrospinning: Prepare titania fibers using the electrospinning technique and stabilize them via heating/calcination.",
-      "Applying a conductive carbon coating to the titania fibers to improve their electrical conductivity.",
-      "Characterization: Analyzing the fiber dimension using scanning electron microscope (SEM) and phase analysis.",
-      "Measure conductivity using techniques such as four-point probe measurements.",
-      "Evaluate mechanical robustness through hardness testing.",
-      "Performance Testing: Analyze the electrode performance in a simulated fuel cell environment."
-    ],
-    "qualifications": [
-      "Basic knowledge of materials engineering.",
-      "Willing to familiarize yourself with electrospinning techniques.",
-      "Familiar with mechanical testing.",
-      "Good analytical and laboratory skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Dr. Mohamed Darweesh",
-    "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Preparation and Characterization of Gold and Silver Nanoparticles for Sensor Applications",
-    "researchField": "Materials for sensor applications",
-    "projectDescription": "This project focuses on the preparation of gold and silver nanoparticles (NPs) and their application in sensor technologies for detecting biological molecules. The nanoparticles will be characterized using Dynamic Light Scattering (DLS) and particle size analyzers to evaluate their size distribution and stability. These nanoparticles will be employed in biosensors, utilizing their unique interaction with biomolecules to enable sensitive and selective detection.",
-    "projectMethodology": [
-      "Synthesis: Prepare gold and silver NPs via chemical synthesis methods.",
-      "Characterization: Analyze the synthesized NPs using Dynamic Light Scattering (DLS) and UV/Vis spectrometer to determine size, distribution, and optical properties.",
-      "Sensor Development: Incorporate nanoparticles into sensor platforms and investigate their interaction with specific biological molecules (e.g., proteins or DNA)."
-    ],
-    "qualifications": [
-      "Basic knowledge of materials engineering.",
-      "Willing to learn and operate equipment such as particle size analyzers and Dynamic Light Scattering (DLS) instruments.",
-      "Strong analytical and laboratory skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Dr. Mohamed Darweesh",
-    "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "3D Printing of Stretchable Electronics for On-Skin Sensors",
-    "researchField": "Materials for Sensor applications",
-    "projectDescription": "This project focuses on designing and fabricating stretchable electronics using 3D printing techniques for wearable sensor applications. Conductive patterns and flexible substrates will be printed to create functional devices capable of monitoring physical activities. The goal is to achieve high-performance stretchable electronics that withstand repetitive mechanical deformation for on-skin sensor applications.",
-    "projectMethodology": [
-      "Film Preparation: Use Direct Ink Writing to print conductive serpentine and wavy patterns on flexible substrates.",
-      "Characterization: Mechanical tests (e.g., cyclic stretching) to evaluate durability and fatigue resistance.",
-      "Electrical Testing: Measure the electrical conductivity of the films under static and dynamic strain using a four-point probe method.",
-      "Sensor Application: Integrate sensors into a wearable prototype for real-time monitoring of strain or motion signals."
-    ],
-    "qualifications": [
-      "Basic knowledge of materials engineering.",
-      "Willing to familiarize yourself with techniques for nanoparticle dispersion and film preparation.",
-      "Familiar with mechanical testing.",
-      "Good analytical and laboratory skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Dr. Mohamed Darweesh",
-    "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Development of Polymer-Metal Nanocomposites for Stretchable On-Skin Sensors",
-    "researchField": "Materials for Sensor applications",
-    "projectDescription": "This project focuses on the preparation of polymer-metal nanocomposites for stretchable sensor applications. Metal nanoparticles (such as gold and silver) will be embedded in an elastomeric polymer matrix to create conductive films that can maintain electrical functionality under mechanical deformation. These materials will be optimized for use in on-skin electronic sensors, such as strain sensors or wearable health monitors, capable of adhering comfortably to the skin.",
-    "projectMethodology": [
-      "Film Preparation: Using solution casting or spin-coating to create polymer-metal nanocomposite films.",
-      "Characterization: Tensile strength and cyclic stretching tests to evaluate the film’s stretchability and durability.",
-      "Electrical Testing: Measure the electrical conductivity of the films under static and dynamic strain using a four-point probe method.",
-      "Sensor Application: A prototype sensor to detect strain or health parameters and test its performance through conductivity and response analysis."
-    ],
-    "qualifications": [
-      "Basic knowledge of materials engineering.",
-      "Willing to familiarize yourself with techniques for nanoparticle dispersion and film preparation.",
-      "Familiar with mechanical testing.",
-      "Good analytical and laboratory skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Prof. Dr. Hesham Hegazi",
-    "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Development of a Cyclic Stretching Tester for Fatigue Analysis of Stretchable On-Skin Sensors",
-    "researchField": "Sensors",
-    "projectDescription": "This project involves the mechanical design and fabrication of a cyclic stretching tester to evaluate the fatigue strength of flexible materials used for on-skin stretchable sensors. The system will allow precise, repetitive stretching of samples, while integrating electrical and optical monitoring to observe changes in conductivity and structure during deformation.",
-    "projectMethodology": [
-      "Design Phase: Develop a mechanical design using SolidWorks software to create a cyclic stretching system capable of handling elastomers/plastic samples. Incorporating mechanisms for controlling strain rates, stretching amplitudes, and cycle counts using components such as actuators, clamps, and frames.",
-      "Integration of Monitoring Systems: Integrate electrical measurement tools (e.g., multimeter, four-point probe) to monitor conductivity during stretching. Incorporate optical analysis using a camera system and open-source ImageJ software to track deformation and surface changes."
-    ],
-    "qualifications": [
-      "Completed coursework in engineering fundamentals and design software.",
-      "Basic knowledge of mechanical design and material testing.",
-      "Good analytical and problem-solving skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Prof. Dr. Hesham Hegazi",
-    "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Design and Simulation of a Single Fuel Cell for Hydrogen Energy Applications",
-    "researchField": "Energy",
-    "projectDescription": "The project involves designing a single-cell fuel cell system and evaluating its performance for hydrogen energy applications. It focuses on optimizing the fuel cell components, such as the membrane and electrodes, to achieve efficient energy conversion.",
-    "projectMethodology": [
-      "A single-cell fuel cell will be designed using SolidWorks software, and performance simulations will be conducted in ANSYS. Experimental evaluation will follow, including assembling the cell and testing it under various conditions to optimize efficiency."
-    ],
-    "qualifications": [
-      "Completed coursework in engineering fundamentals.",
-      "Willingness and ability to learn new programming and simulation tools.",
-      "Good analytical and problem-solving skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Prof. Dr. Hesham Hegazi",
-    "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Mechanical Design of a Battery Cooling System for Mobility Applications in High-Temperature Environments",
-    "researchField": "Energy",
-    "projectDescription": "This project focuses on designing a mechanical cooling system to improve the thermal management of battery packs used in mobility systems, specifically for high-temperature countries like Egypt. Effective cooling solutions will be developed to enhance battery life, efficiency, and safety during operation.",
-    "projectMethodology": [
-      "Design mechanical cooling components using SolidWorks software and perform simulations with Simulink or ANSYS to analyze thermal performance with and without the cooling system.",
-      "Assemble and test the cooling system prototype under operational conditions to validate its effectiveness."
-    ],
-    "qualifications": [
-      "Completed coursework in engineering fundamentals and thermodynamics.",
-      "Willingness and ability to learn new programming and simulation tools like Simulink.",
-      "Good analytical and problem-solving skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering"
-    ]
-  },
-  {
     "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
     "coSupervisor": "",
     "supervisorEmail": "ahmed.shash@guc.edu.eg",
@@ -2690,150 +2438,6 @@ export const projectData = [
     "furtherComments": "",
     "eligibleDepartments": [
       "Design and Production Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "Dr Omar Shehata",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Design and construction of a robot arm for additive manufacturing ( co supervised by Dr Omar Shehata)",
-    "researchField": "Robotics",
-    "projectDescription": "Additive manufacturing of metallic components can be realized using wire arc similar to welding process. The process needs a good control of the torch movement which can be obtained using a robotic arm. The aim of the project is to design and implement segments of the robotic arm for this purpose.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Design and fabrication of turbine blades for VAWT (in collaboration with Tennessee Technological University, co supervised by Dr Hebatulla Ashraf )",
-    "researchField": "Renewable Energy",
-    "projectDescription": "Vertical axis wind turbine (VAWT) can be an effective source of energy. In previous work in the last years, we have built 2 VAWT with different blade designs. A specialized software for turbine blades will be delivered by Tennessee University. The student will use this software to design the turbine blades. If time allows, the design will be implemented and will be used by the student. Based on FEM modeling of the turbine blades , the student will improve the performance of the turbine by modification of the design of the airfoils and compare his results with those in previous work. Use of FEM will mainly be used and accordingly new blades can be manufactured id possible. The project includes mainly design using an available software and if time allows, turbine blades can also be constructed and tested.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Design and construction of vertical axis windmill ( in collaboration with Tennessee Technological University , co supervised by Dr Hebatulla Ashraf)",
-    "researchField": "Renewable Energy",
-    "projectDescription": "Vertical axis wind turbine (VAWT) can be an effective source of energy. In previous work in the last years, we have built 2 VAWT with different designs. Based on the previous experience, the student will improve the performance of the turbine by modification of the design of the body and the airfoils and compare his results with those in previous work. Experimental work with some design part is expected in this project.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Improving productivity of solar water desalination unit by controlling water type and properties ( co supervised by Dr Hebatulla Ashraf)",
-    "researchField": "Renewable Energy",
-    "projectDescription": "Solar water desalination is an important issue in Egypt and in other countries. Solar still is a portable small size unit for water desalination, based on evaporation and condensation of the water. However, the main problem of the solar still is its low productivity. Based on previous work, it was found that water type and properties affect the productivity of the still. In the present project, the properties can be modified by changing the water salinity or by adding conducting particles to the water . The aim of the project is to build a solar still and to test the effect of different water properties on the productivity.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Improving productivity of Solar Water desalination unit by introducing control systems ( co supervised by Dr Hebatulla Ashraf)",
-    "researchField": "Renewable Energy",
-    "projectDescription": "Solar water desalination is an important issue in Egypt and in other countries. Solar still is a portable small size unit for water desalination, based on evaporation and condensation of the water. However, the main problem of the solar still is its low productivity. Based on previous work, an optimum design of the solar still is obtained. The aim of the project is to build the optimum design, and to introduce a control system to improve the evaporation and condensation processes, which will be reflected on the productivity of the still.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": "hebatullah.ashraf@guc.edu.eg",
-    "department": "Design and Production",
-    "projectTitle": "Study the effect of turbine blade profile on the efficiency of a vertical axis wind turbine ( co supervised by Dr Hebatulla Ashraf and Tennessee Technical University).",
-    "researchField": "Renewable Energy",
-    "projectDescription": "Wind energy is one of the most promising sources of renewable energy. Vertical axis wind turbine (VAWT) is a small portable turbine which can be effective in rural and remote areas which are deprived of energy source. Based on previous work in design and construction of VAWT, improvement in the design of the turbine blades is still needed. The aim of the project is to make a new design of the blades. This design will be implemented, tested and evaluated in comparison to previous turbines.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "Dr Walid Omran",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": "walid.omran@guc.edu.eg",
-    "department": "Design and Production",
-    "projectTitle": "Design of solar systems for charging batteries used in electric vehicles ( co supervised by Dr Walid Omran)",
-    "researchField": "Renewable Energy",
-    "projectDescription": "Photovoltaic (PV) systems utilize the sunlight to generate DC electric power that can be used to charge energy storage batteries. However, the output power from these systems depends on the weather parameters as well as the loading conditions. The aim of this thesis is to design and simulate a PV system that can be used to charge the batteries of electric vehicles. The obtained design will be applied by an Egyptian company which will support implementation, testing and evaluation of the designed system. This will definitely contribute to evolution of the local industry.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Design of a hybrid renewable energy system suitable for houses or medical services centers in remote areas(in collaboration with Tennessee Technological University, co supervised by Dr Hebatulla Ashraf)",
-    "researchField": "Renewable Energy",
-    "projectDescription": "Renewable energy is one of the top recommended topics in Egypt 2030. Many remote areas including houses, refugee camps, service centers like clinics or small hospitals have no source of energy. Tennessee Technological University has gone through a similar problem and has designed a solar/wind energy system for a clinic in remote areas. Following similar steps, our student will first estimate the energy needed by a typical house and /or/ a small clinic , then design a hybrid system where solar and wind energy are considered.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -3336,39 +2940,6 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Dr. Abbas Yehia",
-    "coSupervisor": "Dr. Shash",
-    "supervisorEmail": "abbas.yehia@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Determination of the softening point of plastics",
-    "researchField": "Materials Science and Engineering",
-    "projectDescription": "1- Get an over with temperature programing, ( room temp.to 250oC) 2- Design a sample holder, 3- Fix dial to the system, 4- Start heating, 5- Fix the temperature at the point of plastic soften",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Upgrading the control of the available WAAM printer for fabrication of metallic engineering products",
-    "researchField": null,
-    "projectDescription": "Wire Arc additive Manufacturing (WAAM) is one of the emerging additive manufacturing techniques. A set up is already constructed and available for use. It has been designed and used by previous BSc students for testing it . The student will first check the control system used as well as the software .and make necessary modifications if needed. The software for controlling the torch movement needs to be updated to be more user friendly, if possible. Then, it will be used to manufacture a product which will be decided upon during the work. The accuracy and quality of the obtained product will be tested and evaluated. Different process parameters can be used based on AI previous results",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering"
-    ]
-  },
-  {
     "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
     "coSupervisor": null,
     "supervisorEmail": "ahmed.shash@guc.edu.eg",
@@ -3408,30 +2979,6 @@ export const projectData = [
     "eligibleDepartments": [
       "Design and Production Engineering",
       "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Dr. Mohamed Elwi",
-    "coSupervisor": "Dr. Ahmed Shash, Dr. Amr ElNemr",
-    "supervisorEmail": "mohamed.elwi@guc.edu.eg",
-    "coSupervisorEmail": ["ahmed.shash@guc.edu.eg", "amr.elnemr@guc.edu.eg"],
-    "department": "Materials Engineering",
-    "projectTitle": "Utilization of recycled industrial wastes in the concrete mixture",
-    "researchField": "Construction materials design",
-    "projectDescription": "Recently, great attention was noticed for ultra-performance concrete to reduce the size of the concrete cross-section in several infrastructures such as bridges piers, and construction buildings. New trends in civil engineering as well as environmental concerns that recently drawn the attention of the world. The CO2 emissions possessed through the waste deposition and manufacture of construction and industrial products such as cement, etc. Many trials target reducing the cement amount and utilizing industrial or construction wastes to reduce the CO2 emission and deposition of wastes in landfills. The project aims at utilizing industrial waste to be used to replace fine aggregate or cement in the concrete mixture.",
-    "projectMethodology": [
-      "Crushed WC tool scarp would be the material to consider as a replacement for fine aggregate.",
-      "Different percentages of tool scrap would be added to the concrete mix and the effect of added amount would be investigated.",
-      "Mechanical tests as well as structure investigation would be executed and the properties of the new concrete mix will be compared to standard concrete properties"
-    ],
-    "qualifications": [
-      "Basic knowledge of material engineering",
-      "Familiarity with mechanical testing"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and production Engineering",
-      "Materials engineering"
     ]
   }
 ]
