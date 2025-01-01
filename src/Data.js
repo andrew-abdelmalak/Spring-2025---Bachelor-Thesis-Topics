@@ -111,36 +111,6 @@ export const projectData = [
       "Mechatronics Engineering"
     ]
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
   {
     "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
     "coSupervisor": "",
