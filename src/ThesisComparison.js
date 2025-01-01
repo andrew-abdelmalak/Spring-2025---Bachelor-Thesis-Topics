@@ -757,38 +757,16 @@ export default function ThesisComparisonSystem() {
 
     const [toast, setToast] = useState(null);
 
+    const [isMobile, setIsMobile] = useState(false);
+
     useEffect(() => {
-        const root = document.documentElement;
-
-        // Add transition to all relevant properties
-        const transitionProperties = [
-            'background-color',
-            'color',
-            'border-color',
-            'fill',
-            'stroke',
-            'box-shadow'
-        ].join(',');
-
-        // Apply transitions to both root and all elements
-        root.style.transition = `${transitionProperties} 0.3s ease-in-out`;
-        document.body.style.transition = `${transitionProperties} 0.3s ease-in-out`;
-
-        // Add a class to handle transitions for all elements
-        const style = document.createElement('style');
-        style.textContent = `
-            * {
-                transition: ${transitionProperties} 0.3s ease-in-out;
-            }
-        `;
-        document.head.appendChild(style);
-
-        document.body.style.backgroundColor = '#f3f4f6'; // light gray for light mode
-
-        // Cleanup function
-        return () => {
-            document.head.removeChild(style);
+        const checkMobile = () => {
+            setIsMobile(window.innerWidth < 1024);
         };
+
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
     }, []);
 
     useEffect(() => {
@@ -1504,6 +1482,39 @@ export default function ThesisComparisonSystem() {
             setPendingChanges(newChanges);
         }
     }, [filteredAndSortedData, selectedProjects, priorityList]);
+
+    if (isMobile) {
+        return (
+            <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-blue-50 p-6">
+                <div className="text-center max-w-md">
+                    <div className="mb-6 text-red-500">
+                        <svg 
+                            className="w-16 h-16 mx-auto"
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24"
+                        >
+                            <path 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                strokeWidth={2} 
+                                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" 
+                            />
+                        </svg>
+                    </div>
+                    <h1 className="text-2xl font-bold text-gray-900 mb-4">
+                        Mobile Access Restricted
+                    </h1>
+                    <p className="text-gray-600 mb-6">
+                        This application is optimized for desktop use only. Please access it from a computer for the best experience.
+                    </p>
+                    <div className="p-4 bg-yellow-50 rounded-lg text-yellow-700 text-sm">
+                        The complex nature of the thesis comparison system requires a larger screen for optimal functionality and readability.
+                    </div>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className="min-h-screen p-4 mx-auto max-w-8xl bg-gradient-to-br from-gray-50/90 to-blue-50/90">
