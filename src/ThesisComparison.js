@@ -364,10 +364,11 @@ const PriorityListModal = ({
     setToast
 }) => {
     useModalClose(true, () => setShowPriorityList(false));
-
+    const [selectedProject, setSelectedProject] = useState(null);
     const [draggingIndex, setDraggingIndex] = useState(null);
     const dragProject = useRef(null);
     const draggedOverProject = useRef(null);
+    const lastClickTime = useRef(0);
 
     // Simple drag and drop sorting - no position tracking needed
     const handleSort = useCallback(() => {
@@ -401,6 +402,18 @@ const PriorityListModal = ({
         });
     }, [setPriorityList, setSelectedProjects]);
 
+    // Add this handler for double-click
+    const handleProjectClick = useCallback((project) => {
+        const currentTime = new Date().getTime();
+        const timeDiff = currentTime - lastClickTime.current;
+
+        if (timeDiff < 300) { // Double-click threshold of 300ms
+            setSelectedProject(project);
+        }
+
+        lastClickTime.current = currentTime;
+    }, []);
+
     return (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50"
             onClick={(e) => {
@@ -412,9 +425,14 @@ const PriorityListModal = ({
                 {/* Header section */}
                 <div className="sticky top-0 z-10 bg-white/90 backdrop-blur-lg border-b border-gray-200">
                     <div className="flex justify-between items-center p-4">
-                        <h2 className="text-2xl font-bold text-gray-900">
-                            Priority List ({priorityList.length})
-                        </h2>
+                        <div>
+                            <h2 className="text-2xl font-bold text-gray-900">
+                                Priority List ({priorityList.length})
+                            </h2>
+                            <p className="text-sm text-gray-500 mt-1">
+                                Double-click any project to view full details
+                            </p>
+                        </div>
                         <div className="flex gap-3">
                             <button
                                 onClick={() => exportToExcel(priorityList, 'priority_list.xlsx')}
@@ -440,7 +458,6 @@ const PriorityListModal = ({
 
                 {/* List content */}
                 <div className="overflow-y-auto flex-1 p-3 space-y-2">
-                    {/* Create fixed cells with numbers first */}
                     {Array.from({ length: priorityList.length }, (_, index) => (
                         <div
                             key={`cell-${index + 1}`}
@@ -454,7 +471,7 @@ const PriorityListModal = ({
                                 </span>
                             </div>
 
-                            {/* Draggable project content */}
+                            {/* Updated project content with double-click */}
                             <div
                                 draggable
                                 onDragStart={() => {
@@ -466,6 +483,7 @@ const PriorityListModal = ({
                                 }}
                                 onDragEnd={handleSort}
                                 onDragOver={(e) => e.preventDefault()}
+                                onClick={() => handleProjectClick(priorityList[index])}
                                 className={`flex items-center gap-2 p-2.5 rounded-lg 
                                     ${draggingIndex === index ? 'bg-blue-50' : 'bg-gray-50 hover:bg-gray-100'} 
                                     border border-gray-200 transition-colors duration-200 cursor-move`}
@@ -499,6 +517,14 @@ const PriorityListModal = ({
                     ))}
                 </div>
             </div>
+
+            {/* Add ProjectDetailsPopup */}
+            {selectedProject && (
+                <ProjectDetailsPopup
+                    project={selectedProject}
+                    onClose={() => setSelectedProject(null)}
+                />
+            )}
         </div>
     );
 };
