@@ -1,32 +1,4 @@
 export const projectData = [
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "supervisorName": "Nahed El Mahallawy",
     "coSupervisor": null,
@@ -96,29 +68,6 @@ export const projectData = [
   },
   {
     "supervisorName": "Dr. Abbas Yehia",
-    "coSupervisor": "Dr. Amir Roushdy",
-    "supervisorEmail": "abbas.yehia@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Engineering",
-    "projectTitle": "Optimization of rubber additives in Styrene butadiene rubber",
-    "researchField": "Materials Science and Engineering",
-    "projectDescription": "The formulation of any rubber product needs some additives such as fillers, softeners, activators, curing agents etc. Such additives are mixed in rubber with different ratios. The aim of this project is determine the optimum concentration of each additive",
-    "projectMethodology": [
-      "1- Weighing the additives,",
-      "2- Mixing these materials in rubber using 2 roll mixing machine,",
-      "3- Curing at 150oC,",
-      "4- Determination of physico-mechanical properties,",
-      "5- Discuss the obtained results."
-    ],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Dr. Abbas Yehia",
     "coSupervisor": "",
     "supervisorEmail": "abbas.yehia@guc.edu.eg",
     "coSupervisorEmail": null,
@@ -139,6 +88,59 @@ export const projectData = [
       "Material science and engineerting"
     ]
   },
+  {
+    "supervisorName": "Dr. Abbas Yehia",
+    "coSupervisor": "Dr. Amir Roushdy",
+    "supervisorEmail": "abbas.yehia@guc.edu.eg",
+    "coSupervisorEmail": null,
+    "department": "Materials Engineering and Mechatronics Engineering",
+    "projectTitle": "Optimization of rubber additives in Styrene butadiene rubber",
+    "researchField": "Materials Science and Engineering",
+    "projectDescription": "The formulation of any rubber product needs some additives such as fillers, softeners, activators, curing agents etc. Such additives are mixed in rubber with different ratios. The aim of this project is determine the optimum concentration of each additive",
+    "projectMethodology": [
+      "1- Weighing the additives,",
+      "2- Mixing these materials in rubber using 2 roll mixing machine,",
+      "3- Curing at 150oC,",
+      "4- Determination of physico-mechanical properties,",
+      "5- Discuss the obtained results."
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Materials Engineering",
+      "Mechatronics Engineering"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
   {
     "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
     "coSupervisor": "",
