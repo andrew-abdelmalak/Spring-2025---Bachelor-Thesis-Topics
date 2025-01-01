@@ -735,19 +735,42 @@ export default function ThesisComparisonSystem() {
         const container = tableContainerRef.current;
         if (!container) return;
 
+        // Debounced scroll handler to avoid too frequent updates
+        let timeoutId;
         const handleScroll = () => {
-            localStorage.setItem('scrollPosition', container.scrollTop.toString());
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(() => {
+                localStorage.setItem('scrollPosition', container.scrollTop.toString());
+            }, 100); // Debounce time of 100ms
         };
 
         container.addEventListener('scroll', handleScroll);
 
-        // Restore scroll position
-        container.scrollTop = initialStates.scrollPosition;
+        // Restore scroll position after a short delay to ensure content is loaded
+        const restoreScrollTimeout = setTimeout(() => {
+            const savedScrollPosition = parseInt(localStorage.getItem('scrollPosition')) || 0;
+            container.scrollTop = savedScrollPosition;
+        }, 100);
 
         return () => {
             container.removeEventListener('scroll', handleScroll);
+            clearTimeout(timeoutId);
+            clearTimeout(restoreScrollTimeout);
         };
-    }, [initialStates.scrollPosition]);
+    }, []);
+
+    // Add cleanup when component unmounts
+    useEffect(() => {
+        // Store ref in a variable that will be captured in the closure
+        const containerRef = tableContainerRef.current;
+
+        return () => {
+            // Use the captured ref value in cleanup
+            if (containerRef) {
+                localStorage.setItem('scrollPosition', containerRef.scrollTop.toString());
+            }
+        };
+    }, []);
 
     const [selectedProjects, setSelectedProjects] = useState(initialStates.selectedProjects);
     const [priorityList, setPriorityList] = useState([]);
@@ -795,6 +818,15 @@ export default function ThesisComparisonSystem() {
             alert('Error saving priority list. Please try again.');
         }
     }, [priorityList]);
+
+    // Add useEffect to save selectedProjects
+    useEffect(() => {
+        try {
+            localStorage.setItem('selectedProjects', JSON.stringify(Array.from(selectedProjects)));
+        } catch (error) {
+            console.error('Error saving selected projects:', error);
+        }
+    }, [selectedProjects]);
 
     const handleSort = useCallback((key) => {
         setSortConfig((prev) => {
@@ -1440,7 +1472,11 @@ export default function ThesisComparisonSystem() {
 
     // Update useEffect to watch for filter and sort changes
     useEffect(() => {
-        setExpandedRows(new Set());
+        // Only clear expanded rows if filters change, not on initial load
+        if (Object.values(multiFilters).some(filter =>
+            filter instanceof Set ? filter.size > 0 : filter !== '')) {
+            setExpandedRows(new Set());
+        }
     }, [multiFilters, sortConfig]);
 
     // Reset selected projects to match priority list when opening modal
