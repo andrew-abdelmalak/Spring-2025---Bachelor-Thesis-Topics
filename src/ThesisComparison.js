@@ -376,12 +376,12 @@ const PriorityListModal = ({
         setPriorityList(prevList => {
             const newList = [...prevList];
             const draggedItem = newList[dragProject.current];
-            
+
             // Remove the dragged item
             newList.splice(dragProject.current, 1);
             // Insert it at the new position
             newList.splice(draggedOverProject.current, 0, draggedItem);
-            
+
             return newList;
         });
 
@@ -482,7 +482,7 @@ const PriorityListModal = ({
                                     </div>
                                     <div className="text-sm text-gray-500 truncate">
                                         {priorityList[index]?.supervisorName}
-                                        {priorityList[index]?.coSupervisor && 
+                                        {priorityList[index]?.coSupervisor &&
                                             `, ${priorityList[index]?.coSupervisor}`}
                                     </div>
                                 </div>
@@ -665,7 +665,7 @@ export default function ThesisComparisonSystem() {
                 searchTerm: ''
             };
 
-            // Convert arrays to Sets
+            // Convert arrays to Sets and load selectedProjects
             return {
                 filters: {
                     supervisors: new Set(savedFilters.supervisors),
@@ -677,7 +677,9 @@ export default function ThesisComparisonSystem() {
                 expandedRows: new Set(JSON.parse(localStorage.getItem('expandedRows')) || []),
                 sortConfig: JSON.parse(localStorage.getItem('sortConfig')) || { key: null, direction: null },
                 scrollPosition: parseInt(localStorage.getItem('scrollPosition')) || 0,
-                showFilters: localStorage.getItem('showFilters') === 'true'
+                showFilters: localStorage.getItem('showFilters') === 'true',
+                // Add selectedProjects to initial states
+                selectedProjects: new Set(JSON.parse(localStorage.getItem('selectedProjects')) || [])
             };
         } catch (error) {
             console.error('Error loading saved states:', error);
@@ -692,7 +694,8 @@ export default function ThesisComparisonSystem() {
                 expandedRows: new Set(),
                 sortConfig: { key: null, direction: null },
                 scrollPosition: 0,
-                showFilters: false
+                showFilters: false,
+                selectedProjects: new Set()
             };
         }
     }, []);
@@ -746,7 +749,7 @@ export default function ThesisComparisonSystem() {
         };
     }, [initialStates.scrollPosition]);
 
-    const [selectedProjects, setSelectedProjects] = useState(new Set());
+    const [selectedProjects, setSelectedProjects] = useState(initialStates.selectedProjects);
     const [priorityList, setPriorityList] = useState([]);
     const [showPriorityList, setShowPriorityList] = useState(false);
     const [showClearConfirmation, setShowClearConfirmation] = useState(false);
@@ -1483,22 +1486,31 @@ export default function ThesisComparisonSystem() {
         }
     }, [filteredAndSortedData, selectedProjects, priorityList]);
 
+    // Add useEffect to save selectedProjects
+    useEffect(() => {
+        try {
+            localStorage.setItem('selectedProjects', JSON.stringify(Array.from(selectedProjects)));
+        } catch (error) {
+            console.error('Error saving selected projects:', error);
+        }
+    }, [selectedProjects]);
+
     if (isMobile) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-blue-50 p-6">
                 <div className="text-center max-w-md">
                     <div className="mb-6 text-red-500">
-                        <svg 
+                        <svg
                             className="w-16 h-16 mx-auto"
-                            fill="none" 
-                            stroke="currentColor" 
+                            fill="none"
+                            stroke="currentColor"
                             viewBox="0 0 24 24"
                         >
-                            <path 
-                                strokeLinecap="round" 
-                                strokeLinejoin="round" 
-                                strokeWidth={2} 
-                                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" 
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
                             />
                         </svg>
                     </div>
