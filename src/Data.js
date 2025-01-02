@@ -85,12 +85,12 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Material science and engineerting"
+      "Material science and engineering"
     ]
   },
   {
     "supervisorName": "Dr. Abbas Yehia",
-    "coSupervisor": "Dr. Amir Roushdy",
+    "coSupervisor": "Assoc. Prof. Amir Roushdy",
     "supervisorEmail": "abbas.yehia@guc.edu.eg",
     "coSupervisorEmail": "amir.ali@guc.edu.eg",
     "department": "Materials Engineering and Mechatronics Engineering",
@@ -111,55 +111,12 @@ export const projectData = [
       "Mechatronics Engineering"
     ]
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
     "coSupervisor": "",
     "supervisorEmail": "ahmed.aziz@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Materials engineering",
+    "department": "Materials Engineering",
     "projectTitle": "Construction and parameter control of delta 3D printing for furniture",
     "researchField": "Materials and Design",
     "projectDescription": "3D printing is a general term for different processes that share the same principle of making three dimensional objects from a digital file by laying down material in layers under computer control. Liquid Deposition Modeling (LDM) is one of these processes that is based on the extrusion of paste materials. The project aims to address the pressing need for eco-friendly alternatives in additive manufacturing by repurposing agricultural waste materials into functional, cost-effective, and sustainable printing substrates. The aim of this bachelor project is to design Delta 3 D printer and using this system for 3D printing of agriculture paste",
@@ -174,8 +131,6 @@ export const projectData = [
     ],
     "furtherComments": "One student",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -643,7 +598,7 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Dr.Walid Omran",
+    "supervisorName": "Dr. Walid Omran",
     "coSupervisor": "",
     "supervisorEmail": "walid.omran@guc.edu.eg",
     "coSupervisorEmail": null,
@@ -785,14 +740,13 @@ export const projectData = [
       "• Iterative improvements based on testing outcomes."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics:",
       "• Proficiency in CAD software (e.g., SolidWorks, AutoCAD).",
       "• Experience in programming (e.g., Python, C++) for robotic systems.",
       "• Knowledge of control systems and kinematics."
     ],
     "furtherComments": "• Focus on user-friendly controls for practical telepresence tasks.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -813,14 +767,13 @@ export const projectData = [
       "• Optimization based on performance metrics."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Knowledge of embedded systems and microcontroller programming.",
       "• Understanding of bond graph modeling techniques.",
       "• Familiarity with circuit design and hardware implementation."
     ],
     "furtherComments": "• Ensure the controller is adaptable to various mechatronic applications.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -839,13 +792,12 @@ export const projectData = [
       "• Test and validate the system with diverse materials."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Knowledge of image processing and robotics.",
       "• Experience with programming languages like Python or C++."
     ],
     "furtherComments": "• Emphasize accuracy in handling fragile and irregular objects.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -864,13 +816,12 @@ export const projectData = [
       "• Test in controlled lab environments for accuracy and efficiency."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Strong understanding of robotics and path-planning algorithms.",
       "• Experience with sensors and embedded systems."
     ],
     "furtherComments": "• Consider scalability for larger environments.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -889,13 +840,12 @@ export const projectData = [
       "• Manufacture and test the prototype for lab applications."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Proficiency in mechanical design and material science.",
       "• Basic understanding of robotics."
     ],
     "furtherComments": "• Prioritize structural stability despite lightweight construction.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -914,13 +864,12 @@ export const projectData = [
       "• Validate system performance under dynamic conditions."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Knowledge of BLDC motors and motion control systems.",
       "• Experience with robotics integration."
     ],
     "furtherComments": "• Aim for seamless operation with flexible robotic systems",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -939,13 +888,12 @@ export const projectData = [
       "• Test on the Flexinoid robot across different terrains."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Proficiency in computer vision and control systems.",
       "• Strong programming skills in Python or C++."
     ],
     "furtherComments": "• Ensure real-time response for dynamic stability adjustments.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -964,13 +912,12 @@ export const projectData = [
       "• Validate gait patterns through treadmill testing."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Background in robotics and biomechanics.",
       "• Proficiency in algorithm development and simulation tools."
     ],
     "furtherComments": "• Focus on adaptability for uneven terrains.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -989,13 +936,12 @@ export const projectData = [
       "• Test and refine using controlled experiments."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Knowledge of image processing and robotics.",
       "• Experience with real-time systems."
     ],
     "furtherComments": "• Consider scalability for more complex scenarios.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1014,13 +960,12 @@ export const projectData = [
       "• Test for mapping and obstacle detection."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "• Proficiency in LiDAR technology and sensor integration.",
       "• Basic programming and robotics knowledge."
     ],
     "furtherComments": "• Emphasize affordability without compromising precision.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1040,14 +985,13 @@ export const projectData = [
       "Test and validate the model on a physical humanoid robot."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Strong programming skills (Python, TensorFlow/PyTorch).",
       "Knowledge of machine learning and control systems.",
       "Basic understanding of humanoid robotics."
     ],
     "furtherComments": "Access to a humanoid robot or simulation software like Gazebo is recommended.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1067,13 +1011,12 @@ export const projectData = [
       "Apply the MRAC to adjust gait parameters dynamically."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Knowledge of adaptive control theory and MATLAB/Simulink.",
       "Familiarity with robotic systems and dynamic modeling."
     ],
     "furtherComments": "Collaboration with a hardware team for real-world implementation is advised.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1093,13 +1036,12 @@ export const projectData = [
       "Validate the system with simulations and physical prosthetics."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Background in signal processing and biomedical instrumentation.",
       "Knowledge of prosthetics and neuroscience basics."
     ],
     "furtherComments": "Access to EMG acquisition hardware is essential.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1119,13 +1061,12 @@ export const projectData = [
       "Test the solution with physical robots or in simulation."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Programming skills in ROS (Robot Operating System) and C++/Python.",
       "Knowledge of AI and multi-agent systems."
     ],
     "furtherComments": "Preferably, access to hardware for multi-robot testing.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1145,13 +1086,12 @@ export const projectData = [
       "Test and validate the gripper's performance on various objects."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Proficiency in control theory and embedded systems.",
       "Hands-on experience with hardware integration and robotics."
     ],
     "furtherComments": "Emphasis on testing under dynamic conditions.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1170,13 +1110,12 @@ export const projectData = [
       "Test kits in K-12 classrooms for usability and engagement."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Basic robotics and programming knowledge.",
       "Interest in education and curriculum development."
     ],
     "furtherComments": "Prioritize durability and affordability for schools.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1196,13 +1135,12 @@ export const projectData = [
       "Validate the results with experimental data."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Background in FEA software like ANSYS or COMSOL.",
       "Knowledge of materials science and dynamics."
     ],
     "furtherComments": "Experimental facilities for vibration testing are a plus.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1222,13 +1160,12 @@ export const projectData = [
       "Test the car under different racing conditions."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Knowledge of motor control systems and embedded programming.",
       "Proficiency in CAD and hardware prototyping."
     ],
     "furtherComments": "Access to a testing track is desirable.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1248,13 +1185,12 @@ export const projectData = [
       "Test robotic systems in a controlled manufacturing setup."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Experience in industrial automation tools and robotics.",
       "Familiarity with PLCs and ROS."
     ],
     "furtherComments": "Partnering with industry for real-world application is beneficial. We will work with the real KUKA industrial robot",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1274,13 +1210,12 @@ export const projectData = [
       "Analyze the mechanical properties of printed parts."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Understanding of additive manufacturing techniques.",
       "Hands-on experience with 3D printers and CAD software."
     ],
     "furtherComments": "Access to advanced resin printers is critical.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1300,13 +1235,12 @@ export const projectData = [
       "Validate accuracy through comparison with original designs."
     ],
     "qualifications": [
+      "Even if you’re not an expert in the following points but you’re passionate, eager to learn, and ready to develop your skills, I encourage you to select the this project that you will learn out of it the following topics",
       "Knowledge of CAD and 3D modeling software.",
       "Familiarity with 3D scanning equipment and reverse engineering."
     ],
     "furtherComments": "Practical access to 3D scanners is necessary.",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -2617,8 +2551,6 @@ export const projectData = [
       "Mechatronics Engineering"
     ]
   },
-
-
   {
     "supervisorName": "Dr. Mohamed Elwi",
     "coSupervisor": "Dr. Anke Klingner",
