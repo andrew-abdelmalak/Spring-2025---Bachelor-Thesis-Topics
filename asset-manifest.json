@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Spring-2025---Bachelor-Thesis-Topics/static/css/main.fb07c8ce.css",
-    "main.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.a3a6591e.js",
+    "main.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.0ee87be7.js",
     "static/js/488.9c92ff38.chunk.js": "/Spring-2025---Bachelor-Thesis-Topics/static/js/488.9c92ff38.chunk.js",
     "index.html": "/Spring-2025---Bachelor-Thesis-Topics/index.html",
     "main.fb07c8ce.css.map": "/Spring-2025---Bachelor-Thesis-Topics/static/css/main.fb07c8ce.css.map",
-    "main.a3a6591e.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.a3a6591e.js.map",
+    "main.0ee87be7.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/main.0ee87be7.js.map",
     "488.9c92ff38.chunk.js.map": "/Spring-2025---Bachelor-Thesis-Topics/static/js/488.9c92ff38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb07c8ce.css",
-    "static/js/main.a3a6591e.js"
+    "static/js/main.0ee87be7.js"
   ]
 }
