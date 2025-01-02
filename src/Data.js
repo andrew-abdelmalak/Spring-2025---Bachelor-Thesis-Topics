@@ -2,7 +2,7 @@ export const projectData = [
   {
     "supervisorName": "Nahed El Mahallawy",
     "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Design and Production",
     "projectTitle": "Construction and testing of 3D metallic components using WAAM printer ( EDPT )",
@@ -19,7 +19,7 @@ export const projectData = [
   {
     "supervisorName": "Nahed El Mahallawy",
     "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Design and Production",
     "projectTitle": "Design , fabrication and testing of bullet proof vests",
@@ -35,7 +35,7 @@ export const projectData = [
   {
     "supervisorName": "Nahed El Mahallawy",
     "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Design and Production",
     "projectTitle": "12. Use of FEM to design 3D printed products with weight reduction",
@@ -52,7 +52,7 @@ export const projectData = [
   {
     "supervisorName": "Nahed El Mahallawy",
     "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu/eg",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Design and Production",
     "projectTitle": "14. Upgrading the production line for flat of strips by Optimizing process parameters in an Egyptian factory",
@@ -92,7 +92,7 @@ export const projectData = [
     "supervisorName": "Dr. Abbas Yehia",
     "coSupervisor": "Dr. Amir Roushdy",
     "supervisorEmail": "abbas.yehia@guc.edu.eg",
-    "coSupervisorEmail": null,
+    "coSupervisorEmail": "amir.ali@guc.edu.eg",
     "department": "Materials Engineering and Mechatronics Engineering",
     "projectTitle": "Optimization of rubber additives in Styrene butadiene rubber",
     "researchField": "Materials Science and Engineering",
@@ -111,30 +111,49 @@ export const projectData = [
       "Mechatronics Engineering"
     ]
   },
-  {
-    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-    "coSupervisor": "",
-    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials engineering",
-    "projectTitle": "Surface modification of biodegradable materials using plasma electrolytic oxidation for orthopedic implants",
-    "researchField": "Biomaterials and Corrosion",
-    "projectDescription": "Plasma electrolytic oxidation (PEO), also referred to as micro-arc oxidation, is an amazing surface modification technique for the protection of light alloys, which is an environmentally friendly process to produce ceramic-like layers with certain barrier properties and high resistance against wear. These coatings have exhibited good biocompatibility and adhesion ability to the substrate. The aim of this bachelor project is to design a system for PEO and apply this system on Magnesium -Calcium bone alloy which is used in the application of orthopedic implants",
-    "projectMethodology": [
-      "- Design a cell of PEO system",
-      "- Testing the PEO system for light alloys (Mg-Ca implants)",
-      "- Characterization of the coating layer; Degradation in simulated body fluid and wear resistance"
-    ],
-    "qualifications": [
-      "Interested to work in human biodegradable implants, knowledge in corrosion, materials selection and system design"
-    ],
-    "furtherComments": "One student",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
     "coSupervisor": "",
@@ -152,78 +171,6 @@ export const projectData = [
     ],
     "qualifications": [
       "Interested to construct 3D printer, knowledge in programing"
-    ],
-    "furtherComments": "One student",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-    "coSupervisor": "",
-    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials engineering",
-    "projectTitle": "Construction of extruder for 3D printing of furniture",
-    "researchField": "Materials and Design",
-    "projectDescription": "3D printing is a general term for different processes that share the same principle of making three dimensional objects from a digital file by laying down material in layers under computer control. Liquid Deposition Modeling (LDM) is one of these processes that is based on the extrusion of paste materials. We are targeting to address the pressing need for eco-friendly alternatives in additive manufacturing by repurposing agricultural waste materials into functional, cost-effective, and sustainable printing substrates. The aim of this bachelor project is to design extruder for 3D printer and using this system to print agriculture paste",
-    "projectMethodology": [
-      "- Design and construct extruder",
-      "- Mounting the extruder in the 3D printer",
-      "- Printing a small size model of furniture"
-    ],
-    "qualifications": [
-      "Knowledge in materials selection, 3D printer, Design, modelling and simulation"
-    ],
-    "furtherComments": "One student",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-    "coSupervisor": "",
-    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials engineering",
-    "projectTitle": "Recent development in green hydrogen production for Fuel Cells",
-    "researchField": "Green energy solution",
-    "projectDescription": "The low temperature fuel cell (FC) is one today’s most promising clean energy technologies in the search to overcome both the energy reserve crisis and environmental pollution. Still the catalyst for production of hydrogen is the big issue controlling the efficiency of these cells. One of the smart techniques to produce nano-porous catalyst is the dealloying process which is considered the main benefit of corrosion engineering. The aim of this bachelor project is to develop nano-porous catalyst of Ni-Cu alloy using the recent technology of dealloying technique.",
-    "projectMethodology": [
-      "- Fabrication of nano porous Ni catalyst",
-      "- Comparison of Ni nano porous with commercial Ni Foam catalyst",
-      "- Efficiency of using the catalyst for hydrogen production"
-    ],
-    "qualifications": [
-      "Interested in design Fuel cell, knowledge in green and renewable energy"
-    ],
-    "furtherComments": "One student",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Ahmed Abd El Aziz",
-    "coSupervisor": "Dr. Anke Klingner",
-    "supervisorEmail": "ahmed.aziz@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials engineering",
-    "projectTitle": "Electrospun nanofibers decorated with silver nanoparticles for application in wound healing",
-    "researchField": "Materials and Design",
-    "projectDescription": "Todays, nanotechnology has offered several marvelous products particularly in medical application. One of the major successes of nanotechnology has been nanofibers. Electrospun nanofibers represent a novel class of materials that show great potential in many biomedical applications including biosensing, tissue engineering, drug delivery and wound healing. Electrospinning is a relatively simple and efficient technique to produce submicron to nanometer fibers from solutions of polymers, decorated with silver nanoparticles thus can be used for wound healing. The aim of this bachelor project is to produce polymeric nanofibers decorated with nano silver particles.",
-    "projectMethodology": [
-      "- Selection of the suitable polymers and the bioactive materials",
-      "- Elctrospunning techniques and parameter",
-      "- Preparation of silver nanoparticles-coprecipitation process"
-    ],
-    "qualifications": [
-      "Knowledge in materials selection and nanotechnology"
     ],
     "furtherComments": "One student",
     "eligibleDepartments": [
@@ -2198,48 +2145,6 @@ export const projectData = [
     "supervisorEmail": "ahmed.shash@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Design and Production",
-    "projectTitle": "characterization for braking pads passenger car under different working conditions",
-    "researchField": "Automotive, Production Technology, Materials Engineering",
-    "projectDescription": "The objective is to study the physical and mechanical properties of braking pads such as density, porosity, hardness, water absorption and microstructure examination under different conditions.",
-    "projectMethodology": [
-      "Three samples of braking pads with different formulations were be manufactured according to international standard and different temperature."
-    ],
-    "qualifications": [
-      "Strong background in mechanical engineering principles, including materials science and fluid dynamics."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
-    "coSupervisor": "",
-    "supervisorEmail": "ahmed.shash@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Application of Mg alloys in Automotive Industry",
-    "researchField": "Automotive, Production Technology, Materials Engineering",
-    "projectDescription": "Magnesium is a promising material. It has a remarkable mix of mechanical and biomedical properties that has made it suitable for a vast range of applications. Moreover, with alloying, many of these inherent properties can be further improved. Today, it is primarily used in the automotive, aerospace, and medical industries. However, magnesium has its own set of drawbacks that the industry and research communities are actively addressing",
-    "projectMethodology": [
-      "Different samples were be produced to one of automotive applications, then microstructure and mechanical characterization were done."
-    ],
-    "qualifications": [
-      "Strong background in mechanical engineering principles, including materials science and mechanical design."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
-    "coSupervisor": "",
-    "supervisorEmail": "ahmed.shash@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
     "projectTitle": "Advanced Metal Casting Simulation and FEA using ANSYS and Pro-cast software in centrifugal casting",
     "researchField": "Production Technology, Materials Engineering, Mechatronics",
     "projectDescription": "The project investigates the use of ProCast simulation software and FEA to optimize metal casting processes. Focusing on design, production, and manufacturing, the study aims to enhance mechanical systems.",
@@ -2311,27 +2216,6 @@ export const projectData = [
     "supervisorEmail": "ahmed.shash@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Design and Production",
-    "projectTitle": "Sound proof block Panels Reinforced with Textile Waste Fibers",
-    "researchField": "Production Technology, Materials Engineering",
-    "projectDescription": "This project explores the design and manufacturing of smart, building panels reinforced with textile waste fibers. These panels aim to enhance the structural integrity, sound isolation, and energy efficiency of buildings, while contributing to the circular economy by using sustainable materials.",
-    "projectMethodology": [
-      "Different samples and designs were be produced to one of the proposed applications."
-    ],
-    "qualifications": [
-      "Strong background in mechanical engineering principles, including materials science and mechanical design"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
-    "coSupervisor": "",
-    "supervisorEmail": "ahmed.shash@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
     "projectTitle": "Optimization of Welding Processes Using Machine Learning and data analysis methods",
     "researchField": "Production Technology, Mechatronics",
     "projectDescription": "Focuses on using machine learning techniques to optimize welding parameters by analyzing big datasets from industrial processes. This could enhance production quality and reduce material waste.",
@@ -2371,27 +2255,7 @@ export const projectData = [
       "Mechatronics Engineering"
     ]
   },
-  {
-    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
-    "coSupervisor": "",
-    "supervisorEmail": "ahmed.shash@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Design and Optimization of AL-6XN Stainless Steel for Enhanced Corrosion Resistance in Water Desalination Pumps",
-    "researchField": "Production Technology, Materials Engineering",
-    "projectDescription": "explores the influence of heat treatment on the corrosion resistance of AL-6XN stainless steel",
-    "projectMethodology": [
-      "Material Selection and Heat Treatment"
-    ],
-    "qualifications": [
-      "Strong background in mechanical engineering principles, including materials science, mechanical design, and fluid dynamics."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
-    ]
-  },
+
   {
     "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
     "coSupervisor": "Prof. Abbas Yehia",
@@ -2753,66 +2617,8 @@ export const projectData = [
       "Mechatronics Engineering"
     ]
   },
-  {
-    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
-    "supervisorEmail": "atef.afifi@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "EDPT",
-    "projectTitle": "Design and Manufacturing of a Plastic Injection Mold Using CAD/CAM",
-    "researchField": "Design and Manufacturing",
-    "projectDescription": "This project involves the design and manufacturing of aplastic injection mold to produce high quality plastic components efficiently and accurately. The Process includes creating a detailed mold design, simulation of die, selecting appropriate materials, and determining optimal parameters for injection molding. The goal is to achieve consistent, durable, and precise molded parts suitable for mass production, focusing on both cost-effectiveness and product quality.",
-    "projectMethodology": [
-      " Literature Review",
-      " Develop mold design using CAD system",
-      " Perform material selections for different parts of the mold",
-      " Conduct flow simulation",
-      " Creating process plane for different parts",
-      " Creating CNC part programs for the complex and accurate parts using CAM software",
-      " Simulation of part programs and manufacturing these parts using CNC machines",
-      " Assembly of the mold after the manufacturing of all parts",
-      " Test the mold and perform quality control"
-    ],
-    "qualifications": [
-      "Design and production Student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Atef Afifi Mohamed.",
-    "coSupervisor": "",
-    "supervisorEmail": "atef.afifi@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "EDPT",
-    "projectTitle": "Feature Extraction and Toolpath Planning for prismatic parts",
-    "researchField": "Design and Manufacturing",
-    "projectDescription": "This research would focus on improving the efficiency and accuracy of CNC milling operations by automating the recognition of machining features (such as holes, pockets, and slots) and generating optimized toolpaths for 3-axis milling machines.",
-    "projectMethodology": [
-      "1. Feature Recognition:",
-      " Import CAD model into feature recognition software or module.",
-      " Analyze geometric data to identify machinable features.",
-      " Classify features based on dimensions, shapes, and machining needs.",
-      "2. Toolpath Generation:",
-      " Select appropriate machining strategies for identified features.",
-      " Generate toolpaths considering machine constraints and tooling capabilities.",
-      " Simulate toolpaths to ensure feasibility and avoid collisions.",
-      "3. Validation:",
-      " Test generated toolpaths on a CNC simulator or real machine.",
-      " Measure machining accuracy and surface quality to validate results."
-    ],
-    "qualifications": [
-      "1. CAD knowledge: Familiarity with CAD software like SolidWorks.",
-      "2. Programming Skills: Proficiency in programming languages such as Python, C++, or Java.",
-      "3. CNC Machine Basics: knowledge of G and M codes."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering"
-    ]
-  },
+
+
   {
     "supervisorName": "Dr. Mohamed Elwi",
     "coSupervisor": "Dr. Anke Klingner",
@@ -2884,73 +2690,6 @@ export const projectData = [
     "furtherComments": "",
     "eligibleDepartments": [
       "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Dr. Mohamed Elwi",
-    "coSupervisor": "Dr. Anke Klingner",
-    "supervisorEmail": "mohamed.elwi@guc.edu.eg",
-    "coSupervisorEmail": "anke.klingner@guc.edu.eg",
-    "department": "Materials Engineering",
-    "projectTitle": "Fabrication and Characterization of MagnetoSperms",
-    "researchField": "Microrobotics for biomedical applications",
-    "projectDescription": "Targeted therapy using Sperm shaped microrobots (MagnetoSperms) have the potential to mitigate the negative side-effects associated with conventional treatment. We fabricate MagnetoSperms by an electrospinning technique using polystyrene, dimethylformamide and iron particles. In addition, we experimentally demonstrate open-loop motion control of the microrobots under the influence of the controlled magnetic field gradient.",
-    "projectMethodology": [
-      "• Fabrication of MagnetoSperms using electrospinning;",
-      "• Characterization of the swimming speed vs different parameters such as magnetic field osciallaton frequency.",
-      "For more information visit : http://www.mnrlab.com/uploads/7/3/8/3/73833313/08_bsc_project.pdf"
-    ],
-    "qualifications": [
-      "Basic knowledge of mechatronics engineering.",
-      "Familiarity with control theory and image processing techniques.",
-      "Good analytical and laboratory skills.",
-      "Familiarity with MATLAB and Arduino"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
-    "coSupervisor": null,
-    "supervisorEmail": "ahmed.shash@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Sound proof block Panels Reinforced with Textile Waste Fibers",
-    "researchField": "Production Technology, Materials Engineering",
-    "projectDescription": "This project explores the design and manufacturing of smart, building panels reinforced with textile waste fibers. These panels aim to enhance the structural integrity, sound isolation, and energy efficiency of buildings, while contributing to the circular economy by using sustainable materials.",
-    "projectMethodology": [
-      "Different samples and designs were be produced to one of the proposed applications."
-    ],
-    "qualifications": [
-      "Strong background in mechanical engineering principles, including materials science and mechanical design"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
-    "coSupervisor": null,
-    "supervisorEmail": "ahmed.shash@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Design and Optimization of AL-6XN Stainless Steel for Enhanced Corrosion Resistance in Water Desalination Pumps",
-    "researchField": "Production Technology, Materials Engineering",
-    "projectDescription": "explores the influence of heat treatment on the corrosion resistance of AL-6XN stainless steel",
-    "projectMethodology": [
-      "Material Selection and Heat Treatment"
-    ],
-    "qualifications": [
-      "Strong background in mechanical engineering principles, including materials science, mechanical design, and fluid dynamics."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering"
     ]
   }
 ]
