@@ -2148,343 +2148,195 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
+    "department": "Mechatronics Engineering",
     "projectTitle": "Design, Manufacturing and Control of a Four-Color 3D Printer Mechanical System",
     "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design, manufacture, and assemble a four-color FDM 3D printer mechanical and control system. The 3D printer will not only be able to print four colors but also different materials, enhancing the quality of large printed components with supports, as well as allow the user to print parts with rigid and flexible components at the same time without assembly.The expected result is a fully controlled 3D printer that can print up to four different colors/materials in a single print job.",
+    "projectDescription": "In this project, the aim is to design, manufacture, and assemble a four-color FDM 3D printer mechanical and control system. The printer will print four colors and materials, enhancing the quality of large printed components with supports.",
     "projectMethodology": [
-      "• Research and identify different motion systems and different control strategies for various 3D printer.",
-      "• Choose an appropriate motion system based on several factors (Cost, available equipment, manufacturing capabilities, and time).",
-      "• Design a sound mechanical system for a 3D printer complying with industry standards for mechanical design, assembly, and tolerances. The design must take into consideration electrical components for control including but not limited to motors, control boards, sensors, and wiring",
-      "• Source components and materials required to complete the project in a cost-effective manner.",
-      "• Perform rapid prototyping of designed components to enhance their design workflow.",
-      "• Select and apply the appropriate manufacturing technique to manufacture all items in the finalized",
-      "• Integrate the final mechanical system with an electrical system to control the printer."
+      "Research and identify different motion systems and control strategies.",
+      "Choose an appropriate motion system considering cost, equipment, and time.",
+      "Design a mechanical system compliant with industry standards.",
+      "Source components and materials cost-effectively.",
+      "Perform rapid prototyping and finalize the design.",
+      "Integrate the mechanical and electrical systems."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
-    "projectTitle": "Electrical System Design and Control of a Four-Color 3D Printer",
+    "department": "Mechatronics Engineering",
+    "projectTitle": "6-DOF Robot Arm Design and Control Development",
     "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design and apply a control system for a four-color FDM 3D printer. The 3D printer will not only be able to print four colors but also different materials, enhancing the quality of large printed components with supports, as well as allow the user to print parts with rigid and flexible components at the same time without assembly. Combined with a 3D printer’s mechanical system, the expected result is a fully controlled 3D printer that can print up to four different colors/materials in a single print job. The project will be split into several stages, including but not limited to research, controller derivation, electrical system prototyping, PCB design and testing.",
+    "projectDescription": "This project immerses students in robotics by designing and building a 6-DOF robot arm. Students will gain experience in mechanical design, kinematics, control systems, and programming.",
     "projectMethodology": [
-      " Research different control strategies for various 3D printer styles.",
-      " Choose appropriate electrical components to control the 3D printer.",
-      " Design a complete circuit diagram including all electrical components such as motors, sensors, wiring, etc.",
-      " Research and burn open-source 3D printing firmware such as Marlin and Klipper on a selected controller.",
-      " Edit the firmware as needed to match the project’s needs",
-      " Source electrical components and materials required to complete the project in a cost-effective manner.",
-      " Assemble, test, and integrate their electrical system with a 3D printer’s mechanical system to control the printer."
+      "Design the robot arm's structure using CAD software.",
+      "Select actuators and sensors for motion control and feedback.",
+      "Develop control systems for kinematics and trajectory following.",
+      "Program specific tasks like pick-and-place operations."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
-    "projectTitle": "Design and Manufacturing of a 6 Degree-of-Freedom Robotic Manipulator Mechanical System for Material Handling",
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design and Manufacturing of a Parallel Robot Mechanical System",
     "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design, manufacture, and assemble a 6 degree-of-freedom robotic manipulator for material handling purposes. Combined with an electrical system, the expected result is an operational robot arm that can pick and place different objects of different sizes and weights. The project will be split into several stages, including but not limited to research, kinematic and design modelling, mechanical system design, prototyping, and assembly.",
+    "projectDescription": "This project involves designing and manufacturing a Delta parallel robot for flexible manufacturing cells, enabling high-speed pick-and-place operations between conveyor belts.",
     "projectMethodology": [
-      "• Research different types of robotic manipulators.",
-      "• Confidently model the kinematics and dynamics of a 6 DOF robotic manipulator.",
-      "• Design a sound mechanical system for the robotic manipulator complying with industry standards for mechanical design, assembly, and tolerances. The design must take into consideration electrical components for control including but not limited to motors, control boards, sensors, and wiring.",
-      "• Source components and materials required to complete the project in a cost-effective manner.",
-      "• Perform rapid prototyping of designed components to enhance their design workflow.",
-      "• Select and apply the appropriate manufacturing technique to manufacture all items in the finalized design",
-      "• Integrate the robot’s mechanical system with an electrical system to enable the robot to follow complex trajectories."
+      "Research parallel manipulators and manufacturing cells.",
+      "Model the kinematics and dynamics of the Delta robot.",
+      "Design and manufacture the mechanical system.",
+      "Integrate the system with an electrical control setup."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
-    "projectTitle": "Electrical System Design and Control of a 6 Degree-of-Freedom Robotic Manipulator for Material Handling",
-    "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design and apply a control system for a 6 degree-of-freedom robotic manipulator for material handling purposes. Combined with a mechanical system, the expected result is an operational robot arm that can pick and place different objects of different sizes and weights. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, controller derivation, electrical system prototyping, and PCB design and testing.",
-    "projectMethodology": [
-      "• Research different types of robotic manipulators.",
-      "• Research different types of control strategies for robotic manipulators.",
-      "• Model the kinematics and dynamics of a 6 DOF robotic manipulator.",
-      "• Select the appropriate electrical components to control the manipulator.",
-      "• Design PCBs according to requested specifications.",
-      "• Source components and materials required to complete the project in a cost-effective manner.",
-      "• Perform rapid prototyping of designed components to enhance their design workflow.",
-      "• Assemble, test, and integrate the electrical system with a robotic manipulator to enable the robot to follow complex trajectories."
-    ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
-    "supervisorEmail": "atef.afifi@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "EDPT",
-    "projectTitle": "Design and Manufacturing of a Parallel Robot Mechanical System Applied in Flexible Manufacturing Cells (FMC)",
-    "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design, manufacture, and assemble a Delta parallel robot to be implemented in a flexible manufacturing cell (FMC). The FMC will include the Delta robot itself, two conveyor lines, and a cell frame that holds everything. The goal is to allow the Delta robot to pick and place different objects of different sizes and orientations between the two conveyor belts at high speeds. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, mechanical system design, and manufacturing.",
-    "projectMethodology": [
-      "• Research different types of parallel manipulators and flexible manufacturing cells.",
-      "• Confidently model the kinematics and dynamics of a Delta parallel robot.",
-      "• Design a sound mechanical system for a Delta parallel robot complying with industry standards for mechanical design, assembly, and tolerances. The design must take into consideration electrical components for control including but not limited to motors, control boards, sensors, and wiring.",
-      "• Source components and materials required to complete the project in a cost-effective manner.",
-      "• Perform rapid prototyping of designed components to enhance their design workflow.",
-      "• Select and apply the appropriate manufacturing technique to manufacture all items in the finalized design",
-      "• Integrate the robot’s mechanical system with an electrical system to control the cell’s workflow."
-    ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
-    "supervisorEmail": "atef.afifi@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "EDPT",
+    "department": "Mechatronics Engineering",
     "projectTitle": "Electrical System Design and Control of a Parallel Robot Applied in Flexible Manufacturing Cells (FMC)",
     "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design and apply a control system for a flexible manufacturing cell (FMC) utilizing a Delta parallel robot. The FMC includes the Delta robot itself, two conveyor lines, and a cell frame that holds everything. The goal is to control the Delta robot to follow a complex trajectory, allowing it to pick and place different objects of different sizes and orientations at high speeds. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, controller derivation, electrical system prototyping, and PCB design and testing.",
+    "projectDescription": "This project aims to design and apply a control system for a flexible manufacturing cell utilizing a Delta parallel robot for high-speed object manipulation.",
     "projectMethodology": [
-      "• Research different types of parallel manipulators.",
-      "• Research different types of control strategies for parallel manipulators.",
-      "• Model the kinematics and dynamics of a Delta parallel robot.",
-      "• Select the appropriate electrical components to control the manipulator.",
-      "• Design PCBs according to requested specifications.",
-      "• Source components and materials required to complete the project in a cost-effective manner.",
-      "• Perform rapid prototyping of designed components to enhance their design workflow.",
-      "• Assemble, test, and integrate the electrical system with a robotic manipulator to control the cell’s workflow."
+      "Research control strategies for parallel manipulators.",
+      "Model kinematics and dynamics of a Delta robot.",
+      "Select appropriate electrical components.",
+      "Design and prototype PCBs.",
+      "Assemble, test, and integrate the system."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
+    "department": "Mechatronics Engineering",
     "projectTitle": "AI-Driven Feature Recognition for Automated Manufacturing in CAD/CAM Systems",
     "researchField": "Mechatronics",
-    "projectDescription": "This research investigates how artificial intelligence can enhance feature recognition in CAD/CAM systems, enabling faster, more accurate identification of machining features for automated part programming and toolpath generation. The two main objectives are: • To leverage Artificial Intelligence (AI) for automated feature recognition within CAD/CAM systems. • To enhance precision, reduce design-to-manufacturing time, and minimize human intervention in toolpath generation.",
+    "projectDescription": "This research investigates the use of artificial intelligence to enhance feature recognition in CAD/CAM systems for automated machining.",
     "projectMethodology": [
-      " AI Model Development:",
-      "o Use convolutional neural networks (CNNs) or graph neural networks (GNNs) for geometric pattern recognition.",
-      "o Develop large annotated datasets of CAD models with labeled features (e.g., pockets, holes, ribs).",
-      "o Include datasets from diverse industries (e.g., aerospace, automotive).",
-      "o Train models using a dataset of labeled machining features (e.g., holes, pockets, slots).",
-      "o Incorporate feature hierarchies and relationships for recognizing composite features.",
-      " Feature Recognition:",
-      "o Import CAD model data into the AI system.",
-      "o Detect and classify features using trained AI models.",
-      "o Validate recognized features against design specifications.",
-      " Toolpath Generation:",
-      "o Assign machining strategies to recognized features (e.g., drilling for holes, pocketing for cavities).",
-      "o Generate toolpaths optimized for machining efficiency and precision.",
-      "o Simulate toolpaths to ensure collision avoidance and tool accessibility."
+      "Develop AI models using CNNs or GNNs.",
+      "Create annotated datasets for training.",
+      "Implement feature recognition for machining optimization.",
+      "Generate and simulate optimized toolpaths."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
+    "department": "Mechatronics Engineering",
     "projectTitle": "Intelligent Computer Aided Part Programming Using Neural Network-Based Solutions",
     "researchField": "Mechatronics",
-    "projectDescription": "This research explores the potential of neural networks to automate and optimize part programming tasks in CAD/CAM systems, enhancing efficiency, accuracy, and adaptability in CNC machining workflows. The main objectives are: • To develop neural network-based solutions for automating and optimizing part programming in computer-aided manufacturing systems. • To enable intelligent decision-making in tool selection, machining strategies, and parameter optimization. • Automated G-Code Generation",
+    "projectDescription": "This research explores neural networks for automating part programming tasks in CAD/CAM systems, enhancing efficiency and accuracy.",
     "projectMethodology": [
-      " Neural Network Training:",
-      "o Collect training data from machining simulations, historical CNC programs, and expert insights.",
-      "o Preprocess data to extract relevant features (e.g., geometry, material, desired surface finish).",
-      "o Train neural networks to predict optimal machining parameters and toolpaths.",
-      " Part Programming Automation:",
-      "o Generate toolpaths automatically based on recognized features and machining parameters.",
-      "o Optimize machining sequences using AI-driven decision-making.",
-      " Simulation and Validation:",
-      "o Simulate generated CNC programs in a virtual environment.",
-      "o Validate the toolpaths for collisions, tool accessibility, and machining efficiency."
+      "Train neural networks on machining data.",
+      "Automate toolpath generation.",
+      "Simulate and validate CNC programs."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
+    "department": "Mechatronics Engineering",
     "projectTitle": "CNC Router Design and Manufacturing",
     "researchField": "Mechatronics",
-    "projectDescription": "This project challenges students to design and build a functional CNC router. By integrating mechanical, electronic, and software elements, students will gain practical experience in mechatronics and production engineering.",
+    "projectDescription": "This project challenges students to design and build a functional CNC router, integrating mechanical, electronic, and software elements.",
     "projectMethodology": [
-      "● Design the router's mechanical structure using CAD software.",
-      "● Manufacture components using techniques like CNC machining.",
-      "● Integrate electronics for motor control and automation.",
-      "● Implement CNC control software for automated cutting and engraving.",
-      "● Test and evaluate the router's performance."
+      "Design the router's mechanical structure using CAD.",
+      "Manufacture components via CNC machining.",
+      "Integrate motor control and automation.",
+      "Test and evaluate the router's performance."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
+    "department": "Mechatronics Engineering",
     "projectTitle": "Multi-AGV Communication System",
     "researchField": "Mechatronics",
-    "projectDescription": "This project focuses on developing a robust and efficient communication system for coordinating multiple Automated Guided Vehicles (AGVs). Students will explore various communication technologies and protocols to enable seamless information exchange and cooperation between AGVs in a dynamic environment.",
+    "projectDescription": "This project focuses on developing a communication system for coordinating multiple AGVs, enabling seamless information exchange and dynamic task allocation.",
     "projectMethodology": [
-      "● Research and select suitable communication technologies for AGV communication.",
-      "● Design a communication architecture that ensures reliable data transmission.",
-      "● Develop communication protocols for exchanging information such as position and tasks.",
-      "● Implement algorithms for collision avoidance, path planning, and task allocation among AGVs.",
-      "● Evaluate the communication system's performance in a multi-AGV environment."
+      "Research communication technologies for AGVs.",
+      "Design a reliable communication architecture.",
+      "Implement algorithms for collision avoidance and path planning.",
+      "Evaluate system performance in multi-AGV environments."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
-    "projectTitle": "Design and Fabrication of a Single-Cylinder Engine to be equipped in an outdoor AGV.",
+    "department": "Mechatronics Engineering",
+    "projectTitle": "Design and Manufacture of an Air Compressor to be Equipped in an Outdoor AGV",
     "researchField": "Mechatronics",
-    "projectDescription": "This challenging project provides students with a deep dive into the fundamentals of internal combustion engine design and manufacturing. Students will design, fabricate, and assemble a functional single-cylinder, four-stroke engine, gaining invaluable hands-on experience with thermodynamics, mechanics, and manufacturing processes.",
+    "projectDescription": "This project involves designing and building an efficient air compressor, offering hands-on experience in thermodynamics and fluid mechanics.",
     "projectMethodology": [
-      "● Design key engine components (cylinder, piston, connecting rod, crankshaft, valve train) using CAD software, considering factors such as displacement, compression ratio, and material selection.",
-      "● Utilize appropriate manufacturing techniques (e.g., machining, casting, 3D printing) to fabricate engine components with precision.",
-      "● Assemble the engine, ensuring proper clearances, tolerances, and timing of moving parts.",
-      "● Conduct performance tests to evaluate engine parameters such as power output, torque, and efficiency.",
-      "● Analyze test results and optimize engine design for improved performance."
+      "Research air compressor types and select a design.",
+      "Design key components using CAD software.",
+      "Assemble and test the air compressor prototype.",
+      "Analyze performance and optimize design parameters."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
+    "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "EDPT",
-    "projectTitle": "Design and manufacture of an Air Compressor to be equipped in an outdoor AGV",
-    "researchField": "Mechatronics",
-    "projectDescription": "This project delves into the principles of thermodynamics and fluid mechanics by tasking students with designing and building an efficient air compressor. Students will gain practical experience in selecting appropriate components, analyzing performance, and optimizing design for various applications.",
-    "projectMethodology": [
-      "● Research different air compressor types (e.g., reciprocating, rotary screw) and select a suitable design based on desired performance characteristics.",
-      "● Design key components (e.g., compression mechanism, storage tank, valves, piping) using CAD software, considering factors such as pressure, flow rate, and efficiency.",
-      "● Fabricate or source necessary components and assemble the air compressor prototype.",
-      "● Conduct performance tests to evaluate parameters such as pressure output, flow rate, power consumption, and noise levels.",
-      "● Analyze test results and optimize design parameters to improve efficiency and performance."
-    ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
-    "coSupervisor": "",
-    "supervisorEmail": "atef.afifi@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "EDPT",
+    "department": "Mechatronics Engineering",
     "projectTitle": "Automated Packaging System",
     "researchField": "Mechatronics",
-    "projectDescription": "This project challenges students to design and build an automated sorting and packaging line. This system will utilize sensors, actuators, and control logic to efficiently sort items based on specific criteria and package them for distribution. Students will gain practical experience in integrating various technologies to create a complete automation solution.",
+    "projectDescription": "This project involves designing and building an automated sorting and packaging line, integrating sensors, actuators, and control logic for efficiency.",
     "projectMethodology": [
-      "● Design a system for identifying and classifying items based on relevant characteristics (e.g., size, weight, color, defects).",
-      "● Select and integrate appropriate sensors (e.g., cameras, proximity sensors, load cells) for data acquisition.",
-      "● Develop control algorithms for sorting items based on sensor data and predefined criteria.",
-      "● Design and implement a mechanism for automated packaging of sorted items.",
-      "● Evaluate the system's performance in terms of accuracy, speed, and efficiency."
+      "Design item classification and sorting systems.",
+      "Integrate sensors for data acquisition.",
+      "Develop control algorithms for sorting and packaging.",
+      "Evaluate system accuracy, speed, and efficiency."
     ],
-    "qualifications": [
-      "Mechatronics Engineering student"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Mechatronics Engineering student"],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Dr. Mohamed Elwi",
@@ -2493,47 +2345,34 @@ export const projectData = [
     "coSupervisorEmail": "anke.klingner@guc.edu.eg",
     "department": "Materials Engineering",
     "projectTitle": "Automated Cutting and Detection System for Magnetosperm Nanorobots",
-    "researchField": "Automation and detection system",
-    "projectDescription": "Magnetosperm nanorobots are innovative microstructures designed for targeted drug delivery and minimally invasive medical procedures. These robots consist of an iron head for magnetic steering and a flexible fiber tail for propulsion, fabricated using electrospun nanofibers. The current manual cutting process of these fibers to form individual robots is labor-intensive, inconsistent, and time-consuming. This project aims to design and implement an automated technique for rapid and precise cutting of fibers, coupled with a detection system to identify and isolate complete nanorobots from the process.",
+    "researchField": "Automation and Detection System",
+    "projectDescription": "This project aims to automate the cutting and detection processes for Magnetosperm nanorobots, enhancing precision and consistency in their fabrication.",
     "projectMethodology": [
-      "1. Develop an Automated Cutting System: Design a precise and rapid cutting mechanism for separating fibers into uniform lengths suitable for Magnetosperm robots.",
-      "2. Ensure Consistency: Implement techniques to maintain uniformity in robot dimensions and minimize damage during cutting.",
-      "3. Create a Detection Mechanism and validate it: Design a system to detect and separate successfully fabricated robots based on predefined criteria (e.g., head attachment and fiber tail length) and test the integrated cutting and detection setup to evaluate its efficiency and accuracy in producing functional Magnetosperm robots.",
-      "For more information visit: http://www.mnrlab.com/robotic-sperms.html"
+      "Develop a precise and rapid cutting mechanism.",
+      "Implement detection systems for quality control.",
+      "Test and validate the integrated system."
     ],
-    "qualifications": [
-      "Basic knowledge of mechatronics engineering.",
-      "Familiarity with automation and image processing",
-      "Good analytical and laboratory skills."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Basic knowledge of mechatronics engineering.", "Familiarity with automation and image processing."],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
-    "supervisorName": "Mohamed Elwi",
-    "coSupervisor": "Anke Klingner",
+    "supervisorName": "Dr. Mohamed Elwi",
+    "coSupervisor": "Dr. Anke Klingner",
     "supervisorEmail": "mohamed.elwi@guc.edu.eg",
     "coSupervisorEmail": "anke.klingner@guc.edu.eg",
-    "department": "Materials engineering",
-    "projectTitle": "Degradation of microrobots (in collaboration with university of Twente)",
-    "researchField": "Microrobotics for biomedical applications",
-    "projectDescription": "Microrobots have promising applications in human internal medicine. One class of microrobots is degrading in the human body after utilization of its functions in order to save complicated retrieval process from the human body. Therefore, microrobots are visualized in body fluid over time with or without actuation and the change of size and shape are monitored by video analysis.",
+    "department": "Materials Engineering",
+    "projectTitle": "Degradation of Microrobots",
+    "researchField": "Microrobotics for Biomedical Applications",
+    "projectDescription": "This project focuses on studying the degradation of microrobots in body fluids over time, with video analysis to monitor changes in size and shape.",
     "projectMethodology": [
-      "Microrobots are observed in body fluids and video footage is taken. Videos are analysed to extract microrobot size and shape. From the extracted data, a lifetime is estimated for each robot.",
-      "For more information visit: http://www.mnrlab.com/robotic-sperms.html"
+      "Observe microrobots in body fluids.",
+      "Analyze video footage to extract data.",
+      "Estimate robot lifetimes based on data analysis."
     ],
-    "qualifications": [
-      "Basic knowledge of mechatronics engineering.",
-      "Familiarity with control theory and image processing techniques.",
-      "Good analytical and laboratory skills.",
-      "Familiarity with MATLAB and Arduino"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Basic knowledge of mechatronics engineering.", "Familiarity with control theory and image processing."],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   },
   {
     "supervisorName": "Dr. Mohamed Elwi",
@@ -2541,22 +2380,51 @@ export const projectData = [
     "supervisorEmail": "mohamed.elwi@guc.edu.eg",
     "coSupervisorEmail": "ahmed.shash@guc.edu.eg",
     "department": "Materials Engineering",
-    "projectTitle": "Establishing a creep setup for materials testing",
-    "researchField": "Materials testing",
-    "projectDescription": "Creep is a phenomena where a component shows time-dependent strain rather than load dependent. It occurs in materials under room temperature and elevated temperatures as well. It is crucial to study creep behavior of materials that would be used in applications such as turbines and jet engines. The setup should basically allow for measuring elongation against time of a sample put under a constant load",
+    "projectTitle": "Establishing a Creep Setup for Materials Testing",
+    "researchField": "Materials Testing",
+    "projectDescription": "This project involves designing a setup to measure time-dependent strain (creep) in materials under constant load.",
     "projectMethodology": [
-      "• Design of a mechanical setup for sample handling and load application;",
-      "• Implementing the design and use sensors for length measurement to be recorded against time",
-      "• Testing and validating the setup via using actual samples under room temperature"
+      "Design a mechanical setup for load application.",
+      "Integrate sensors for length measurement.",
+      "Test and validate the setup with material samples."
     ],
-    "qualifications": [
-      "Basic knowledge of material engineering.",
-      "Familiarity with sensors and data processing.",
-      "Familiarity with design of engineering systems."
+    "qualifications": ["Basic knowledge of materials engineering.", "Familiarity with sensors and data processing."],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
+  },
+  {
+    "supervisorName": "Dr. Mohamed Elwi",
+    "coSupervisor": "Dr. Anke Klingner",
+    "supervisorEmail": "mohamed.elwi@guc.edu.eg",
+    "coSupervisorEmail": "anke.klingner@guc.edu.eg",
+    "department": "Materials Engineering",
+    "projectTitle": "Fabrication and Characterization of MagnetoSperms",
+    "researchField": "Microrobotics for Biomedical Applications",
+    "projectDescription": "This project explores the fabrication and characterization of MagnetoSperms, focusing on their swimming speed under varying magnetic field conditions.",
+    "projectMethodology": [
+      "Fabricate MagnetoSperms using electrospinning.",
+      "Characterize swimming speeds under different parameters."
     ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
+    "qualifications": ["Basic knowledge of mechatronics engineering.", "Familiarity with control theory and image processing."],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
+  },
+  {
+    "supervisorName": "Dr. Mohamed Elwi",
+    "coSupervisor": "Dr. Anke Klingner",
+    "supervisorEmail": "mohamed.elwi@guc.edu.eg",
+    "coSupervisorEmail": "anke.klingner@guc.edu.eg",
+    "department": "Materials Engineering",
+    "projectTitle": "High-Frequency Actuation of Helical Microrobots",
+    "researchField": "Microrobotics for Biomedical Applications",
+    "projectDescription": "This project investigates the motion and penetration potential of helical microrobots under high-frequency magnetic field actuation.",
+    "projectMethodology": [
+      "Fabricate helical microrobots.",
+      "Characterize swimming speed and penetration potential.",
+      "Evaluate performance under varying conditions."
+    ],
+    "qualifications": ["Basic knowledge of mechatronics engineering.", "Familiarity with control theory and image processing."],
+    "furtherComments": null,
+    "eligibleDepartments": ["Mechatronics Engineering"]
   }
 ]
