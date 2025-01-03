@@ -2379,24 +2379,25 @@ export const projectData = [
     "projectMethodology": [
       "1. Develop an Automated Cutting System: Design a precise and rapid cutting mechanism for separating fibers into uniform lengths suitable for Magnetosperm robots.",
       "2. Ensure Consistency: Implement techniques to maintain uniformity in robot dimensions and minimize damage during cutting.",
-      "3. Create a Detection Mechanism and validate it: Design a system to detect and separate successfully fabricated robots based on predefined criteria (e.g., head attachment and fiber tail length) and test the integrated cutting and detection setup to evaluate its efficiency and accuracy in producing functional Magnetosperm robots."
+      "3. Create a Detection Mechanism and validate it: Design a system to detect and separate successfully fabricated robots based on predefined criteria (e.g., head attachment and fiber tail length) and test the integrated cutting and detection setup to evaluate its efficiency and accuracy in producing functional Magnetosperm robots.",
+      "For more information visit: http://www.mnrlab.com/robotic-sperms.html"
     ],
     "qualifications": [
       "Basic knowledge of mechatronics engineering.",
       "Familiarity with automation and image processing",
       "Good analytical and laboratory skills."
     ],
-    "furtherComments": "For more information visit: http://www.mnrlab.com/robotic-sperms.html",
+    "furtherComments": "",
     "eligibleDepartments": [
       "Mechatronics engineering"
     ]
   },
   {
-    "supervisorName": "Mohamed Elwi / Anke Klingner",
-    "coSupervisor": "",
+    "supervisorName": "Dr. Mohamed Elwi",
+    "coSupervisor": "Dr. Anke Klingner",
     "supervisorEmail": "mohamed.elwi@guc.edu.eg",
     "coSupervisorEmail": "anke.klingner@guc.edu.eg",
-    "department": "Materials engineering",
+    "department": "Materials Engineering",
     "projectTitle": "Degradation of microrobots (in collaboration with university of Twente)",
     "researchField": "Microrobotics for biomedical applications",
     "projectDescription": "Microrobots have promising applications in human internal medicine. One class of microrobots is degrading in the human body after utilization of its functions in order to save complicated retrieval process from the human body. Therefore, microrobots are visualized in body fluid over time with or without actuation and the change of size and shape are monitored by video analysis.",
@@ -2407,16 +2408,17 @@ export const projectData = [
       "Basic knowledge of mechatronics engineering.",
       "Familiarity with control theory and image processing techniques.",
       "Good analytical and laboratory skills.",
-      "Familiarity with MATLAB and Arduino"
+      "Familiarity with MATLAB and Arduino",
+      "For more information visit: http://www.mnrlab.com/robotic-sperms.html"
     ],
-    "furtherComments": "For more information visit: http://www.mnrlab.com/robotic-sperms.html",
+    "furtherComments": "",
     "eligibleDepartments": [
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Dr. Mohamed Elwi",
-    "coSupervisor": "Dr. Ahmed Shash",
+    "coSupervisor": "Prof. Dr.-Ing. Ahmed Shash",
     "supervisorEmail": "mohamed.elwi@guc.edu.eg",
     "coSupervisorEmail": "ahmed.shash@guc.edu.eg",
     "department": "Materials Engineering",
@@ -2455,9 +2457,10 @@ export const projectData = [
       "Basic knowledge of mechatronics engineering.",
       "Familiarity with control theory and image processing techniques.",
       "Good analytical and laboratory skills.",
-      "Familiarity with MATLAB and Arduino"
+      "Familiarity with MATLAB and Arduino",
+      "For more information visit : http://www.mnrlab.com/uploads/7/3/8/3/73833313/08_bsc_project.pdf"
     ],
-    "furtherComments": "For more information visit : http://www.mnrlab.com/uploads/7/3/8/3/73833313/08_bsc_project.pdf",
+    "furtherComments": "",
     "eligibleDepartments": [
       "Mechatronics Engineering"
     ]
@@ -2480,9 +2483,10 @@ export const projectData = [
       "Basic knowledge of mechatronics engineering.",
       "Familiarity with control theory and image processing techniques.",
       "Good analytical and laboratory skills.",
-      "Familiarity with MATLAB and Arduino"
+      "Familiarity with MATLAB and Arduino",
+      "For more information visit : http://www.mnrlab.com/helical-microrobots.html"
     ],
-    "furtherComments": "For more information visit : http://www.mnrlab.com/helical-microrobots.html",
+    "furtherComments": "",
     "eligibleDepartments": [
       "Mechatronics Engineering"
     ]
