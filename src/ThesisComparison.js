@@ -965,6 +965,13 @@ export default function ThesisComparisonSystem() {
                             allValues.set(lowerValue, value);
                         }
                     });
+                } else if (field === 'researchField') {
+                    // Special handling for research field
+                    const value = item[field]?.trim() || '(Empty)'; // Use '(Empty)' for empty fields
+                    const lowerValue = value.toLowerCase();
+                    if (!allValues.has(lowerValue)) {
+                        allValues.set(lowerValue, value);
+                    }
                 } else if (item[field]) {
                     const lowerValue = item[field].toLowerCase();
                     if (!allValues.has(lowerValue)) {
@@ -984,6 +991,10 @@ export default function ThesisComparisonSystem() {
                             item.coSupervisor?.toLowerCase() === lowerValue) count++;
                     } else if (field === 'eligibleDepartments') {
                         if (item[field]?.some(dept => dept.toLowerCase() === lowerValue)) count++;
+                    } else if (field === 'researchField') {
+                        // Special handling for research field counting
+                        const itemValue = item[field]?.trim() || '(Empty)';
+                        if (itemValue.toLowerCase() === lowerValue) count++;
                     } else {
                         if (item[field]?.toLowerCase() === lowerValue) count++;
                     }

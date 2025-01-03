@@ -1937,7 +1937,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Assoc Prof. Omar Shehata",
+    "coSupervisor": "Assoc. Prof. Omar Shehata",
     "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Materials Engineering",
@@ -1959,7 +1959,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Dr. Ezzeldin Metwalli",
-    "coSupervisor": "Assoc Prof. Omar Shehata",
+    "coSupervisor": "Assoc. Prof. Omar Shehata",
     "supervisorEmail": "ezzeldin.metwalli@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Materials Engineering",
@@ -2127,7 +2127,7 @@ export const projectData = [
 
   {
     "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
-    "coSupervisor": "Prof. Abbas Yehia",
+    "coSupervisor": "Dr. Abbas Yehia",
     "supervisorEmail": "ahmed.shash@guc.edu.eg",
     "coSupervisorEmail": "abbas.yehia@guc.edu.eg",
     "department": "Design and Production",
@@ -2152,13 +2152,13 @@ export const projectData = [
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "EDPT",
-    "projectTitle": "Design and Manufacturing of a Four-Color 3D Printer Mechanical System",
+    "projectTitle": "Design, Manufacturing and Control of a Four-Color 3D Printer Mechanical System",
     "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design, manufacture, and assemble a four-color FDM 3D printer mechanical system. The 3D printer will not only be able to print four colors but also different materials, enhancing the quality of large printed components with supports, as well as allow the user to print parts with rigid and flexible components at the same time without assembly. Combined with a 3D printer’s electrical system, the expected result is a fully controlled 3D printer that can print up to four different colors/materials in a single print job.",
+    "projectDescription": "In this project, the aim is to design, manufacture, and assemble a four-color FDM 3D printer mechanical and control system. The 3D printer will not only be able to print four colors but also different materials, enhancing the quality of large printed components with supports, as well as allow the user to print parts with rigid and flexible components at the same time without assembly.The expected result is a fully controlled 3D printer that can print up to four different colors/materials in a single print job.",
     "projectMethodology": [
-      "• Research and identify different motion systems for 3D printing.",
+      "• Research and identify different motion systems and different control strategies for various 3D printer.",
       "• Choose an appropriate motion system based on several factors (Cost, available equipment, manufacturing capabilities, and time).",
-      "• Design a sound mechanical system for a 3D printer complying with industry standards for mechanical design, assembly, and tolerances. The design must take into consideration electrical components for control including but not limited to motors, control boards, sensors, and wiring.",
+      "• Design a sound mechanical system for a 3D printer complying with industry standards for mechanical design, assembly, and tolerances. The design must take into consideration electrical components for control including but not limited to motors, control boards, sensors, and wiring",
       "• Source components and materials required to complete the project in a cost-effective manner.",
       "• Perform rapid prototyping of designed components to enhance their design workflow.",
       "• Select and apply the appropriate manufacturing technique to manufacture all items in the finalized",
@@ -2367,7 +2367,7 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Prof. Atef Afifi",
+    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
     "coSupervisor": "",
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
@@ -2391,7 +2391,7 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Prof. Atef Afifi",
+    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
     "coSupervisor": "",
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
@@ -2415,7 +2415,7 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Prof. Atef Afifi",
+    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
     "coSupervisor": "",
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
@@ -2439,7 +2439,7 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Prof. Atef Afifi",
+    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
     "coSupervisor": "",
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
@@ -2463,7 +2463,7 @@ export const projectData = [
     ]
   },
   {
-    "supervisorName": "Prof. Atef Afifi",
+    "supervisorName": "Prof. Dr. Atef Afifi Mohamed",
     "coSupervisor": "",
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
