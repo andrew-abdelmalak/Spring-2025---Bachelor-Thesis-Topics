@@ -1246,9 +1246,9 @@ export const projectData = [
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "Dr. Walid",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
-    "coSupervisorEmail": null,
+    "coSupervisor": "Dr. Walid Omran",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
     "projectTitle": "Coffee Machine",
     "researchField": "",
@@ -1259,16 +1259,14 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "Dr. Walid",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
-    "coSupervisorEmail": null,
+    "coSupervisor": "Dr. Walid Omran",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
     "projectTitle": "PLC programming for 8 stations production line",
     "researchField": "",
@@ -1279,16 +1277,14 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "Dr. Walid",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
-    "coSupervisorEmail": null,
+    "coSupervisor": "Dr. Walid Omran",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
     "projectTitle": "Microcontroller/PLC programming for a sorting system",
     "researchField": "",
@@ -1299,16 +1295,14 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "Dr. Walid",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
-    "coSupervisorEmail": null,
+    "coSupervisor": "Dr. Walid Omran",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
     "projectTitle": "Automated car parking system",
     "researchField": "",
@@ -1319,16 +1313,14 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "Dr. Walid",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
-    "coSupervisorEmail": null,
+    "coSupervisor": "Dr. Walid Omran",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
     "projectTitle": "Prostatic hand",
     "researchField": "",
@@ -1339,16 +1331,14 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "Dr. Walid",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
-    "coSupervisorEmail": null,
+    "coSupervisor": "Dr. Walid Omran",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
     "projectTitle": "Smart cleaning Robot",
     "researchField": "",
@@ -1359,16 +1349,14 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "Dr. Walid",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
-    "coSupervisorEmail": null,
+    "coSupervisor": "Dr. Walid Omran",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
     "projectTitle": "Smart battery charger",
     "researchField": "",
@@ -1379,15 +1367,13 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
     "coSupervisor": "",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
     "projectTitle": "Dancing Fountain",
@@ -1399,15 +1385,13 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
     "coSupervisor": "",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
     "projectTitle": "Solar Panels Cleaning Robot",
@@ -1419,15 +1403,13 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
     "coSupervisor": "",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
     "projectTitle": "Automated Light Post cleaning system",
@@ -1439,15 +1421,13 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
     "supervisorName": "Hisham Elsherif",
     "coSupervisor": "",
-    "supervisorEmail": "Hisham.elsherif@guc.edu.eg",
+    "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
     "projectTitle": "Automated Hydraulic and Pneumatic Compactor",
@@ -1459,8 +1439,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1488,7 +1466,6 @@ export const projectData = [
     ],
     "furtherComments": "Students could attend the course of “Modeling and simulations of Electrohydraulic systems” during the spring semester",
     "eligibleDepartments": [
-      "Design and Production Engineering",
       "Materials Engineering",
       "Mechatronics Engineering"
     ]
@@ -1549,8 +1526,6 @@ export const projectData = [
     ],
     "furtherComments": "Students could attend the course of “Modeling and simulations of Electrohydraulic systems” during the spring semester",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
