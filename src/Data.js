@@ -1546,8 +1546,6 @@ export const projectData = [
     ],
     "furtherComments": "A workshop will be held to train the students on the software",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1568,8 +1566,6 @@ export const projectData = [
     ],
     "furtherComments": "A workshop will be held to train the students on the software",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1590,8 +1586,6 @@ export const projectData = [
     ],
     "furtherComments": "A workshop will be held to train the students on the software",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1612,8 +1606,6 @@ export const projectData = [
     ],
     "furtherComments": "A workshop will be held to train the students on the software",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1632,8 +1624,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1652,8 +1642,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1672,8 +1660,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1694,8 +1680,6 @@ export const projectData = [
     ],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1716,8 +1700,6 @@ export const projectData = [
     ],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1738,8 +1720,6 @@ export const projectData = [
     ],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1758,8 +1738,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1778,8 +1756,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1790,7 +1766,7 @@ export const projectData = [
     "coSupervisorEmail": null,
     "department": "Mechatronics",
     "projectTitle": "Design of a Hydraulic and Pneumatic Waste Compactor",
-    "researchField": "Mechatronic Engineering",
+    "researchField": "Mechatronics Engineering",
     "projectDescription": "A compactor is a machine used to reduce the size of material such as waste materials or bio-mass materials through compaction. The hydraulic power unit for full compactor automation comprises a housing with a support frame, electrical control cabinet and plate cover; a hydraulic pump directly coupled to the Hydraulic cylinder. All moving parts are protected with safety guard, which automatically stops the compactor when opened. The control panel is fitted with an emergency STOP red button. The pneumatic system is used for extracting the compacted material out in an automated mode. The compactor electrical control panel; allows an electronic entry PIN pad device for the users to enter a personal identification number and operational commands.",
     "projectMethodology": [
       "Design and Implementation"
@@ -1800,13 +1776,11 @@ export const projectData = [
     ],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
   {
-    "supervisorName": "Hamdy Kandil",
+    "supervisorName": "Prof. Hamdy Kandil",
     "coSupervisor": "",
     "supervisorEmail": "hamdy.kandil@guc.edu.eg",
     "coSupervisorEmail": null,
@@ -1820,8 +1794,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1842,8 +1814,6 @@ export const projectData = [
     ],
     "furtherComments": "A workshop will be held to train the students on the software",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1864,8 +1834,6 @@ export const projectData = [
     ],
     "furtherComments": "A workshop will be held to train the students on the software",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1886,8 +1854,6 @@ export const projectData = [
     ],
     "furtherComments": "A workshop will be held to train the students on the software",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1908,8 +1874,6 @@ export const projectData = [
     ],
     "furtherComments": "A workshop will be held to train the students on the software",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1928,8 +1892,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
@@ -1948,8 +1910,6 @@ export const projectData = [
     "qualifications": [],
     "furtherComments": "",
     "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Materials Engineering",
       "Mechatronics Engineering"
     ]
   },
