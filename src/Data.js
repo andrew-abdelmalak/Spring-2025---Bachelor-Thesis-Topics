@@ -2151,7 +2151,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "Design, Manufacturing and Control of a Four-Color 3D Printer Mechanical System",
     "researchField": "Mechatronics",
     "projectDescription": "In this project, the aim is to design, manufacture, and assemble a four-color FDM 3D printer mechanical and control system. The 3D printer will not only be able to print four colors but also different materials, enhancing the quality of large printed components with supports, as well as allow the user to print parts with rigid and flexible components at the same time without assembly. The expected result is a fully controlled 3D printer that can print up to four different colors/materials in a single print job.",
@@ -2161,7 +2161,7 @@ export const projectData = [
       "Design a sound mechanical system for a 3D printer complying with industry standards for mechanical design, assembly, and tolerances. The design must take into consideration electrical components for control including but not limited to motors, control boards, sensors, and wiring.",
       "Source components and materials required to complete the project in a cost-effective manner.",
       "Perform rapid prototyping of designed components to enhance their design workflow.",
-      "Select and apply the appropriate manufacturing technique to manufacture all items in the finalized design.",
+      "Select and apply the appropriate manufacturing technique to manufacture all items in the finalized",
       "Integrate the final mechanical system with an electrical system to control the printer."
     ],
     "qualifications": ["Mechatronics Engineering student"],
@@ -2173,7 +2173,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "6-DOF Robot Arm Design and Control Development",
     "researchField": "Mechatronics",
     "projectDescription": "This project immerses students in the world of robotics by challenging them to design and build a 6-DOF (Degrees of Freedom) robot arm. Students will gain valuable experience in mechanical design, kinematics, control systems, and programming.",
@@ -2193,7 +2193,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "Design and Manufacturing of a Parallel Robot Mechanical System",
     "researchField": "Mechatronics",
     "projectDescription": "In this project, the aim is to design, manufacture, and assemble a Delta parallel robot to be implemented in a flexible manufacturing cell (FMC). The FMC will include the Delta robot itself, two conveyor lines, and a cell frame that holds everything. The goal is to allow the Delta robot to pick and place different objects of different sizes and orientations between the two conveyor belts at high speeds. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, mechanical system design, and manufacturing.",
@@ -2215,7 +2215,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "Electrical System Design and Control of a Parallel Robot Applied in Flexible Manufacturing Cells (FMC)",
     "researchField": "Mechatronics",
     "projectDescription": "In this project, the aim is to design and apply a control system for a flexible manufacturing cell (FMC) utilizing a Delta parallel robot. The FMC includes the Delta robot itself, two conveyor lines, and a cell frame that holds everything. The goal is to control the Delta robot to follow a complex trajectory, allowing it to pick and place different objects of different sizes and orientations at high speeds. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, controller derivation, electrical system prototyping, and PCB design and testing.",
@@ -2238,7 +2238,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "AI-Driven Feature Recognition for Automated Manufacturing in CAD/CAM Systems",
     "researchField": "Mechatronics",
     "projectDescription": "This research investigates how artificial intelligence can enhance feature recognition in CAD/CAM systems, enabling faster, more accurate identification of machining features for automated part programming and toolpath generation. The two main objectives are: \n\n • To leverage Artificial Intelligence (AI) for automated feature recognition within CAD/CAM systems. \n\n • To enhance precision, reduce design-to-manufacturing time, and minimize human intervention in toolpath generation.",
@@ -2267,7 +2267,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "Intelligent Computer Aided Part Programming Using Neural Network-Based Solutions",
     "researchField": "Mechatronics",
     "projectDescription": "This research explores the potential of neural networks to automate and optimize part programming tasks in CAD/CAM systems, enhancing efficiency, accuracy, and adaptability in CNC machining workflows. The main objectives are: \n\n • To develop neural network-based solutions for automating and optimizing part programming in computer-aided manufacturing systems. \n\n • To enable intelligent decision-making in tool selection, machining strategies, and parameter optimization. \n\n • Automated G-Code Generation",
@@ -2292,7 +2292,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "CNC Router Design and Manufacturing",
     "researchField": "Mechatronics",
     "projectDescription": "This project challenges students to design and build a functional CNC router. By integrating mechanical, electronic, and software elements, students will gain practical experience in mechatronics and production engineering.",
@@ -2312,7 +2312,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "Multi-AGV Communication System",
     "researchField": "Mechatronics",
     "projectDescription": "This project focuses on developing a robust and efficient communication system for coordinating multiple Automated Guided Vehicles (AGVs). Students will explore various communication technologies and protocols to enable seamless information exchange and cooperation between AGVs in a dynamic environment.",
@@ -2332,7 +2332,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "Design and Manufacture of an Air Compressor to be Equipped in an Outdoor AGV",
     "researchField": "Mechatronics",
     "projectDescription": "This project delves into the principles of thermodynamics and fluid mechanics by tasking students with designing and building an efficient air compressor. Students will gain practical experience in selecting appropriate components, analyzing performance, and optimizing design for various applications.",
@@ -2352,7 +2352,7 @@ export const projectData = [
     "coSupervisor": null,
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
-    "department": "Mechatronics Engineering",
+    "department": "EDPT",
     "projectTitle": "Automated Packaging System",
     "researchField": "Mechatronics",
     "projectDescription": "This project challenges students to design and build an automated sorting and packaging line. This system will utilize sensors, actuators, and control logic to efficiently sort items based on specific criteria and package them for distribution. Students will gain practical experience in integrating various technologies to create a complete automation solution.",
@@ -2374,52 +2374,69 @@ export const projectData = [
     "coSupervisorEmail": "anke.klingner@guc.edu.eg",
     "department": "Materials Engineering",
     "projectTitle": "Automated Cutting and Detection System for Magnetosperm Nanorobots",
-    "researchField": "Automation and Detection System",
-    "projectDescription": "This project aims to automate the cutting and detection processes for Magnetosperm nanorobots, enhancing precision and consistency in their fabrication.",
+    "researchField": "Automation and detection system",
+    "projectDescription": "Magnetosperm nanorobots are innovative microstructures designed for targeted drug delivery and minimally invasive medical procedures. These robots consist of an iron head for magnetic steering and a flexible fiber tail for propulsion, fabricated using electrospun nanofibers. The current manual cutting process of these fibers to form individual robots is labor-intensive, inconsistent, and time-consuming. This project aims to design and implement an automated technique for rapid and precise cutting of fibers, coupled with a detection system to identify and isolate complete nanorobots from the process.",
     "projectMethodology": [
-      "Develop a precise and rapid cutting mechanism.",
-      "Implement detection systems for quality control.",
-      "Test and validate the integrated system."
+      "1. Develop an Automated Cutting System: Design a precise and rapid cutting mechanism for separating fibers into uniform lengths suitable for Magnetosperm robots.",
+      "2. Ensure Consistency: Implement techniques to maintain uniformity in robot dimensions and minimize damage during cutting.",
+      "3. Create a Detection Mechanism and validate it: Design a system to detect and separate successfully fabricated robots based on predefined criteria (e.g., head attachment and fiber tail length) and test the integrated cutting and detection setup to evaluate its efficiency and accuracy in producing functional Magnetosperm robots."
     ],
-    "qualifications": ["Basic knowledge of mechatronics engineering.", "Familiarity with automation and image processing."],
-    "furtherComments": null,
-    "eligibleDepartments": ["Mechatronics Engineering"]
+    "qualifications": [
+      "Basic knowledge of mechatronics engineering.",
+      "Familiarity with automation and image processing",
+      "Good analytical and laboratory skills."
+    ],
+    "furtherComments": "For more information visit: http://www.mnrlab.com/robotic-sperms.html",
+    "eligibleDepartments": [
+      "Mechatronics engineering"
+    ]
   },
   {
-    "supervisorName": "Dr. Mohamed Elwi",
-    "coSupervisor": "Dr. Anke Klingner",
+    "supervisorName": "Mohamed Elwi / Anke Klingner",
+    "coSupervisor": "",
     "supervisorEmail": "mohamed.elwi@guc.edu.eg",
     "coSupervisorEmail": "anke.klingner@guc.edu.eg",
-    "department": "Materials Engineering",
-    "projectTitle": "Degradation of Microrobots",
-    "researchField": "Microrobotics for Biomedical Applications",
-    "projectDescription": "This project focuses on studying the degradation of microrobots in body fluids over time, with video analysis to monitor changes in size and shape.",
+    "department": "Materials engineering",
+    "projectTitle": "Degradation of microrobots (in collaboration with university of Twente)",
+    "researchField": "Microrobotics for biomedical applications",
+    "projectDescription": "Microrobots have promising applications in human internal medicine. One class of microrobots is degrading in the human body after utilization of its functions in order to save complicated retrieval process from the human body. Therefore, microrobots are visualized in body fluid over time with or without actuation and the change of size and shape are monitored by video analysis.",
     "projectMethodology": [
-      "Observe microrobots in body fluids.",
-      "Analyze video footage to extract data.",
-      "Estimate robot lifetimes based on data analysis."
+      "Microrobots are observed in body fluids and video footage is taken. Videos are analysed to extract microrobot size and shape. From the extracted data, a lifetime is estimated for each robot."
     ],
-    "qualifications": ["Basic knowledge of mechatronics engineering.", "Familiarity with control theory and image processing."],
-    "furtherComments": null,
-    "eligibleDepartments": ["Mechatronics Engineering"]
+    "qualifications": [
+      "Basic knowledge of mechatronics engineering.",
+      "Familiarity with control theory and image processing techniques.",
+      "Good analytical and laboratory skills.",
+      "Familiarity with MATLAB and Arduino"
+    ],
+    "furtherComments": "For more information visit: http://www.mnrlab.com/robotic-sperms.html",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
   },
   {
     "supervisorName": "Dr. Mohamed Elwi",
-    "coSupervisor": "Prof. Dr.-Ing. Ahmed Shash",
+    "coSupervisor": "Dr. Ahmed Shash",
     "supervisorEmail": "mohamed.elwi@guc.edu.eg",
     "coSupervisorEmail": "ahmed.shash@guc.edu.eg",
     "department": "Materials Engineering",
-    "projectTitle": "Establishing a Creep Setup for Materials Testing",
-    "researchField": "Materials Testing",
-    "projectDescription": "This project involves designing a setup to measure time-dependent strain (creep) in materials under constant load.",
+    "projectTitle": "Establishing a creep setup for materials testing",
+    "researchField": "Materials testing",
+    "projectDescription": "Creep is a phenomena where a component shows time-dependent strain rather than load dependent. It occurs in materials under room temperature and elevated temperatures as well. It is crucial to study creep behavior of materials that would be used in applications such as turbines and jet engines. The setup should basically allow for measuring elongation against time of a sample put under a constant load",
     "projectMethodology": [
-      "Design a mechanical setup for load application.",
-      "Integrate sensors for length measurement.",
-      "Test and validate the setup with material samples."
+      "• Design of a mechanical setup for sample handling and load application;",
+      "• Implementing the design and use sensors for length measurement to be recorded against time",
+      "• Testing and validating the setup via using actual samples under room temperature"
     ],
-    "qualifications": ["Basic knowledge of materials engineering.", "Familiarity with sensors and data processing."],
-    "furtherComments": null,
-    "eligibleDepartments": ["Mechatronics Engineering"]
+    "qualifications": [
+      "Basic knowledge of material engineering.",
+      "Familiarity with sensors and data processing.",
+      "Familiarity with design of engineering systems."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
   },
   {
     "supervisorName": "Dr. Mohamed Elwi",
@@ -2428,15 +2445,22 @@ export const projectData = [
     "coSupervisorEmail": "anke.klingner@guc.edu.eg",
     "department": "Materials Engineering",
     "projectTitle": "Fabrication and Characterization of MagnetoSperms",
-    "researchField": "Microrobotics for Biomedical Applications",
-    "projectDescription": "This project explores the fabrication and characterization of MagnetoSperms, focusing on their swimming speed under varying magnetic field conditions.",
+    "researchField": "Microrobotics for biomedical applications",
+    "projectDescription": "Targeted therapy using Sperm shaped microrobots (MagnetoSperms) have the potential to mitigate the negative side-effects associated with conventional treatment. We fabricate MagnetoSperms by an electrospinning technique using polystyrene, dimethylformamide and iron particles. In addition, we experimentally demonstrate open-loop motion control of the microrobots under the influence of the controlled magnetic field gradient.",
     "projectMethodology": [
-      "Fabricate MagnetoSperms using electrospinning.",
-      "Characterize swimming speeds under different parameters."
+      "• Fabrication of MagnetoSperms using electrospinning;",
+      "• Characterization of the swimming speed vs different parameters such as magnetic field osciallaton frequency."
     ],
-    "qualifications": ["Basic knowledge of mechatronics engineering.", "Familiarity with control theory and image processing."],
-    "furtherComments": null,
-    "eligibleDepartments": ["Mechatronics Engineering"]
+    "qualifications": [
+      "Basic knowledge of mechatronics engineering.",
+      "Familiarity with control theory and image processing techniques.",
+      "Good analytical and laboratory skills.",
+      "Familiarity with MATLAB and Arduino"
+    ],
+    "furtherComments": "For more information visit : http://www.mnrlab.com/uploads/7/3/8/3/73833313/08_bsc_project.pdf",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
   },
   {
     "supervisorName": "Dr. Mohamed Elwi",
@@ -2444,16 +2468,23 @@ export const projectData = [
     "supervisorEmail": "mohamed.elwi@guc.edu.eg",
     "coSupervisorEmail": "anke.klingner@guc.edu.eg",
     "department": "Materials Engineering",
-    "projectTitle": "High-Frequency Actuation of Helical Microrobots",
-    "researchField": "Microrobotics for Biomedical Applications",
-    "projectDescription": "This project investigates the motion and penetration potential of helical microrobots under high-frequency magnetic field actuation.",
+    "projectTitle": "High frequency actuation of helical microrobots",
+    "researchField": "Microrobotics for biomedical applications",
+    "projectDescription": "Biologically inspired microrobots have diverse biomedical applications. Helical microrobots consist of helical spring attached to a cylindrical NdFeB magnet with a magnetization vector oriented perpendicular to the spring axis. The microrobot breaks time-reversal symmetry and swims in a fluid characterized by low-Reynolds number upon the application of rotating magnetic fields. We use a high frequency rotating magnetic field system to characterize the motion and penetration potential of the helical microrobot",
     "projectMethodology": [
-      "Fabricate helical microrobots.",
-      "Characterize swimming speed and penetration potential.",
-      "Evaluate performance under varying conditions."
+      "• Fabrication of Helical microrobots;",
+      "• Characterization of the swimming speed vs different parameters such as magnetic field osciallaton frequency.",
+      "• Explore penetration potential through plaque phantoms"
     ],
-    "qualifications": ["Basic knowledge of mechatronics engineering.", "Familiarity with control theory and image processing."],
-    "furtherComments": null,
-    "eligibleDepartments": ["Mechatronics Engineering"]
+    "qualifications": [
+      "Basic knowledge of mechatronics engineering.",
+      "Familiarity with control theory and image processing techniques.",
+      "Good analytical and laboratory skills.",
+      "Familiarity with MATLAB and Arduino"
+    ],
+    "furtherComments": "For more information visit : http://www.mnrlab.com/helical-microrobots.html",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
   }
 ]
