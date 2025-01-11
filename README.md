@@ -1,70 +1,185 @@
-# Getting Started with Create React App
+# Spring 2025 - Bachelor Thesis Topics
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a personal, ungraded React-based web application designed to help Mechatronics students compare and filter potential bachelor thesis topics offered in the Spring 2025 semester. It was developed in just 5 days during finals, with no prior experience in react, as a solution to a personal need. It provides a user-friendly interface to explore topics from various departments, research fields, and supervisors, along with detailed descriptions and requirements for each thesis. The project heavily utilized AI tools like ChatGPT, Claude, Gemini, and the Cursor VS Code extension for development.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+-   [Project Structure](#project-structure)
+-   [Functionality](#functionality)
+    -   [Filtering](#filtering)
+    -   [Sorting](#sorting)
+    -   [Searching](#searching)
+    -   [Expanding Rows](#expanding-rows)
+    -   [Priority List](#priority-list)
+    -   [Exporting to Excel](#exporting-to-excel)
+    -   [Additional Features](#additional-features)
+-   [Components](#components)
+    -   [Header](#header)
+    -   [Filters](#filters)
+    -   [FilterDropdown](#filterdropdown)
+    -   [Card](#card)
+    -   [CardContent](#cardcontent)
+    -   [HighlightedText](#highlightedtext)
+    -   [ConfirmationModal](#confirmationmodal)
+    -   [SortableHeader](#sortableheader)
+    -   [ProjectDetailsPopup](#projectdetailspopup)
+    -   [PriorityListModal](#prioritylistmodal)
+    -   [Toast](#toast)
+    -   [Tooltip](#tooltip)
+-   [Data](#data)
+-   [Styling](#styling)
+-   [Testing](#testing)
+-   [Deployment](#deployment)
+-   [Dependencies](#dependencies)
+-   [Scripts](#scripts)
+-   [Disclaimer](#disclaimer)
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+├── build              # Production build files
+│   ├── ...
+├── public             # Public assets
+│   ├── index.html
+│   ├── ...
+└── src                # Source code
+├── App.js
+├── Data.js
+├── ThesisComparison.js
+├── ...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Functionality
 
-### `npm test`
+### Filtering
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users can filter thesis topics by:
 
-### `npm run build`
+-   Supervisor
+-   Department
+-   Research Field
+-   Eligible Departments
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Sorting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The table of thesis topics can be sorted by:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   Supervisor
+-   Project Title
 
-### `npm run eject`
+### Searching
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Users can search for specific keywords within the thesis title, supervisor name, department, research field, project description, methodology, qualifications, comments, and eligible departments.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Expanding Rows
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Each row in the table can be expanded to reveal detailed information about the thesis topic, including:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-   Project Description
+-   Project Methodology
+-   Required Qualifications
+-   Additional Comments
 
-## Learn More
+### Priority List
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Users can select thesis topics and add them to a priority list. This list can be reordered, exported to Excel, or cleared.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Exporting to Excel
 
-### Code Splitting
+The main table of thesis topics, as well as the priority list, can be exported to an Excel spreadsheet.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Additional Features
 
-### Analyzing the Bundle Size
+-   A "Help" button redirects users to my WhatsApp for support.
+-   A toast notification appears after exporting to Excel or clearing the priority list.
+-   Tooltips provide additional information and guidance throughout the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Components
 
-### Making a Progressive Web App
+### Header
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The header contains:
 
-### Advanced Configuration
+-   Project statistics (number of projects, last updated date)
+-   Search bar
+-   Action buttons (Help, Export, Priority List, Filters)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Filters
 
-### Deployment
+The filters section allows users to refine the list of thesis topics by various criteria.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### FilterDropdown
 
-### `npm run build` fails to minify
+A dropdown component for selecting filter options.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Card
+
+A styled card component for displaying information in a visually appealing way.
+
+### CardContent
+
+The content of a card component.
+
+### HighlightedText
+
+Highlights search terms within text.
+
+### ConfirmationModal
+
+A modal for confirming actions, such as clearing the priority list.
+
+### SortableHeader
+
+A table header that allows sorting by clicking.
+
+### ProjectDetailsPopup
+
+A popup for displaying detailed information about a thesis topic.
+
+### PriorityListModal
+
+A modal for managing the priority list.
+
+### Toast
+
+A notification that appears after certain actions.
+
+### Tooltip
+
+Provides additional information on hover.
+
+## Data
+
+The thesis topic data is stored in `src/Data.js`.
+
+## Styling
+
+The project uses Tailwind CSS for styling.
+
+## Testing
+
+The project includes basic tests.
+
+## Deployment
+
+The project is deployed to GitHub Pages.
+
+## Dependencies
+
+-   `react`: JavaScript library for building user interfaces
+-   `react-dom`: React package for working with the DOM
+-   `lucide-react`: Icon library
+-   `xlsx`: Library for working with Excel spreadsheets
+-   `use-debounce`: Hook for debouncing input
+-   `framer-motion`: Animation library
+
+## Scripts
+
+-   `npm start`: Starts the development server
+-   `npm run build`: Builds the app for production
+-   `npm run test`: Runs the tests
+-   `npm run eject`: Ejects the app from Create React App
+-   `npm run predeploy`: Builds the app for deployment
+-   `npm run deploy`: Deploys the app to GitHub Pages
+
+## Disclaimer
+
+This project was developed as a personal tool and is not officially affiliated with any university or institution. The data presented should be verified with official sources.
