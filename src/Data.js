@@ -1,75 +1,113 @@
 export const projectData = [
   {
-    "supervisorName": "Ahmed Yehia Shash",
+    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
     "coSupervisor": "",
+    "supervisorEmail": "ahmed.shash@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Application of Mg alloys in Automotive Industry",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": ""
+    "researchField": "Automotive, Production Technology, Materials Engineering",
+    "projectDescription": "Magnesium is a promising material. It has a remarkable mix of mechanical and biomedical properties that has made it suitable for a vast range of applications. Moreover, with alloying, many of these inherent properties can be further improved. Today, it is primarily used in the automotive, aerospace, and medical industries. However, magnesium has its own set of drawbacks that the industry and research communities are actively addressing.",
+    "projectMethodology": [
+      "Different samples were be produced to one of automotive applications, then microstructure and mechanical characterization were done."
+    ],
+    "qualifications": [
+      "Strong background in mechanical engineering principles, including materials science and mechanical design."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Ahmed Yehia Shash",
+    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
     "coSupervisor": "",
+    "supervisorEmail": "ahmed.shash@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Characterization for braking pads passenger car under different working conditions",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": ""
+    "researchField": "Automotive, Production Technology, Materials Engineering",
+    "projectDescription": "The objective is to study the physical and mechanical properties of braking pads such as density, porosity, hardness, water absorption and microstructure examination under different conditions.",
+    "projectMethodology": [
+      "Three samples of braking pads with different formulations were be manufactured according to international standard and different temperature."
+    ],
+    "qualifications": [
+      "Strong background in mechanical engineering principles, including materials science and fluid dynamics."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Ahmed Yehia Shash",
+    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
     "coSupervisor": "",
+    "supervisorEmail": "ahmed.shash@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Design and Optimization of AL-6XN Stainless Steel for Enhanced Corrosion Resistance in Water Desalination Pumps",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": ""
+    "researchField": "Production Technology, Materials Engineering",
+    "projectDescription": "Explores the influence of heat treatment on the corrosion resistance of AL-6XN stainless steel.",
+    "projectMethodology": [
+      "Material Selection and Heat Treatment"
+    ],
+    "qualifications": [
+      "Strong background in mechanical engineering principles, including materials science, mechanical design, and fluid dynamics."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Ahmed Yehia Shash",
+    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
     "coSupervisor": "",
+    "supervisorEmail": "ahmed.shash@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Design Optimization and Manufacturing for Enhanced Durability in Water Desalination Pumps",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": ""
+    "researchField": "Production Technology, Mechatronics",
+    "projectDescription": "Explore the Design, production, Performance Testing and Process Optimization of Water Desalination Pumps.",
+    "projectMethodology": [
+      "Design Water Desalination Pumps",
+      "Performance Testing of Super Austenitic Stainless Steel Desalination Pumps",
+      "Process Optimization of Super Austenitic Stainless Steel Desalination Pumps"
+    ],
+    "qualifications": [
+      "Strong background in mechanical engineering principles, including materials science, mechanical design, and fluid dynamics."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Mechatronics Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
     "supervisorName": "Anke Klingner",
     "coSupervisor": "",
+    "supervisorEmail": "anke_klingner@guc.edu.eg",
+    "department": "Physics/MNRlab",
     "projectTitle": "Magnetic micro robots for biomedical applications",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": ""
+    "researchField": "MCTR",
+    "projectDescription": "Microrobots have promising applications in human internal medicine. Magnetic fields are suitable for microrobot actuation. Microrobots are produced and then the swimming performance is tested at different frequencies. Microrobots should be activated to swim in a planned path.",
+    "projectMethodology": [
+      "The student should study current literature on the topic. Then, microrobots are fabricated. Videos of the microrobots at different actuation frequencies are obtained and analyzed. After understanding the actuation mechanism, a specific path should be planned and the microrobot should follow it."
+    ],
+    "qualifications": [
+      "Matlab or python"
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
     "supervisorName": "Anke Klingner",
     "coSupervisor": "",
-    "projectTitle": "Robotic snake",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": ""
+    "supervisorEmail": "anke_klingner@guc.edu.eg",
+    "department": "Physics/MNRlab",
+    "projectTitle": "Robotic snake – design, simulation, construction and testing",
+    "researchField": "MCTR",
+    "projectDescription": "By mimicking the locomotion of snakes, snakebots can be used for tasks in multiple industries that traditional robots or human workers may find challenging or impossible to accomplish safely. In medical technology, miniature versions of Snakebots have been developed for endoscopic and minimally invasive procedures. An example is the medical snakebot developed at Carnegie Mellon University, which is capable of maneuvering around organs inside a human chest cavity. In the project, a robotic snake should be designed. After simulation of the movement, it should be constructed and tested.",
+    "projectMethodology": [
+      "The student should study current literature on the topic. Then, a possible design should be selected and simulated. A prototype should be constructed and tested."
+    ],
+    "qualifications": [
+      "Matlab or python"
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
     "supervisorName": "Bakr Mohamed Rabeeh",
@@ -192,16 +230,23 @@ export const projectData = [
     "furtherComments": ""
   },
   {
-    "supervisorName": "Mohamed Elwi Mitwally",
-    "coSupervisor": "Dr. Ahmed Shash & Dr. Amr ElNemr",
+    "supervisorName": "Dr. Mohamed Elwi",
+    "coSupervisor": "Dr. Ahmed Shash, Dr. Amr ElNemr",
+    "supervisorEmail": "mohamed.elwi@guc.edu.eg",
+    "department": "Materials Engineering",
     "projectTitle": "Utilization of recycled industrial wastes in the concrete mixture",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": ""
+    "researchField": "Construction materials design",
+    "projectDescription": "Recently, great attention was noticed for ultra-performance concrete to reduce the size of the concrete cross-section in several infrastructures such as bridges piers, and construction buildings. New trends in civil engineering as well as environmental concerns that recently drawn the attention of the world. The CO2 emissions possessed through the waste deposition and manufacture of construction and industrial products such as cement, etc. Many trials target reducing the cement amount and utilizing industrial or construction wastes to reduce the CO2 emission and deposition of wastes in landfills. The project aims at utilizing industrial waste to be used to replace fine aggregate or cement in the concrete mixture.",
+    "projectMethodology": [
+      "Crushed WC tool scrap would be the material to consider as a replacement for fine aggregate. Different percentages of tool scrap would be added to the concrete mix and the effect of added amount would be investigated. Mechanical tests as well as structure investigation would be executed and the properties of the new concrete mix will be compared to standard concrete properties."
+    ],
+    "qualifications": [
+      "Basic knowledge of material engineering",
+      "Familiarity with mechanical testing"
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
     "supervisorName": "Mohammed Salama Abdelhady Mohamed",
@@ -408,112 +453,130 @@ export const projectData = [
     "furtherComments": ""
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
-    "coSupervisor": "Dr Omar Shehata",
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": "Dr. Omar Shehata",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Design and construction of a robot arm for additive manufacturing",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "researchField": "Robotics",
+    "projectDescription": "Additive manufacturing of metallic components can be realized using wire arc similar to welding process. The process needs a good control of the torch movement which can be obtained using a robotic arm. The aim of the project is to design and implement segments of the robotic arm for this purpose.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
-    "projectTitle": "Design and construction of vertical axis windmill (in collaboration with Tennessee Technological University)",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": "Dr. Hebatulla Ashraf",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
+    "projectTitle": "Design and construction of vertical axis windmill",
+    "researchField": "Renewable Energy",
+    "projectDescription": "Vertical axis wind turbine (VAWT) can be an effective source of energy. In previous work in the last years, we have built 2 VAWT with different designs. Based on the previous experience, the student will improve the performance of the turbine by modification of the design of the body and the airfoils and compare his results with those in previous work. Experimental work with some design part is expected in this project.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": "Dr. Hebatulla Ashraf",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Design and fabrication of turbine blades for VAWT (in collaboration with Tennessee Technological University)",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "researchField": "Renewable Energy",
+    "projectDescription": "Vertical axis wind turbine (VAWT) can be an effective source of energy. In previous work in the last years, we have built 2 VAWT with different blade designs. A specialized software for turbine blades will be delivered by Tennessee University. The student will use this software to design the turbine blades. If time allows, the design will be implemented and will be used by the student. Based on FEM modeling of the turbine blades, the student will improve the performance of the turbine by modification of the design of the airfoils and compare his results with those in previous work. Use of FEM will mainly be used and accordingly new blades can be manufactured if possible. The project includes mainly design using an available software and if time allows, turbine blades can also be constructed and tested.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": "Dr. Hebatulla Ashraf",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Design of a hybrid renewable energy system for residential and services in remote areas (in collaboration with Tennessee Technological University)",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "researchField": "Renewable Energy",
+    "projectDescription": "Renewable energy is one of the top recommended topics in Egypt 2030. Many remote areas including houses, refugee camps, service centers like clinics or small hospitals have no source of energy. Tennessee Technological University has gone through a similar problem and has designed a solar/wind energy system for a clinic in remote areas. Following similar steps, our student will first estimate the energy needed by a typical house and/or a small clinic, then design a hybrid system where solar and wind energy are considered.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
-    "coSupervisor": "Dr Walid Omran",
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": "Dr. Walid Omran",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Design of solar systems for charging batteries used in electric vehicles",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "researchField": "",
+    "projectDescription": "Photovoltaic (PV) systems utilize the sunlight to generate DC electric power that can be used to charge energy storage batteries. However, the output power from these systems depends on the weather parameters as well as the loading conditions. The aim of this thesis is to design and simulate a PV system that can be used to charge the batteries of electric vehicles. The obtained design will be applied by an Egyptian company which will support implementation, testing and evaluation of the designed system. This will definitely contribute to evolution of the local industry.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Design and Production Engineering", "Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": "Dr. Hebatulla Ashraf",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Improving productivity of solar water desalination unit by controlling water type and properties",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "researchField": "Renewable Energy",
+    "projectDescription": "Solar water desalination is an important issue in Egypt and in other countries. Solar still is a portable small size unit for water desalination, based on evaporation and condensation of the water. However, the main problem of the solar still is its low productivity. Based on previous work, it was found that water type and properties affect the productivity of the still. In the present project, the properties can be modified by changing the water salinity or by adding conducting particles to the water. The aim of the project is to build a solar still and to test the effect of different water properties on the productivity.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf",
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": "Dr. Hebatulla Ashraf",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Improving productivity of Solar Water desalination unit by introducing control systems",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "researchField": "Renewable Energy",
+    "projectDescription": "Solar water desalination is an important issue in Egypt and in other countries. Solar still is a portable small size unit for water desalination, based on evaporation and condensation of the water. However, the main problem of the solar still is its low productivity. Based on previous work, an optimum design of the solar still is obtained. The aim of the project is to build the optimum design, and to introduce a control system to improve the evaporation and condensation processes, which will be reflected on the productivity of the still.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
-    "coSupervisor": "Dr Hebatulla Ashraf and Tennessee Technical University",
+    "supervisorName": "Nahed El Mahallawy",
+    "coSupervisor": "Dr. Hebatulla Ashraf and Tennessee Technical University",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Study the effect of turbine blade profile on the efficiency of a vertical axis wind turbine",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "researchField": "Renewable Energy",
+    "projectDescription": "Wind energy is one of the most promising sources of renewable energy. Vertical axis wind turbine (VAWT) is a small portable turbine which can be effective in rural and remote areas which are deprived of energy source. Based on previous work in design and construction of VAWT, improvement in the design of the turbine blades is still needed. The aim of the project is to make a new design of the blades. This design will be implemented, tested and evaluated in comparison to previous turbines.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
-    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "supervisorName": "Nahed El Mahallawy",
     "coSupervisor": "",
+    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
+    "department": "Design and Production",
     "projectTitle": "Upgrading the control of the available WAAM printer for fabrication of metallic engineering products",
-    "department": "Not Yet",
-    "researchField": "Not Yet",
-    "eligibleDepartments": ["Not Yet"],
-    "projectDescription": "",
+    "researchField": "",
+    "projectDescription": "Wire Arc Additive Manufacturing (WAAM) is one of the emerging additive manufacturing techniques. A set up is already constructed and available for use. It has been designed and used by previous BSc students for testing it. The student will first check the control system used as well as the software and make necessary modifications if needed. The software for controlling the torch movement needs to be updated to be more user friendly, if possible. Then, it will be used to manufacture a product which will be decided upon during the work. The accuracy and quality of the obtained product will be tested and evaluated. Different process parameters can be used based on AI previous results.",
     "projectMethodology": [],
     "qualifications": [],
-    "furtherComments": ""
+    "furtherComments": "",
+    "eligibleDepartments": ["Materials Engineering", "Mechatronics (?)"],
+    "collaborators": []
   },
   {
     "supervisorName": "Tarek Abbas Metwally Khalil",
@@ -582,7 +645,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Vehicle Model",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the development of an accurate model for the vehicle that is used in the CLASH project. Proper modeling methods will be incorporated, including mathematical modeling and others. The model should be able to reflect both the longitudinal, lateral and vertical dynamics of the vehicle. The developed models would be validated against the existing hardware for the vehicle in the MRS lab. The model would be developed in a parameterized manner in order to be able to demonstrate different cases.",
       "The student will be expected to deliver a functioning set of models for the vehicle, along with the comparative study between them. Moreover, validation of the developed models against existing hardware as well as existing literature is needed. Parametric study would be conducted along with different scenarios testing to test the capabilities of the model. The performance metrics related to accuracy of the model would be considered."
@@ -604,7 +667,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Localization System",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the block related to the localization of the vehicle, which addresses the challenge of correctly identifying the location of the vehicle. This is done through using multiple sensors (encoder, GPS, IMU, etc.) and integrating the readings of the different sensors in one trusted reading. The accuracy of the calculated value will be compared against the true value.",
       "The student will be expected to deliver a functioning set of algorithms tested on existing hardware inside the MRS lab and different experiments would be conducted on each sensor separately. Then the combined readings would be validated. The developed work will be Python based and it should be ROS friendly, in order to facilitate the exchange of information between the different components of the project. Accuracy (quantified) of the readings will be required."
@@ -626,7 +689,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Perception System",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the scope of perception for the vehicle. The utilization of vision-system to see what is in front of the vehicle, along with LiDAR technology would be among the scope points of this project. Development of a clear view of the surrounding environment is required. Basic scene understanding is needed in this project. The 2D overhead view surrounding the vehicle is required, with analysis of the items in the environment (obstacles, etc.).",
       "The student will be expected to deliver a setup of the sensors to be fixed on the vehicle, along with different algorithms used in incorporating the data acquired from multiple sensors. The processing will be done on a high-level processor (Jetson board) to have a stand-alone perception system [laptop can’t be part of the loop]. The developed system will conclude specific information about the surrounding environment, and it would be shared with the other projects using ROS platform."
@@ -648,7 +711,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Tracking System",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the challenge of using the detected objects from the scene, and giving them specific identifiers to track them. The tracking problem is a double-sided coin. From one side, it requires accurate perception of the object, and then it requires control action decisions (speeding up/down and/or steering) of the vehicle to keep tracking the object of interest.",
       "The project will address both layers, and will need to have an integrated system to achieve the overall goal/scope of the project. Demos will be done on the MRS vehicles. The student will be expected to deliver a setup for the sensor used (selection at beginning of project) and the controller board used, as well as the connection between them. The required models would be developed onboard, and coding will be done using Python/C++. The information extracted and decisions made will be shared with other projects using ROS."
@@ -670,7 +733,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Driver off-road",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the development of a remote driver off-road system that can drive the MRS vehicle(s). The Logitech G920 steering wheel and pedals will be used in this project (available in the lab), and its readings would be sent remotely to the onboard processors on the vehicle for execution. The visual feedback from the vehicle would be shared to a screen in front of the remote driver, to be able to decide accordingly.",
       "The student will be expected to deliver a setup for the steering wheel, pedals and so on, along with the processor responsible for the collection of their readings and communicating them via ROS channels to the remote processors on the vehicle. The visual feedback also and its display is the responsibility of this project. The latency of communication back and forth is among the metric used to evaluate this project, as well as handling the noise in the readings acquired."
@@ -692,7 +755,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: ADAS",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the development of an Advanced Driver-Assistance System (ADAS) system, which relies on different sensors used in the project to support the driver. This could be done using either visual/audio signals sent to the driver. The model itself can have perception features, such as detection of pedestrians and making announcement (“Pedestrian ahead”) and distance to impact could be also mentioned, etc.",
       "The main purpose of this project is to implement some features that can leverage the capacity of vehicle system. The student will be expected to deliver a functioning ADAS system (as described above), and the features of the system would be agreed upon at the beginning of the project. The testing of this project would be in intensive demos conducted to validate the results of the system. The reliability of the proposed ADAS system will be assessed. The ability of the system to handle uncertainties will be assessed in the proposed project."
@@ -714,7 +777,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Model-based Control",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the proper modeling of the vehicle and using it to develop the proper controller for its trajectory control. The controller that will be developed in this project will be mathematically oriented. Different controllers will be tested, and their relative performances will be compared.",
       "The student will be expected to deliver a functioning system model, along with the different controllers and their performance would be compared using different metrics related to accuracy, speed of convergence, etc. The scenarios tested would be different in order to demonstrate their relative pros/cons. A possible visualization environment would be created using a suitable platform/simulator. Finally comparison with model-free controllers project will be done."
@@ -736,7 +799,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Model-free Control",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the development of a model-free controller (based on the readings provided from different available models). The model-free mindset will be conducted using methods from AI/machine learning. The results of different model-free controllers will be compared in order to have relative assessment between them.",
       "The proposed controllers will be validated in suitable simulation environment, and compared for recommendations of better quality (accuracy, speed of convergence, etc.). The student will be expected to deliver a functioning model-free controller, used and tested against the vehicle model that would be developed inside a suitable simulator. The vehicle model would be used/adopted (no need for development in this project), and the comparison between the different approaches would take place to assess their performance. Comparison would be done with control-based controller methods at the end of the project."
@@ -758,7 +821,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Cooperative Control",
     "researchField": "Intelligent Transportation Systems (ITS)",
-    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the development of cooperative control system for interacting vehicles. The cooperation between multi-vehicles would leverage the capacity of decision making. In which the vehicle would be able to decide based on information that is shared from surrounding vehicles. Thus the accuracy would be enhanced as well as safety in the driving scenarios. The cooperation would be investigated in the intersection management case.",
       "The vehicles models would be used in simulation, and the results would be compared versus conventional stop/go system. The student will be expected to deliver a functioning simulation environment for interacting vehicles. The development of and comparison of multiple controllers would be investigated. The relative performance is compared. The metrics used for comparison would be decision making accuracy, safety, throughput of the traffic network as well as delays. The project collectively acts as top-level decision making layer for the CLASH project."
@@ -780,7 +843,7 @@ export const projectData = [
     "department": "Engineering Design & Production Dept. – EMS",
     "projectTitle": "CLASH: Intelligent Multi-AGV Optimization for Material Handling Applications",
     "researchField": "Industry 4.0",
-    "projectDescription": "Collaborators: N/A | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In this version of CLASH, the scope is towards the utilization of intelligent methods to optimize the Paths of Multi-AGVs used in an industrial application for material handling tasks. The challenge related to the allocation and path planning of Multi-AGVs while guaranteeing a collision-free path is one of the most challenging tasks. To solve it, machine learning methods and/or optimization techniques can be used. The adaptability of the algorithm against the dynamic tasks is a valid scope as well. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In this version of CLASH, the scope is towards the utilization of intelligent methods to optimize the Paths of Multi-AGVs used in an industrial application for material handling tasks. The challenge related to the allocation and path planning of Multi-AGVs while guaranteeing a collision-free path is one of the most challenging tasks. To solve it, machine learning methods and/or optimization techniques can be used. The adaptability of the algorithm against the dynamic tasks is a valid scope as well. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the material handling problem using Multi-AGVs. The problem would be formulated using a suitable simulation environment. The optimization techniques and/or the machine learning methods would be used to produce alternative solutions for the problem in light of a set of parameters and inputs.",
       "The student will be expected to deliver functioning algorithm that are able to handle the problem of optimization of material handling applications. The realistic implementation of the problem and its formulation are among the metrics of the performance of this project. The comparative study between different approaches would be conducted. The model of the AGV is not in the scope of this project. However realistic results should be validated in the suitable software."
@@ -792,7 +855,7 @@ export const projectData = [
       "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
     ],
     "furtherComments": "",
-    "eligibleDepartments": ["Engineering Design & Production"],
+    "eligibleDepartments": ["Mechatronics Engineering"],
     "collaborators": []
   },
   {
@@ -802,7 +865,7 @@ export const projectData = [
     "department": "Mechatronics Engineering Dept. – EMS",
     "projectTitle": "CLASH: Intelligent Decision Making for MRTA Applications",
     "researchField": "Industry 4.0",
-    "projectDescription": "Collaborators: N/A | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In this version of CLASH we project, we turn our attention to the utilization of the algorithms developed to autonomous robots (AGVs) in industrial applications. The problem of how to allocate Multiple Robots to handle specific group of tasks is known as MRTA problem. In this project, realistic layout of a factory would be developed, along with the parameters of the tasks (different natures, time requirements, etc) would be used. The investigation mainly addresses how to solve this problem using intelligent decision making approaches (AI, optimization, etc.). | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectDescription": "CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehiclular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In this version of CLASH we project, we turn our attention to the utilization of the algorithms developed to autonomous robots (AGVs) in industrial applications. The problem of how to allocate Multiple Robots to handle specific group of tasks is known as MRTA problem. In this project, realistic layout of a factory would be developed, along with the parameters of the tasks (different natures, time requirements, etc) would be used. The investigation mainly addresses how to solve this problem using intelligent decision making approaches (AI, optimization, etc.). | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
     "projectMethodology": [
       "The main scope of this thesis, will be to address the Multi-Robot Task Allocation (MRTA) problem from the prospective of an industrial challenge that needs proper decision making. The problem would be developed in a realistic way, and different decision making approaches would be developed to solve this problem. The relative performance would be compared.",
       "The performance of the algorithm would also be assessed in the sudden presence of un-planned activities/tasks. The student will be expected to deliver the developed model of the problem solved, in a proper visualization environment (dedicated tools could be used in such problem, such as FlexSim). The decision making layer is developed using different tools (such as AI tools and/or metaheuristic optimization methods). The quality of the produced solution is compared as well as the time of computation. Moreover, the produced results would be validated using the developed simulation environment. Recommendations for proper methods would be produced at the end."
