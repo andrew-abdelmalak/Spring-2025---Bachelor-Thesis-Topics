@@ -1,92 +1,1151 @@
 export const projectData = [
   {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Construction and testing of 3D metallic components using WAAM printer ( EDPT )",
-    "researchField": "Manufacturing",
-    "projectDescription": "Wire Arc additive Manufacturing (WAAM) is one of the emerging additive manufacturing techniques. A set up is already constructed and available for use. It has been designed and used by previous BSc students. One or more products will be selected to be designed and manufactured using the WAAM process. The accuracy and quality of the obtained product will be tested and evaluated.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Design , fabrication and testing of bullet proof vests",
-    "researchField": "Design and Manufacturing",
-    "projectDescription": "An Egyptian company located in Cairo is producing bullet proof vests. However, their products are not efficient enough and need to be improved. Several materials type and thickness are suggested. The aim of the project is to design, fabricate and test bullet proof vests. The design is based on selecting different combinations of materials and thicknesses together with the fabrication procedure. Simulation of the behavior under shooting conditions will also be applied. The factory will offer the materials and facilities to fabricate and test the promising products.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "12. Use of FEM to design 3D printed products with weight reduction",
-    "researchField": "Design and Manufacturing",
-    "projectDescription": "One of the advantages of 3D printed products is to produce mechanical components which can perform effectively but with the possibility of weight reduction. One or more components will be selected by the student and redesigned with a reduced weight using FEM software. One of the designed components will be selected for implementation and testing.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Nahed El Mahallawy",
-    "coSupervisor": null,
-    "supervisorEmail": "nahed.elmahallawy@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "14. Upgrading the production line for flat of strips by Optimizing process parameters in an Egyptian factory",
-    "researchField": "Manufacturing",
-    "projectDescription": "Production of copper alloy flat strips is a base for multiple industrial applications. The production line starts by continuous casting followed by hot rolling then cold rolling. After hot rolling an oxide layer is formed on the strips and must be removed before cold rolling process , otherwise this oxide layer will be harmful for the cold rolled strips. In this project, it is required to suggest a suitable process such as milling , to remove the unnecessary oxide layer. The student will select the suitable tools and process parameters and will test them. The factory will provide the needed machines and tools as well as support needed for performing and evaluation of the different process parameters.",
-    "projectMethodology": [],
-    "qualifications": [],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Materials Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Dr. Abbas Yehia",
+    "supervisorName": "Ahmed Yehia Shash",
     "coSupervisor": "",
-    "supervisorEmail": "abbas.yehia@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Materials Science",
-    "projectTitle": "Determination of life aging of styrene butadiene rubber products",
-    "researchField": "Materials Science and Engineering",
-    "projectDescription": "Rubber products suffer from many deteriorating agents such as heat, radiation solvents dynamic stresses etc. All these agents shorten the life aging of such products",
-    "projectMethodology": [
-      "1- Select the type of rubber (styrene butadiene rubber),",
-      "2- Mix this rubber with specific rubber additives,",
-      "3- Cure the compounded rubber",
-      "4- Determination of stress/strain properties,",
-      "5- Using the obtained data in Arrhenius equation to calculate the life time of rubber products"
-    ],
+    "projectTitle": "Application of Mg alloys in Automotive Industry",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
     "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Ahmed Yehia Shash",
+    "coSupervisor": "",
+    "projectTitle": "Characterization for braking pads passenger car under different working conditions",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Ahmed Yehia Shash",
+    "coSupervisor": "",
+    "projectTitle": "Design and Optimization of AL-6XN Stainless Steel for Enhanced Corrosion Resistance in Water Desalination Pumps",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Ahmed Yehia Shash",
+    "coSupervisor": "",
+    "projectTitle": "Design Optimization and Manufacturing for Enhanced Durability in Water Desalination Pumps",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Anke Klingner",
+    "coSupervisor": "",
+    "projectTitle": "Magnetic micro robots for biomedical applications",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Anke Klingner",
+    "coSupervisor": "",
+    "projectTitle": "Robotic snake",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Bakr Mohamed Rabeeh",
+    "coSupervisor": "",
+    "projectTitle": "Acoustically and thermal imaging of thermite electro-chemical heat fusion in a bulk macro electro slag welding. (Macro)",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Bakr Mohamed Rabeeh",
+    "coSupervisor": "",
+    "projectTitle": "Design and Optimization of a New self-healing engine oil in automotive and heavy duty machinery-knocking free and self-lubricated",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Bakr Mohamed Rabeeh",
+    "coSupervisor": "Dr. Ahmed Maher",
+    "projectTitle": "Design and Production of Ultra-high strength concrete-environmentally friendly- fire retardant- thermally resistance and neutron radiation shielding",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Bakr Mohamed Rabeeh",
+    "coSupervisor": "",
+    "projectTitle": "Modeling and simulation of a hybrid sandwich advanced ultra-high strength steel structure",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Bakr Mohamed Rabeeh",
+    "coSupervisor": "Dr. Ahmed Maher",
+    "projectTitle": "Zero Energy- Smart Building With a Nontraditional Encapsulated Ultra High Strength Concrete",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Hesham Ahmed Mahmoud Mostafa Hegazi",
+    "coSupervisor": "Prof. Ezzeldin Metwalli",
+    "projectTitle": "Modification of Bicycles for Electric Mobility",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Hesham Ahmed Mahmoud Mostafa Hegazi",
+    "coSupervisor": "",
+    "projectTitle": "Sustainable Design and Manufacturing of Valves",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Hesham Ahmed Mahmoud Mostafa Hegazi",
+    "coSupervisor": "",
+    "projectTitle": "Topology Optimization of a Compliant Gripper",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Hesham Hamed Ahmed Ibrahim",
+    "coSupervisor": "",
+    "projectTitle": "Variable Valve Lift and Timing Using Camshaft System",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Hesham Hamed Ahmed Ibrahim",
+    "coSupervisor": "",
+    "projectTitle": "Variable Valve Lift and Timing Using Dual Profile Camshaft",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohamed Elwi Mitwally",
+    "coSupervisor": "Dr. Ahmed Shash & Dr. Amr ElNemr",
+    "projectTitle": "Utilization of recycled industrial wastes in the concrete mixture",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "Dr. Mohamed Elwi and Dr. Anke Klinger",
+    "projectTitle": "Controlling the Environment of an Electrospinning Machine for Consistent Fiber Production",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Design and Construction of an Air Water Generator (AWG)",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Design of a Dust detection Sensor Over PV Panels",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Design of a Smart Dust Detection Sensor",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Effect of Overheating on Bifacial PV modules (ANSYS simulations and Experimental Validation)",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Electrical Design of a Mechanical Vibration System for PV panels",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "Eng. Mirna Bassem",
+    "projectTitle": "Experimental Measurement and Numerical Simulation of the temperature distribution over a PV Panel",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "Prof. Hamdy Kandil",
+    "projectTitle": "Improving the Control of an Autonomous Cleaning Carriage for PV Panels",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Improving the Thermal desalination efficiency of a Solar Energy Desalination system",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Influence of Mechanical Vibrations on dust mitigation of Bifacial PV modules",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Manufacturing of a Vacuum Cleaning Carriage for PV Panels",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "Prof. Hamdy Kandil",
+    "projectTitle": "Mechanical Design of a Vacuum Cleaning Carriage for PV Panels",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "Eng. Mirna Bassem",
+    "projectTitle": "Numerical Simulation of air flow around a PV Panel",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "Eng. Mirna Bassem",
+    "projectTitle": "Numerical simulation of the Influence of fins on Cooling of PV Panels",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Production of Fresh Water Based on Condensation of Ambient Water Vapor",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "",
+    "projectTitle": "Thermal Management System of Battery Pack",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Mohammed Salama Abdelhady Mohamed",
+    "coSupervisor": "Prof. Ezz eldin Ali",
+    "projectTitle": "Thermal Management System of Battery Pack",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "Dr Omar Shehata",
+    "projectTitle": "Design and construction of a robot arm for additive manufacturing",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "Dr Hebatulla Ashraf",
+    "projectTitle": "Design and construction of vertical axis windmill (in collaboration with Tennessee Technological University)",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "Dr Hebatulla Ashraf",
+    "projectTitle": "Design and fabrication of turbine blades for VAWT (in collaboration with Tennessee Technological University)",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "Dr Hebatulla Ashraf",
+    "projectTitle": "Design of a hybrid renewable energy system for residential and services in remote areas (in collaboration with Tennessee Technological University)",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "Dr Walid Omran",
+    "projectTitle": "Design of solar systems for charging batteries used in electric vehicles",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "Dr Hebatulla Ashraf",
+    "projectTitle": "Improving productivity of solar water desalination unit by controlling water type and properties",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "Dr Hebatulla Ashraf",
+    "projectTitle": "Improving productivity of Solar Water desalination unit by introducing control systems",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "Dr Hebatulla Ashraf and Tennessee Technical University",
+    "projectTitle": "Study the effect of turbine blade profile on the efficiency of a vertical axis wind turbine",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Nahed Abdel Hamid El Mahallawy",
+    "coSupervisor": "",
+    "projectTitle": "Upgrading the control of the available WAAM printer for fabrication of metallic engineering products",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Tarek Abbas Metwally Khalil",
+    "coSupervisor": "",
+    "projectTitle": "Combining Nearly Zero Energy Building - Passive house & Passive Cooling Strategies for Buildings",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Tarek Abbas Metwally Khalil",
+    "coSupervisor": "",
+    "projectTitle": "Design a PV system to power a rural home",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Tarek Abbas Metwally Khalil",
+    "coSupervisor": "Dr. Mohamad Salama",
+    "projectTitle": "Design of a solar water heating system for a typical Egyptian household",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Tarek Abbas Metwally Khalil",
+    "coSupervisor": "Dr. M Salama",
+    "projectTitle": "Solar Powered Desalination for Costal Areas",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Tarek Abbas Metwally Khalil",
+    "coSupervisor": "",
+    "projectTitle": "Wind Turbine Feasibility for a coastal village",
+    "department": "Not Yet",
+    "researchField": "Not Yet",
+    "eligibleDepartments": ["Not Yet"],
+    "projectDescription": "",
+    "projectMethodology": [],
+    "qualifications": [],
+    "furtherComments": ""
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Vehicle Model",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of an accurate model for the vehicle that is used in the CLASH project. Proper modeling methods will be incorporated, including mathematical modeling and others. The model should be able to reflect both the longitudinal, lateral and vertical dynamics of the vehicle. The developed models would be validated against the existing hardware for the vehicle in the MRS lab. The model would be developed in a parameterized manner in order to be able to demonstrate different cases.",
+      "The student will be expected to deliver a functioning set of models for the vehicle, along with the comparative study between them. Moreover, validation of the developed models against existing hardware as well as existing literature is needed. Parametric study would be conducted along with different scenarios testing to test the capabilities of the model. The performance metrics related to accuracy of the model would be considered."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, Modeling using different tools.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
     "furtherComments": "",
-    "eligibleDepartments": [
-      "Material science and engineering"
-    ]
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Localization System",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the block related to the localization of the vehicle, which addresses the challenge of correctly identifying the location of the vehicle. This is done through using multiple sensors (encoder, GPS, IMU, etc.) and integrating the readings of the different sensors in one trusted reading. The accuracy of the calculated value will be compared against the true value.",
+      "The student will be expected to deliver a functioning set of algorithms tested on existing hardware inside the MRS lab and different experiments would be conducted on each sensor separately. Then the combined readings would be validated. The developed work will be Python based and it should be ROS friendly, in order to facilitate the exchange of information between the different components of the project. Accuracy (quantified) of the readings will be required."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, embedded systems, ROS.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Perception System",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the scope of perception for the vehicle. The utilization of vision-system to see what is in front of the vehicle, along with LiDAR technology would be among the scope points of this project. Development of a clear view of the surrounding environment is required. Basic scene understanding is needed in this project. The 2D overhead view surrounding the vehicle is required, with analysis of the items in the environment (obstacles, etc.).",
+      "The student will be expected to deliver a setup of the sensors to be fixed on the vehicle, along with different algorithms used in incorporating the data acquired from multiple sensors. The processing will be done on a high-level processor (Jetson board) to have a stand-alone perception system [laptop can’t be part of the loop]. The developed system will conclude specific information about the surrounding environment, and it would be shared with the other projects using ROS platform."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, embedded systems, ROS.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Tracking System",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the challenge of using the detected objects from the scene, and giving them specific identifiers to track them. The tracking problem is a double-sided coin. From one side, it requires accurate perception of the object, and then it requires control action decisions (speeding up/down and/or steering) of the vehicle to keep tracking the object of interest.",
+      "The project will address both layers, and will need to have an integrated system to achieve the overall goal/scope of the project. Demos will be done on the MRS vehicles. The student will be expected to deliver a setup for the sensor used (selection at beginning of project) and the controller board used, as well as the connection between them. The required models would be developed onboard, and coding will be done using Python/C++. The information extracted and decisions made will be shared with other projects using ROS."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, embedded systems, ROS.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Driver off-road",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of a remote driver off-road system that can drive the MRS vehicle(s). The Logitech G920 steering wheel and pedals will be used in this project (available in the lab), and its readings would be sent remotely to the onboard processors on the vehicle for execution. The visual feedback from the vehicle would be shared to a screen in front of the remote driver, to be able to decide accordingly.",
+      "The student will be expected to deliver a setup for the steering wheel, pedals and so on, along with the processor responsible for the collection of their readings and communicating them via ROS channels to the remote processors on the vehicle. The visual feedback also and its display is the responsibility of this project. The latency of communication back and forth is among the metric used to evaluate this project, as well as handling the noise in the readings acquired."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, embedded systems, ROS.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: ADAS",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of an Advanced Driver-Assistance System (ADAS) system, which relies on different sensors used in the project to support the driver. This could be done using either visual/audio signals sent to the driver. The model itself can have perception features, such as detection of pedestrians and making announcement (“Pedestrian ahead”) and distance to impact could be also mentioned, etc.",
+      "The main purpose of this project is to implement some features that can leverage the capacity of vehicle system. The student will be expected to deliver a functioning ADAS system (as described above), and the features of the system would be agreed upon at the beginning of the project. The testing of this project would be in intensive demos conducted to validate the results of the system. The reliability of the proposed ADAS system will be assessed. The ability of the system to handle uncertainties will be assessed in the proposed project."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, embedded systems, ROS.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Model-based Control",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the proper modeling of the vehicle and using it to develop the proper controller for its trajectory control. The controller that will be developed in this project will be mathematically oriented. Different controllers will be tested, and their relative performances will be compared.",
+      "The student will be expected to deliver a functioning system model, along with the different controllers and their performance would be compared using different metrics related to accuracy, speed of convergence, etc. The scenarios tested would be different in order to demonstrate their relative pros/cons. A possible visualization environment would be created using a suitable platform/simulator. Finally comparison with model-free controllers project will be done."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Modeling, Control Approaches, Analysis of data, Simulation tools.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Model-free Control",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of a model-free controller (based on the readings provided from different available models). The model-free mindset will be conducted using methods from AI/machine learning. The results of different model-free controllers will be compared in order to have relative assessment between them.",
+      "The proposed controllers will be validated in suitable simulation environment, and compared for recommendations of better quality (accuracy, speed of convergence, etc.). The student will be expected to deliver a functioning model-free controller, used and tested against the vehicle model that would be developed inside a suitable simulator. The vehicle model would be used/adopted (no need for development in this project), and the comparison between the different approaches would take place to assess their performance. Comparison would be done with control-based controller methods at the end of the project."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Modeling, Machine learning, Data Analysis, Simulation.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Development of an Intelligent Traffic Management System: Cooperative Control",
+    "researchField": "Intelligent Transportation Systems (ITS)",
+    "projectDescription": "Collaborators: Dr. Catherine M. Elias | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In CLASH we mainly focus on a specific scene in coordinating autonomous systems which is the intersection management. In the project we address the different blocks related to building an autonomous vehicle (we will work on 1:4 scaled vehicle) from localization, perception and control. Moreover, we extend the project to experiment different intersection scenarios as our case-studies. The project modules integrate together to achieve the overall scope of the project. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of cooperative control system for interacting vehicles. The cooperation between multi-vehicles would leverage the capacity of decision making. In which the vehicle would be able to decide based on information that is shared from surrounding vehicles. Thus the accuracy would be enhanced as well as safety in the driving scenarios. The cooperation would be investigated in the intersection management case.",
+      "The vehicles models would be used in simulation, and the results would be compared versus conventional stop/go system. The student will be expected to deliver a functioning simulation environment for interacting vehicles. The development of and comparison of multiple controllers would be investigated. The relative performance is compared. The metrics used for comparison would be decision making accuracy, safety, throughput of the traffic network as well as delays. The project collectively acts as top-level decision making layer for the CLASH project."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, Modeling using different tools.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Catherine M. Elias"]
+  },
+  {
+    "supervisorName": "Prof. Lamia Shihata",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Engineering Design & Production Dept. – EMS",
+    "projectTitle": "CLASH: Intelligent Multi-AGV Optimization for Material Handling Applications",
+    "researchField": "Industry 4.0",
+    "projectDescription": "Collaborators: N/A | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In this version of CLASH, the scope is towards the utilization of intelligent methods to optimize the Paths of Multi-AGVs used in an industrial application for material handling tasks. The challenge related to the allocation and path planning of Multi-AGVs while guaranteeing a collision-free path is one of the most challenging tasks. To solve it, machine learning methods and/or optimization techniques can be used. The adaptability of the algorithm against the dynamic tasks is a valid scope as well. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the material handling problem using Multi-AGVs. The problem would be formulated using a suitable simulation environment. The optimization techniques and/or the machine learning methods would be used to produce alternative solutions for the problem in light of a set of parameters and inputs.",
+      "The student will be expected to deliver functioning algorithm that are able to handle the problem of optimization of material handling applications. The realistic implementation of the problem and its formulation are among the metrics of the performance of this project. The comparative study between different approaches would be conducted. The model of the AGV is not in the scope of this project. However realistic results should be validated in the suitable software."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, AI, Optimization.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Engineering Design & Production"],
+    "collaborators": []
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Lamia Shihata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "CLASH: Intelligent Decision Making for MRTA Applications",
+    "researchField": "Industry 4.0",
+    "projectDescription": "Collaborators: N/A | CLASH project builds our previous results achieved in cooperative vehicles and their efficient management together to achieve better results for the collective vehicular system. Through extending the decision making capabilities to include several interacting autonomous systems (vehicle), the decision is better informed and more related to the required objectives. In this version of CLASH we project, we turn our attention to the utilization of the algorithms developed to autonomous robots (AGVs) in industrial applications. The problem of how to allocate Multiple Robots to handle specific group of tasks is known as MRTA problem. In this project, realistic layout of a factory would be developed, along with the parameters of the tasks (different natures, time requirements, etc) would be used. The investigation mainly addresses how to solve this problem using intelligent decision making approaches (AI, optimization, etc.). | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the Multi-Robot Task Allocation (MRTA) problem from the prospective of an industrial challenge that needs proper decision making. The problem would be developed in a realistic way, and different decision making approaches would be developed to solve this problem. The relative performance would be compared.",
+      "The performance of the algorithm would also be assessed in the sudden presence of un-planned activities/tasks. The student will be expected to deliver the developed model of the problem solved, in a proper visualization environment (dedicated tools could be used in such problem, such as FlexSim). The decision making layer is developed using different tools (such as AI tools and/or metaheuristic optimization methods). The quality of the produced solution is compared as well as the time of computation. Moreover, the produced results would be validated using the developed simulation environment. Recommendations for proper methods would be produced at the end."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Analysis of Data, AI, Optimization.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": []
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Linear Stage",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the 1st joint of the robot manipulator which will be a prismatic movement joint, responsible for the movement of the robot sidewise. This reflects on covering a range of almost 1 meter back and forth.",
+      "The student will be expected to deliver a functioning 1st joint module for the robot arm, that is ready to be plug-and-play with the subsequent joints to assemble the robot. Parametric study of the joint will be conducted in simulation to reach the most feasible joint design. Mechanical fabrication will be done subsequently, followed by actuator sizing for the joint. Finally comparative control study will be carried out to select the most suitable parameters for the controller of the joint."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Mechanical design and implementation, System Modeling, Actuator sizing.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Base Joint",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of the base joint that exists at the base in the robot. This joint presents the first revolute joint working in the robot. It covers the rotation of 270 degrees around the vertical axis of the robot frame.",
+      "The student will be expected to deliver a functioning 2nd joint module for the robot arm, that is ready to be plug-and-play with the subsequent joints to assemble the robot. Parametric study of the joint will be conducted in simulation to reach the most feasible joint design. Mechanical fabrication will be done subsequently, followed by actuator sizing for the joint. Finally comparative control study will be carried out to select the most suitable parameters for the controller of the joint."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Mechanical design and implementation, System Modeling, Actuator sizing.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Shoulder Joint",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of the shoulder joint of the robot, which covers the range of 220 degrees, this will be responsible for making the robot rotate right and left. This expands the range of its motion when combined with the ranges of the previous joints.",
+      "The student will be expected to deliver a functioning 3rd joint module for the robot arm, that is ready to be plug-and-play with the subsequent joints to assemble the robot. Parametric study of the joint will be conducted in simulation to reach the most feasible joint design. Mechanical fabrication will be done subsequently, followed by actuator sizing for the joint. Finally comparative control study will be carried out to select the most suitable parameters for the controller of the joint."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Mechanical design and implementation, System Modeling, Actuator sizing.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Elbow Joint",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of the elbow joint of the robot, which operates in a plane parallel to the shoulder joint. It adds a DoF to reach locations easier when integrated with the previous joint. It is expected to cover the range of 260 degrees.",
+      "The student will be expected to deliver a functioning 4th joint module for the robot arm, that is ready to be plug-and-play with the subsequent joints to assemble the robot. Parametric study of the joint will be conducted in simulation to reach the most feasible joint design. Mechanical fabrication will be done subsequently, followed by actuator sizing for the joint. Finally comparative control study will be carried out to select the most suitable parameters for the controller of the joint."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Mechanical design and implementation, System Modeling, Actuator sizing.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Spherical Wrist",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of the spherical wrist, which are the last 3 DoFs coinciding at the same point, they provide full control over the rotation of the end-effector. The spherical wrist is expected to be as small as possible and with a clear end-surface ready to have the end-effectors attached to it.",
+      "The student will be expected to deliver a functioning spherical wrist module for the robot arm, that is ready to be plug-and-play with the subsequent joints to assemble the robot. Parametric study of the joint will be conducted in simulation to reach the most feasible joint design. Mechanical fabrication will be done subsequently, followed by actuator sizing for the joint. Finally comparative control study will be carried out to select the most suitable parameters for the controller of the joint. Testing will be carried out to assess the performance of the spherical wrist."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Mechanical design and implementation, System Modeling, Actuator sizing.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Grasping Mechanism",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of the first end-effector used for the PRIME project. It is expected to be used in the grasping of soft material (fruits/vegetables for example), and it should consider the ease of manipulation of these objects without causing defects on them. The grasping mechanism should be able to handle almost 300-400 gm weight, with a capacity to hold an object with a diameter of a maximum of 15 cm. The weight of the end-effector is to be minimized as much as possible, in order to facilitate the full process operation.",
+      "The student will be expected to deliver a functioning end-effector for the robot arm, that is ready to be plug-and-play with the subsequent joints to assemble the robot. Parametric study of the end-effector will be conducted in simulation to reach the most feasible joint design. Mechanical fabrication will be done subsequently, followed by actuator sizing for it. Finally comparative control study will be carried out to select the most suitable parameters for the controller of the end-effector to achieve its goal without causing damage to the object."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Mechanical design and implementation, System Modeling, Actuator sizing.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Welding Torch End-effector",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Prof. Nahed El Mahallawy, Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of an end-effector that is working with a welding torch used in industrial applications. The project builds on previous results of the welding torch working with different mechanisms. This year we extend it to be on the end-effector of the PRIME robot that we are building.",
+      "The student will be expected to deliver a functioning end-effector mechanism that is pluggable to work with the developed links, joints of the robot manipulator. A Parametric study will be conducted to evaluate the suitable design. Next, the actuator selection and testing would take place. Fabrication of the end-effector will be conducted, and testing of the mechanism would follow. This project will have to handle the risks in developing a mechanism that can withstand elevated temperatures."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Mechanical design and implementation, System Modeling, Actuator sizing.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Prof. Nahed El Mahallawy", "Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Double-sided End-effector",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of an end-effector that has two sides, with the capability to switch quickly between both sides. Thus a motor/actuator will be required to switch between both sides quickly. The end-effector is expected to be lightweight and to move quickly while carrying a basic weight of around 400 gm.",
+      "The student will be expected to deliver a functioning end-effector mechanism and to develop its different components (mechanical and electrical). Moreover, the end-effector will be developed and tested for different experiments. The accuracy of rotation and its speed is required to be handled efficiently. The system is required to have accurate position and velocity control. The combination of efficient mechanical, electrical and processing units to handle the speed of operation is a key component in this project."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Mechanical design and implementation, System Modeling, Actuator sizing.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Motion Capture",
+    "researchField": "Robotics and Computer Vision",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of a fixed vision-system that is capable of detecting and monitoring the behavior of the robot manipulator. Through the integration of a set of cameras that are surrounding the robot working environment, it is required to extract the different joints parameters and report them to the remaining system components.",
+      "The student will be expected to deliver a setup for the set of cameras that surrounds the robot, as well as develop the algorithm responsible for the tracking process for the different components of the robotic manipulator as well as the surroundings of the robot. The analysis of the scene around the robot is not a must. However, the useful accurate extraction of the information of the joints of the robot are essential requirements for the project. The required accuracy of detection from one camera should be around ± 3 degrees, while that for the combined system should be reduced to ± 1 degree."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming skills, Computer vision passion, Python, MATLAB, System Design.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Visual Servoing",
+    "researchField": "Robotics and Computer Vision",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of a computer vision-based system used to control the actuation of the robotic manipulator. The camera is expected to monitor the motion of the object of interest (item to be grasped for example) w.r.t. the end-effector. The fixation location of the camera could be on the arm itself (recommended) or remotely fixed.",
+      "Using the error between both the object and the gripper, the controllers will operate to achieve accurate position actuation of the robotic manipulator. The student will be expected to deliver a setup for the fixation of the camera, as well as a set of algorithms used to track the object of interest (could be defined within the scope of PRIME project), as well as the end-effector motion. The controller will be developed with the mindset of a greybox system, in which some parameters are input to the algorithm for it to operate efficiently. However, the input/output relation would be maintained."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming skills, Computer vision passion, Python, MATLAB, System Design.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Position Controllers",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of the position controllers of the robotic manipulator. These controllers will be responsible for making sure that the position of the end-effector (and its orientation) are at the desired values. This is done through proper modeling of the robot motion (kinematics) in order to develop the suitable position controllers.",
+      "Comparative study between 3 different controllers (at least) would be required to reach the suitable proper controller, and adjust its tunable parameters. The student will be expected to deliver a model for the kinematics system of the PRIME project, along with its different components. The operation speeds/scenarios of the project are set to slow speeds in this project. Alternative controllers will be discussed, and implemented, and compared in terms of different performance metrics to be able to assess their relative performances. The recommended controller will be optimized to reach the suitable set of parameters. The deliverables include the full controller equations along with parameters (suitable for used model)."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming skills, Modeling, System Analysis, MATLAB, System Design.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Prof. Imam Morgan",
+    "coSupervisor": "Assoc. Prof. Omar M. Shehata",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: Force Controllers",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of force controllers of the robotic manipulator. These controllers are responsible to guarantee the smooth interaction of the robot with its surrounding environment. The dynamics model for the robot is required to be developed to be used in the controller development.",
+      "Comparative study between kinematic and dynamic-based controller will be done. Only 1 force controller is needed in this thesis, with acceptable performance. The tunable parameters will be adjusted in order to govern a smooth trajectory of motion. The student will be expected to deliver a full dynamics model for the robot along with the developed force controller. The scope of work of this project will be testing in scenarios with high values of accelerations, thus force controllers are needed. The comparison of with/without force controller is a must in the quantification of the results. The developed controller will be optimized to reach the suitable set of parameters to be used."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming skills, Modeling, System Analysis, MATLAB, System Design.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": "Prof. Imam Morgan",
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Development of a 7-DoF Robotic Manipulator: ROS-based Architecture",
+    "researchField": "Robotics and Control",
+    "projectDescription": "Collaborators: Eng. Dalia M. Mahfouz, MSc. & Eng. Abdelrahman Hatem, MSc. | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address the development of a ROS-based system to connect the simulated world with the real-system. The development of a clear bridge (using ROS) between the hardware domain and the simulation environment is the scope of this study.",
+      "To be able to do so, the student will develop a ROS-based architecture (using wired/wireless communication) between the laptop/PC and the hardware drivers, to seamlessly connect the data back and forth. The student will be expected to deliver a functioning system architecture based on ROS. The developed system will be developed and tested on different levels. Starting from the level of element-wise, and actuation of single unit, up to the level of communication with the whole robot. The full simulation environment is also a deliverable in this project. The robot will be imported (after finishing the design) to the suitable simulator, in order to facilitate the development of subsequent steps in terms of control and others. Metrics of performance would include the latency of messages, and the rate of messages lost between the two sides."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming skills, Python, ROS, embedded systems, communication.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Eng. Dalia M. Mahfouz, MSc.", "Eng. Abdelrahman Hatem, MSc."]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": null,
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Intelligent Path Optimization for Robotic Arm Soldering Applications",
+    "researchField": "Robotics and Optimization",
+    "projectDescription": "Collaborators: Dr. Alia Ahmed Diaa | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address one of the applications related to soldering of Printed Circuit Board’s components. The problem is addressed from the perspective of optimizing the sequence of activities to be done. The project starts with the utilization of image processing algorithm to detect the holes (via) and store them as a sequence of nodes to be visited.",
+      "The optimization of the path is conducted by utilizing intelligent methods (metaheuristic optimization or machine learning methods). The produced path is later converted to a sequence of points to visit. The student will be expected to deliver a functioning algorithm to take any input PCB with holes (via) to be soldered, and then the algorithm would detect them, and process the most efficient sequence of points to be visited. The order of points is then set along with the actions to be taken to achieve these points. Different optimization approaches would be implemented to compare their performances and the best one would be utilized."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Optimization, AI, computer-vision.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Alia Ahmed Diaa"]
+  },
+  {
+    "supervisorName": "Assoc. Prof. Omar M. Shehata",
+    "coSupervisor": null,
+    "supervisorEmail": "omar.mohamad@guc.edu.eg",
+    "department": "Mechatronics Engineering Dept. – EMS",
+    "projectTitle": "PRIME: Vision-Guided Robotic Arm for Precision Soldering Applications",
+    "researchField": "Robotics and Optimization",
+    "projectDescription": "Collaborators: Dr. Alia Ahmed Diao | PRIME is our new metal-based robotic manipulator that extends along the wide range of robotic manipulators that we have been building the previous years (However, they were 3D printed). This year, we take it one step further and we want to build our multi-purpose desktop metal 7-DoF robot. This version of the robot would have a payload of 1-kg, and a reach of 850 mm. The project is broken into different modules that will be integrated together to reach the final outcome of the project. The modules represent physical robot development, feedback systems, control modules, simulations as well as different user interfaces. | Supplementary notes: https://drive.google.com/file/d/1HLuD9rLTADyGfkDvCXudgFaMspF_5GUW/view",
+    "projectMethodology": [
+      "The main scope of this thesis, will be to address one of the challenges related to the PCB (Printed Circuit Board) applications. In this project, the attention is drawn towards the development of an accurate vision-guided system that allows further steps of soldering to be done.",
+      "The scope of this project is related to comparing different algorithms related to computer vision for the detection of multiple difficulty levels in PCBs as well as nominate the most recommended approach to achieve the task in the most efficient way. Moreover, the algorithm should be able to detect the presence of obstacles (components) on the PCB to be used later on for the planning stage. The student will be expected to deliver a functioning system of algorithms that takes an input image for a PCB and produces a layout of the components and the expected points to pass by (via). The algorithm should be developed as a stand-alone system (exe-file) to be used. The testing on different complexity level PCBs is one of the metrics that would be used to assess the performance of this project as well as the efficiency/accuracy of the solution."
+    ],
+    "qualifications": [
+      "The student working on this project must have a passion towards learning:",
+      "- Technical: Programming, Simulation, Computer-vision, AI, Optimization.",
+      "- Personality: Team work, self-learning, dedication, working under pressure, problem-solving.",
+      "Having previous knowledge of these technical qualifications is an edge. Personality traits is something that we all learn and grow in."
+    ],
+    "furtherComments": "",
+    "eligibleDepartments": ["Mechatronics Engineering"],
+    "collaborators": ["Dr. Alia Ahmed Diao"]
   },
   {
     "supervisorName": "Dr. Abbas Yehia",
@@ -1250,7 +2309,25 @@ export const projectData = [
     "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
-    "projectTitle": "Coffee Machine",
+    "projectTitle": "Design and implementation of a coffee Machine",
+    "researchField": "",
+    "projectDescription": "Coffee vending machine serves the community with modern, reliable, automated selfservice vending machines for the dispensing of snacks and beverages. The machine consists of stainless steel packet containers units’ for maximum precision, stability, long service life and hygiene safety – the packet containers units could be removed for cleaning. Also: various temperatures of hot water for cups of drink, from the separate hot water outlet. At the center of the machine, the screen provide the quantity and selection of drinks and beverages. Fully-automatic cleaning not only guarantees hygiene safety, it also saves time.",
+    "projectMethodology": [
+      "Design and Implementation"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "Hisham Elsherif",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "department": "Mechatronics",
+    "projectTitle": "Design and implementation of a coffee Machine",
     "researchField": "",
     "projectDescription": "Coffee vending machine serves the community with modern, reliable, automated selfservice vending machines for the dispensing of snacks and beverages. The machine consists of stainless steel packet containers units’ for maximum precision, stability, long service life and hygiene safety – the packet containers units could be removed for cleaning. Also: various temperatures of hot water for cups of drink, from the separate hot water outlet. At the center of the machine, the screen provide the quantity and selection of drinks and beverages. Fully-automatic cleaning not only guarantees hygiene safety, it also saves time.",
     "projectMethodology": [
@@ -1268,7 +2345,7 @@ export const projectData = [
     "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
-    "projectTitle": "PLC programming for 8 stations production line",
+    "projectTitle": "Eight stations production line PLC programming with Function and function chart",
     "researchField": "",
     "projectDescription": "A production line is a set of sequential operations established in a factory where components are assembled to make a finished article or where materials are put through a refining process to produce an end-product that is suitable for onward consumption. The production line consists of 8 individual stations to establish a certain manufacturing process starting from the first station for work piece delivery ending with the work pieces sorting process.",
     "projectMethodology": [
@@ -1286,7 +2363,25 @@ export const projectData = [
     "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": "walid.omran@guc.edu.eg",
     "department": "Mechatronics",
-    "projectTitle": "Microcontroller/PLC programming for a sorting system",
+    "projectTitle": "Microcontroller programming for a sorting system",
+    "researchField": "",
+    "projectDescription": "Focusing on manufacturing industries, product packaging and sorting are of high priority and to be automated. Thus low Cost Automation (LCA) system for product sorting based on required dimensions is designed. This system Micro Computer/PLC, an integrated PLC with uploaded Program to control multiple machine operation for product sorting. Multiple machine operation of product includes Conveyor, start sensor, Measuring section …etc. The system is also facilitated with Emergency and Reset stop buttons, Buzzer and an indicator to facilitate trouble shooting.",
+    "projectMethodology": [
+      "Design and Implementation"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "Hisham Elsherif",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "department": "Mechatronics",
+    "projectTitle": "Microcontroller programming for a sorting system",
     "researchField": "",
     "projectDescription": "Focusing on manufacturing industries, product packaging and sorting are of high priority and to be automated. Thus low Cost Automation (LCA) system for product sorting based on required dimensions is designed. This system Micro Computer/PLC, an integrated PLC with uploaded Program to control multiple machine operation for product sorting. Multiple machine operation of product includes Conveyor, start sensor, Measuring section …etc. The system is also facilitated with Emergency and Reset stop buttons, Buzzer and an indicator to facilitate trouble shooting.",
     "projectMethodology": [
@@ -1335,10 +2430,46 @@ export const projectData = [
     ]
   },
   {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "Hisham Elsherif",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "department": "Mechatronics",
+    "projectTitle": "Design and implementation of a prosthetic hand",
+    "researchField": "",
+    "projectDescription": "Prosthetic arms and hands are devices designed to support users who are missing part of a hand or arm. They can be used by individuals who have lost a limb due to an injury, accident, or illness, and also by people who have a limb difference due to a congenital condition. A suitable prosthetic hand has different features such as resemblance with the human hand anatomy, low weight, low cost and high functionality, capability of performing handy grasp patterns, particularly power and precision grasp. To accomplish the mentioned goals in a prosthetic hand, various designs and models have been proposed so far. In some cases, they have been commercialized.",
+    "projectMethodology": [
+      "Design and Implementation"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
     "supervisorName": "Hisham Elsherif",
     "coSupervisor": "Dr. Walid Omran",
     "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": "walid.omran@guc.edu.eg",
+    "department": "Mechatronics",
+    "projectTitle": "Smart cleaning Robot",
+    "researchField": "",
+    "projectDescription": "Smart cleaning robot to makes the tedious, tiresome household works to simpler and automatic. The main objective of this robot is to reduce the human interaction in the cleaning process. The proposed system has vacuum system consists of vacuum pump for sucking the dust particles on the way. All hardware and software operations are controlled by Arduino mega microcontroller. GSM module could be used for wireless communication between Robot and user. According to the user convenience, Other than sending commands, the robot can be turned ON and OFF by pressing external switches. The robot is able to avoid obstacles and must be capable of cleaning the room upon user command and is designed for a collision free navigation.",
+    "projectMethodology": [
+      "Design and Implementation"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "Hisham Elsherif",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": "hisham.elsherif@guc.edu.eg",
     "department": "Mechatronics",
     "projectTitle": "Smart cleaning Robot",
     "researchField": "",
@@ -1371,8 +2502,26 @@ export const projectData = [
     ]
   },
   {
+    "supervisorName": "Dr. Walid Omran",
+    "coSupervisor": "Hisham Elsherif",
+    "supervisorEmail": "walid.omran@guc.edu.eg",
+    "coSupervisorEmail": "hisham.elsherif@guc.edu.eg",
+    "department": "Mechatronics",
+    "projectTitle": "Smart battery charger",
+    "researchField": "",
+    "projectDescription": "Smart battery chargers and accessories to suit all types of batteries for vehicles including cars, bikes, marine vessels, agricultural vehicles and even lawnmowers. Smart chargers are fully automatic, spark proof and reverse polarity protected, and you don’t need any special knowledge to use them. Pulse maintenance technology also means that chargers can be connected to the battery for months at a time, so you can simply connect and forget. Smart chargers constantly communicate with the battery throughout the whole process and they only supply charge depending on the battery’s exact needs. This prevents overor undercharging, which can reduce the battery’s lifespan.",
+    "projectMethodology": [
+      "Design and Implementation"
+    ],
+    "qualifications": [],
+    "furtherComments": "",
+    "eligibleDepartments": [
+      "Mechatronics Engineering"
+    ]
+  },
+  {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "",
+    "coSupervisor": "Dr. Hamdy Kandil",
     "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
@@ -1390,7 +2539,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "",
+    "coSupervisor": "Dr. Hamdy Kandil",
     "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
@@ -1408,11 +2557,11 @@ export const projectData = [
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "",
+    "coSupervisor": "Dr. Hamdy Kandil",
     "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
-    "projectTitle": "Automated Light Post cleaning system",
+    "projectTitle": "Design and implementation for a Automated Light Post cleaning system",
     "researchField": "",
     "projectDescription": "Design and implement of a full automatic Street Light post cleaning system controlled by a microcontroller. The system will consists of an auto turn On/Off control system for the light and passive sensors to save energy. The dust/rain sensors are utilized to recognize the dirt/drops accumulation and surface deposition on the surface of the lights. The proposed cleaning system is compared with all available technologies, The comparison reveals that for removing the dirt accumulation, a fully automatic cleaning system can be chosen as one of the most suitable cleaning systems due to its robustness, using for different types of street lights, excellent performance at a shorter time and low-cost.",
     "projectMethodology": [
@@ -1426,7 +2575,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Hisham Elsherif",
-    "coSupervisor": "",
+    "coSupervisor": "Dr. Hamdy Kandil",
     "supervisorEmail": "hisham.elsherif@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
@@ -1705,7 +2854,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Hamdy Kandil",
-    "coSupervisor": "",
+    "coSupervisor": "Eng. Simone Samy",
     "supervisorEmail": "hamdy.kandil@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
@@ -1799,7 +2948,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Hamdy Kandil",
-    "coSupervisor": "",
+    "coSupervisor": "Eng. Simone Samy",
     "supervisorEmail": "hamdy.kandil@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
@@ -1819,7 +2968,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Hamdy Kandil",
-    "coSupervisor": "",
+    "coSupervisor": "Eng. Simone Samy",
     "supervisorEmail": "hamdy.kandil@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
@@ -1839,7 +2988,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Hamdy Kandil",
-    "coSupervisor": "",
+    "coSupervisor": "Eng. Simone Samy",
     "supervisorEmail": "hamdy.kandil@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
@@ -1859,7 +3008,7 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Hamdy Kandil",
-    "coSupervisor": "",
+    "coSupervisor": "Eng. Simone Samy",
     "supervisorEmail": "hamdy.kandil@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "Mechatronics",
@@ -2103,30 +3252,6 @@ export const projectData = [
   },
   {
     "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
-    "coSupervisor": "",
-    "supervisorEmail": "ahmed.shash@guc.edu.eg",
-    "coSupervisorEmail": null,
-    "department": "Design and Production",
-    "projectTitle": "Design, Optimization and Manufacturing for Enhanced Durability in Water Desalination Pumps",
-    "researchField": "Production Technology, Mechatronics",
-    "projectDescription": "explore the Design, production, Performance Testing and Process Optimization of Water Desalination Pumps",
-    "projectMethodology": [
-      "Design Water Desalination Pumps",
-      "Performance Testing of Super Austenitic Stainless Steel Desalination Pumps",
-      "Process Optimization of Super Austenitic Stainless Steel Desalination Pumps"
-    ],
-    "qualifications": [
-      "Strong background in mechanical engineering principles, including materials science, mechanical design, and fluid dynamics."
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Design and Production Engineering",
-      "Mechatronics Engineering"
-    ]
-  },
-
-  {
-    "supervisorName": "Prof. Dr.-Ing. Ahmed Shash",
     "coSupervisor": "Dr. Abbas Yehia",
     "supervisorEmail": "ahmed.shash@guc.edu.eg",
     "coSupervisorEmail": "abbas.yehia@guc.edu.eg",
@@ -2152,9 +3277,9 @@ export const projectData = [
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "EDPT",
-    "projectTitle": "Design, Manufacturing and Control of a Four-Color 3D Printer Mechanical System",
+    "projectTitle": "Design- Manufacturing and Control of a Four-Color 3D Printer",
     "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design, manufacture, and assemble a four-color FDM 3D printer mechanical and control system. The 3D printer will not only be able to print four colors but also different materials, enhancing the quality of large printed components with supports, as well as allow the user to print parts with rigid and flexible components at the same time without assembly. The expected result is a fully controlled 3D printer that can print up to four different colors/materials in a single print job.",
+    "projectDescription": "Collaborators: Eng. Ahmed Fathy | In this project, the aim is to design, manufacture, and assemble a four-color FDM 3D printer mechanical and control system. The 3D printer will not only be able to print four colors but also different materials, enhancing the quality of large printed components with supports, as well as allow the user to print parts with rigid and flexible components at the same time without assembly. The expected result is a fully controlled 3D printer that can print up to four different colors/materials in a single print job.",
     "projectMethodology": [
       "Research and identify different motion systems and different control strategies for various 3D printer.",
       "Choose an appropriate motion system based on several factors (Cost, available equipment, manufacturing capabilities, and time).",
@@ -2176,7 +3301,7 @@ export const projectData = [
     "department": "EDPT",
     "projectTitle": "6-DOF Robot Arm Design and Control Development",
     "researchField": "Mechatronics",
-    "projectDescription": "This project immerses students in the world of robotics by challenging them to design and build a 6-DOF (Degrees of Freedom) robot arm. Students will gain valuable experience in mechanical design, kinematics, control systems, and programming.",
+    "projectDescription": "Collaborators: Dr. Lobna Tarek | This project immerses students in the world of robotics by challenging them to design and build a 6-DOF (Degrees of Freedom) robot arm. Students will gain valuable experience in mechanical design, kinematics, control systems, and programming.",
     "projectMethodology": [
       "Design the robot arm's structure and mechanisms using CAD software, considering workspace and dexterity.",
       "Select appropriate actuators and sensors for motion control and feedback.",
@@ -2194,9 +3319,9 @@ export const projectData = [
     "supervisorEmail": "atef.afifi@guc.edu.eg",
     "coSupervisorEmail": null,
     "department": "EDPT",
-    "projectTitle": "Design and Manufacturing of a Parallel Robot Mechanical System",
+    "projectTitle": "Design and Manufacturing of a Parallel Robot Mechanical System Applied in Flexible Manufacturing Cells (FMC)",
     "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design, manufacture, and assemble a Delta parallel robot to be implemented in a flexible manufacturing cell (FMC). The FMC will include the Delta robot itself, two conveyor lines, and a cell frame that holds everything. The goal is to allow the Delta robot to pick and place different objects of different sizes and orientations between the two conveyor belts at high speeds. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, mechanical system design, and manufacturing.",
+    "projectDescription": "Collaborators: Eng. Ahmed Ossairy | In this project, the aim is to design, manufacture, and assemble a Delta parallel robot to be implemented in a flexible manufacturing cell (FMC). The FMC will include the Delta robot itself, two conveyor lines, and a cell frame that holds everything. The goal is to allow the Delta robot to pick and place different objects of different sizes and orientations between the two conveyor belts at high speeds. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, mechanical system design, and manufacturing.",
     "projectMethodology": [
       "Research different types of parallel manipulators and flexible manufacturing cells.",
       "Confidently model the kinematics and dynamics of a Delta parallel robot.",
@@ -2218,7 +3343,7 @@ export const projectData = [
     "department": "EDPT",
     "projectTitle": "Electrical System Design and Control of a Parallel Robot Applied in Flexible Manufacturing Cells (FMC)",
     "researchField": "Mechatronics",
-    "projectDescription": "In this project, the aim is to design and apply a control system for a flexible manufacturing cell (FMC) utilizing a Delta parallel robot. The FMC includes the Delta robot itself, two conveyor lines, and a cell frame that holds everything. The goal is to control the Delta robot to follow a complex trajectory, allowing it to pick and place different objects of different sizes and orientations at high speeds. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, controller derivation, electrical system prototyping, and PCB design and testing.",
+    "projectDescription": "Collaborators: ENG. Ahmed Fathy | In this project, the aim is to design and apply a control system for a flexible manufacturing cell (FMC) utilizing a Delta parallel robot. The FMC includes the Delta robot itself, two conveyor lines, and a cell frame that holds everything. The goal is to control the Delta robot to follow a complex trajectory, allowing it to pick and place different objects of different sizes and orientations at high speeds. The project will be split into several stages, including but not limited to research, kinematic and dynamic modeling, controller derivation, electrical system prototyping, and PCB design and testing.",
     "projectMethodology": [
       "Research different types of parallel manipulators.",
       "Research different types of control strategies for parallel manipulators.",
@@ -2241,7 +3366,7 @@ export const projectData = [
     "department": "EDPT",
     "projectTitle": "AI-Driven Feature Recognition for Automated Manufacturing in CAD/CAM Systems",
     "researchField": "Mechatronics",
-    "projectDescription": "This research investigates how artificial intelligence can enhance feature recognition in CAD/CAM systems, enabling faster, more accurate identification of machining features for automated part programming and toolpath generation. The two main objectives are: \n\n • To leverage Artificial Intelligence (AI) for automated feature recognition within CAD/CAM systems. \n\n • To enhance precision, reduce design-to-manufacturing time, and minimize human intervention in toolpath generation.",
+    "projectDescription": "Collaborators: Eng. Hebatullah Hamed | This research investigates how artificial intelligence can enhance feature recognition in CAD/CAM systems, enabling faster, more accurate identification of machining features for automated part programming and toolpath generation. The two main objectives are: \n\n • To leverage Artificial Intelligence (AI) for automated feature recognition within CAD/CAM systems. \n\n • To enhance precision, reduce design-to-manufacturing time, and minimize human intervention in toolpath generation.",
     "projectMethodology": [
       "AI Model Development:",
       "o Use convolutional neural networks (CNNs) or graph neural networks (GNNs) for geometric pattern recognition.",
@@ -2270,7 +3395,7 @@ export const projectData = [
     "department": "EDPT",
     "projectTitle": "Intelligent Computer Aided Part Programming Using Neural Network-Based Solutions",
     "researchField": "Mechatronics",
-    "projectDescription": "This research explores the potential of neural networks to automate and optimize part programming tasks in CAD/CAM systems, enhancing efficiency, accuracy, and adaptability in CNC machining workflows. The main objectives are: \n\n • To develop neural network-based solutions for automating and optimizing part programming in computer-aided manufacturing systems. \n\n • To enable intelligent decision-making in tool selection, machining strategies, and parameter optimization. \n\n • Automated G-Code Generation",
+    "projectDescription": "Collaborators: Eng. Hebatullah Hamed | This research explores the potential of neural networks to automate and optimize part programming tasks in CAD/CAM systems, enhancing efficiency, accuracy, and adaptability in CNC machining workflows. The main objectives are: \n\n • To develop neural network-based solutions for automating and optimizing part programming in computer-aided manufacturing systems. \n\n • To enable intelligent decision-making in tool selection, machining strategies, and parameter optimization. \n\n • Automated G-Code Generation",
     "projectMethodology": [
       "Neural Network Training:",
       "o Collect training data from machining simulations, historical CNC programs, and expert insights.",
@@ -2295,7 +3420,7 @@ export const projectData = [
     "department": "EDPT",
     "projectTitle": "CNC Router Design and Manufacturing",
     "researchField": "Mechatronics",
-    "projectDescription": "This project challenges students to design and build a functional CNC router. By integrating mechanical, electronic, and software elements, students will gain practical experience in mechatronics and production engineering.",
+    "projectDescription": "Collaborators: Eng. Ahmed Ossairy | This project challenges students to design and build a functional CNC router. By integrating mechanical, electronic, and software elements, students will gain practical experience in mechatronics and production engineering.",
     "projectMethodology": [
       "Design the router's mechanical structure using CAD software.",
       "Manufacture components using techniques like CNC machining.",
@@ -2315,7 +3440,7 @@ export const projectData = [
     "department": "EDPT",
     "projectTitle": "Multi-AGV Communication System",
     "researchField": "Mechatronics",
-    "projectDescription": "This project focuses on developing a robust and efficient communication system for coordinating multiple Automated Guided Vehicles (AGVs). Students will explore various communication technologies and protocols to enable seamless information exchange and cooperation between AGVs in a dynamic environment.",
+    "projectDescription": "Collaborators: Eng. Ahmed Ossairy | This project focuses on developing a robust and efficient communication system for coordinating multiple Automated Guided Vehicles (AGVs). Students will explore various communication technologies and protocols to enable seamless information exchange and cooperation between AGVs in a dynamic environment.",
     "projectMethodology": [
       "Research and select suitable communication technologies for AGV communication.",
       "Design a communication architecture that ensures reliable data transmission.",
@@ -2335,7 +3460,7 @@ export const projectData = [
     "department": "EDPT",
     "projectTitle": "Design and Manufacture of an Air Compressor to be Equipped in an Outdoor AGV",
     "researchField": "Mechatronics",
-    "projectDescription": "This project delves into the principles of thermodynamics and fluid mechanics by tasking students with designing and building an efficient air compressor. Students will gain practical experience in selecting appropriate components, analyzing performance, and optimizing design for various applications.",
+    "projectDescription": "Collaborators: Eng. Ahmed Ossairy | This project delves into the principles of thermodynamics and fluid mechanics by tasking students with designing and building an efficient air compressor. Students will gain practical experience in selecting appropriate components, analyzing performance, and optimizing design for various applications.",
     "projectMethodology": [
       "Research different air compressor types (e.g., reciprocating, rotary screw) and select a suitable design based on desired performance characteristics.",
       "Design key components (e.g., compression mechanism, storage tank, valves, piping) using CAD software, considering factors such as pressure, flow rate, and efficiency.",
@@ -2355,7 +3480,7 @@ export const projectData = [
     "department": "EDPT",
     "projectTitle": "Automated Packaging System",
     "researchField": "Mechatronics",
-    "projectDescription": "This project challenges students to design and build an automated sorting and packaging line. This system will utilize sensors, actuators, and control logic to efficiently sort items based on specific criteria and package them for distribution. Students will gain practical experience in integrating various technologies to create a complete automation solution.",
+    "projectDescription": "Collaborators: Eng. Ahmed Ossairy and ENG. Ahmed Fathy | This project challenges students to design and build an automated sorting and packaging line. This system will utilize sensors, actuators, and control logic to efficiently sort items based on specific criteria and package them for distribution. Students will gain practical experience in integrating various technologies to create a complete automation solution.",
     "projectMethodology": [
       "Design a system for identifying and classifying items based on relevant characteristics (e.g., size, weight, color, defects).",
       "Select and integrate appropriate sensors (e.g., cameras, proximity sensors, load cells) for data acquisition.",
@@ -2410,30 +3535,6 @@ export const projectData = [
       "Good analytical and laboratory skills.",
       "Familiarity with MATLAB and Arduino",
       "For more information visit: http://www.mnrlab.com/robotic-sperms.html"
-    ],
-    "furtherComments": "",
-    "eligibleDepartments": [
-      "Mechatronics Engineering"
-    ]
-  },
-  {
-    "supervisorName": "Dr. Mohamed Elwi",
-    "coSupervisor": "Prof. Dr.-Ing. Ahmed Shash",
-    "supervisorEmail": "mohamed.elwi@guc.edu.eg",
-    "coSupervisorEmail": "ahmed.shash@guc.edu.eg",
-    "department": "Materials Engineering",
-    "projectTitle": "Establishing a creep setup for materials testing",
-    "researchField": "Materials testing",
-    "projectDescription": "Creep is a phenomena where a component shows time-dependent strain rather than load dependent. It occurs in materials under room temperature and elevated temperatures as well. It is crucial to study creep behavior of materials that would be used in applications such as turbines and jet engines. The setup should basically allow for measuring elongation against time of a sample put under a constant load",
-    "projectMethodology": [
-      "• Design of a mechanical setup for sample handling and load application;",
-      "• Implementing the design and use sensors for length measurement to be recorded against time",
-      "• Testing and validating the setup via using actual samples under room temperature"
-    ],
-    "qualifications": [
-      "Basic knowledge of material engineering.",
-      "Familiarity with sensors and data processing.",
-      "Familiarity with design of engineering systems."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
