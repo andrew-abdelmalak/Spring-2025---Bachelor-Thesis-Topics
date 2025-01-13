@@ -1379,7 +1379,7 @@ export default function ThesisComparisonSystem() {
                         <div className="flex items-center space-x-4 text-sm text-gray-500 min-w-[200px]">
                             <span>Projects: {filteredAndSortedData.length}</span>
                             <span>•</span>
-                            <span>Last Updated: 12/29/2024</span>
+                            <span>Last Updated: 1/6/2025 2:05:03 PM</span>
                         </div>
 
                         {/* Search section - flexible width */}
