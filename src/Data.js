@@ -70,7 +70,7 @@ export const projectData = [
       "Strong background in mechanical engineering principles, including materials science, mechanical design, and fluid dynamics."
     ],
     "furtherComments": "",
-    "eligibleDepartments": ["Design and Production Engineering", "Mechatronics Engineering", "Mechatronics (?)"],
+    "eligibleDepartments": ["Design and Production Engineering", "Mechatronics Engineering"],
     "collaborators": []
   },
   {
@@ -1266,14 +1266,14 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project involves designing a compact car-like robottailored for exploring single-agent robotic systems. The robot will be equipped with sensors, actuators, and an onboard computing system. The goal is to develop a modular software framework that supports control algorithms to enable tasks like path following, obstacle avoidance, and dynamic control in real-world environments.",
     "projectMethodology": [
-      " Design Phase: Develop a CAD model of the robot, choose sensors (e.g., LiDAR, IMU) and actuators.",
-      " Fabrication: Assemble the robot with embedded hardware.",
-      " Software Development: Create a modular framework using Python/ROS for real-time control.",
-      " Algorithm Implementation: Implement control algorithms like PID or MPC.",
-      " Testing and Validation: Test the robot's navigation and control in a controlled environment."
+      "• Design Phase: Develop a CAD model of the robot, choose sensors (e.g., LiDAR, IMU) and actuators.",
+      "• Fabrication: Assemble the robot with embedded hardware.",
+      "• Software Development: Create a modular framework using Python/ROS for real-time control.",
+      "• Algorithm Implementation: Implement control algorithms like PID or MPC.",
+      "• Testing and Validation: Test the robot's navigation and control in a controlled environment."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1290,14 +1290,14 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project focuses on applying Model Predictive Control (MPC) to a mobile robot for optimal navigation and control. MPC will be used to ensure the robot follows desired trajectories while avoiding obstacles and accounting for system constraints.",
     "projectMethodology": [
-      " Model Development: Derive a mathematical model of the robot dynamics.",
-      " MPC Design: Formulate the cost function and constraints for the MPC problem.",
-      " Simulation: Use MATLAB or Python to simulate the robot's motion with MPC.",
-      " Implementation: Deploy the controller on a mobile robot.",
-      " Evaluation: Compare performance with traditional control strategies like PID."
+      "• Model Development: Derive a mathematical model of the robot dynamics.",
+      "• MPC Design: Formulate the cost function and constraints for the MPC problem.",
+      "• Simulation: Use MATLAB or Python to simulate the robot's motion with MPC.",
+      "• Implementation: Deploy the controller on a mobile robot.",
+      "• Evaluation: Compare performance with traditional control strategies like PID."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1314,13 +1314,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project aims to design a small-scale car-like robot integrated with a software framework for implementing state estimation techniques, such as Kalman Filters, to enhance localization and navigation capabilities.",
     "projectMethodology": [
-      " Robot Design: Design and build the robot with sensors (e.g., GPS, encoders).",
-      " Framework Development: Create software for fusing sensor data and state estimation algorithms.",
-      " Estimation Algorithm: Implement Kalman/Extended Kalman Filters for localization.",
-      " Testing: Validate estimation accuracy in simulated and real-world settings."
+      "• Robot Design: Design and build the robot with sensors (e.g., GPS, encoders).",
+      "• Framework Development: Create software for fusing sensor data and state estimation algorithms.",
+      "• Estimation Algorithm: Implement Kalman/Extended Kalman Filters for localization.",
+      "• Testing: Validate estimation accuracy in simulated and real-world settings."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1337,13 +1337,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "The project develops a fleet of small car-like robots and a software framework to study multi-agent coordination problems such as consensus, formation control, and distributed task allocation.",
     "projectMethodology": [
-      " Hardware Design: Build multiple robots with communication modules.",
-      " Framework Development: Design distributed algorithms for communication and coordination.",
-      " Algorithm Implementation: Implement consensus algorithms like the leader-follower model.",
-      " Testing: Validate coordination tasks in simulation and real-world environments."
+      "• Hardware Design: Build multiple robots with communication modules.",
+      "• Framework Development: Design distributed algorithms for communication and coordination.",
+      "• Algorithm Implementation: Implement consensus algorithms like the leader-follower model.",
+      "• Testing: Validate coordination tasks in simulation and real-world environments."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1360,13 +1360,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project explores a centralized Model Predictive Control (MPC) approach to achieve consensus among multiple agents, optimizing their actions collectively to align states or achieve formation while considering system constraints.",
     "projectMethodology": [
-      " Modeling: Represent agent dynamics and interactions in a centralized framework.",
-      " MPC Design: Formulate a global cost function for consensus with constraints.",
-      " Simulation: Test scenarios like formation control and synchronization using tools like MATLAB or Python.",
-      " Analysis: Evaluate performance in terms of convergence, computational load, and robustness."
+      "• Modeling: Represent agent dynamics and interactions in a centralized framework.",
+      "• MPC Design: Formulate a global cost function for consensus with constraints.",
+      "• Simulation: Test scenarios like formation control and synchronization using tools like MATLAB or Python.",
+      "• Analysis: Evaluate performance in terms of convergence, computational load, and robustness."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1383,13 +1383,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project explores the use of Distributed Model Predictive Control (DMPC) for achieving consensus in multi-agent systems, focusing on scenarios like formation control or flocking.",
     "projectMethodology": [
-      " System Modeling: Model agent dynamics and interaction topology.",
-      " DMPC Design: Formulate local and global optimization problems for agents.",
-      " Algorithm Development: Implement distributed solvers for the consensus problem.",
-      " Simulation: Test DMPC in a simulated multi-agent environment"
+      "• System Modeling: Model agent dynamics and interaction topology.",
+      "• DMPC Design: Formulate local and global optimization problems for agents.",
+      "• Algorithm Development: Implement distributed solvers for the consensus problem.",
+      "• Simulation: Test DMPC in a simulated multi-agent environment"
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1406,13 +1406,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project examines the design of a networked control system where data exchange occurs over a communication network. Model Predictive Control (MPC) is used to handle challenges posed by network imperfections like latency, packet loss, and jitter.",
     "projectMethodology": [
-      " System Modeling: Develop a model incorporating network delays and imperfections.",
-      " MPC Design: Modify MPC algorithms to account for network disturbances.",
-      " Simulation: Validate performance using tools like Simulink or Python.",
-      " Implementation: Test on a physical system with a networked control setup."
+      "• System Modeling: Develop a model incorporating network delays and imperfections.",
+      "• MPC Design: Modify MPC algorithms to account for network disturbances.",
+      "• Simulation: Validate performance using tools like Simulink or Python.",
+      "• Implementation: Test on a physical system with a networked control setup."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1429,13 +1429,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project focuses on controlling a group of networked agents under communication imperfections. MPC will be applied to ensure coordinated behavior while compensating for issues like delays and data loss.",
     "projectMethodology": [
-      " Agent Modeling: Define dynamics and inter-agent communication models.",
-      " MPC Integration: Design an MPC controller to address network issues.",
-      " Simulation: Test scenarios with imperfect communication in a simulated environment.",
-      " Real-World Validation: Deploy the system on physical agents."
+      "• Agent Modeling: Define dynamics and inter-agent communication models.",
+      "• MPC Integration: Design an MPC controller to address network issues.",
+      "• Simulation: Test scenarios with imperfect communication in a simulated environment.",
+      "• Real-World Validation: Deploy the system on physical agents."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1458,7 +1458,7 @@ export const projectData = [
       "4. Testing: Validate performance through indoor and outdoor flight experiments."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1475,14 +1475,14 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project applies Model Predictive Control (MPC) to a miniature UAV to achieve precise control in trajectory following, stabilization, and obstacle avoidance while accounting for system constraints.",
     "projectMethodology": [
-      " Modeling: Derive UAV dynamics considering constraints like motor limits.",
-      " Controller Design: Develop an MPC framework to solve the optimization problem in real-time.",
-      " Simulation: Use MATLAB/Simulink or Python for flight simulations.",
-      " Implementation: Deploy the controller on a real UAV platform.",
-      " Performance Evaluation: Test and compare with traditional control methods"
+      "• Modeling: Derive UAV dynamics considering constraints like motor limits.",
+      "• Controller Design: Develop an MPC framework to solve the optimization problem in real-time.",
+      "• Simulation: Use MATLAB/Simulink or Python for flight simulations.",
+      "• Implementation: Deploy the controller on a real UAV platform.",
+      "• Performance Evaluation: Test and compare with traditional control methods"
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1499,13 +1499,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project designs a miniature UAV integrated with a software framework for state estimation, enabling precise localization and control in challenging environments.",
     "projectMethodology": [
-      " UAV Design: Assemble a UAV with suitable sensors (GPS, IMU).",
-      " Software Framework: Implement state estimation algorithms like Kalman Filters.",
-      " Simulation: Test estimation performance in software environments.",
-      " Validation: Evaluate the UAV's localization accuracy in real-world conditions."
+      "• UAV Design: Assemble a UAV with suitable sensors (GPS, IMU).",
+      "• Software Framework: Implement state estimation algorithms like Kalman Filters.",
+      "• Simulation: Test estimation performance in software environments.",
+      "• Validation: Evaluate the UAV's localization accuracy in real-world conditions."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1522,13 +1522,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project involves designing multiple miniature UAVs and a software framework for exploring multiagent coordination tasks, such as formation control and collaborative navigation.",
     "projectMethodology": [
-      " Hardware Design: Build UAVs equipped with communication modules.",
-      " Framework Development: Implement algorithms for inter-UAV communication and coordination.",
-      " Algorithm Implementation: Use distributed control techniques for tasks like formation flying.",
-      " Testing: Validate coordination in simulated and physical environments."
+      "• Hardware Design: Build UAVs equipped with communication modules.",
+      "• Framework Development: Implement algorithms for inter-UAV communication and coordination.",
+      "• Algorithm Implementation: Use distributed control techniques for tasks like formation flying.",
+      "• Testing: Validate coordination in simulated and physical environments."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1545,13 +1545,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project explores the creation of a Flying Ad-hoc Network (FANET) for UAVs, enabling robust air-to-air communication. The system focuses on dynamic network topology, low latency, and reliability.",
     "projectMethodology": [
-      " Network Modeling: Simulate FANET protocols in NS-3 or OMNeT++.",
-      " Algorithm Development: Optimize routing protocols for air-to-air communication.",
-      " Implementation: Deploy on UAVs equipped with communication modules.",
-      " Validation: Test performance in various mission scenarios."
+      "• Network Modeling: Simulate FANET protocols in NS-3 or OMNeT++.",
+      "• Algorithm Development: Optimize routing protocols for air-to-air communication.",
+      "• Implementation: Deploy on UAVs equipped with communication modules.",
+      "• Validation: Test performance in various mission scenarios."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1568,13 +1568,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project investigates the development of a Vehicular Ad-hoc Network (VANET) to enable real-time carto-car communication for safety, navigation, and coordination in traffic systems.",
     "projectMethodology": [
-      " Simulation: Use tools like SUMO or NS-3 to model VANETs.",
-      " Protocol Design: Develop efficient routing protocols for vehicular communication.",
-      " Implementation: Deploy the VANET system on car-like robots or simulators.",
-      " Testing: Validate in scenarios like collision avoidance and traffic optimization."
+      "• Simulation: Use tools like SUMO or NS-3 to model VANETs.",
+      "• Protocol Design: Develop efficient routing protocols for vehicular communication.",
+      "• Implementation: Deploy the VANET system on car-like robots or simulators.",
+      "• Testing: Validate in scenarios like collision avoidance and traffic optimization."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1591,13 +1591,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project uses machine learning techniques to identify and model imperfections in communication networks, such as latency and packet loss.",
     "projectMethodology": [
-      " Data Collection: Gather network performance data.",
-      " Feature Engineering: Identify key features affecting network quality.",
-      " Model Development: Train machine learning models to predict imperfections.",
-      " Validation: Test model accuracy on new data sets"
+      "• Data Collection: Gather network performance data.",
+      "• Feature Engineering: Identify key features affecting network quality.",
+      "• Model Development: Train machine learning models to predict imperfections.",
+      "• Validation: Test model accuracy on new data sets"
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1614,13 +1614,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project applies neural networks to model and predict network imperfections, aiming for better system performance under variable network conditions.",
     "projectMethodology": [
-      " Data Preparation: Preprocess network data for training.",
-      " Model Design: Build neural network architectures for system identification.",
-      " Training: Use techniques like backpropagation for optimization.",
-      " Testing: Evaluate on unseen network conditions"
+      "• Data Preparation: Preprocess network data for training.",
+      "• Model Design: Build neural network architectures for system identification.",
+      "• Training: Use techniques like backpropagation for optimization.",
+      "• Testing: Evaluate on unseen network conditions"
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1637,13 +1637,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project addresses distributed control for multi-robot systems operating under POMDPs, enabling robots to make decisions with incomplete information",
     "projectMethodology": [
-      " Model Definition: Define state, actions, and observation spaces for robots.",
-      " Algorithm Development: Implement distributed solvers for POMDPs.",
-      " Simulation: Test scenarios with limited observation.",
-      " Validation: Deploy in real-world multi-robot setups."
+      "• Model Definition: Define state, actions, and observation spaces for robots.",
+      "• Algorithm Development: Implement distributed solvers for POMDPs.",
+      "• Simulation: Test scenarios with limited observation.",
+      "• Validation: Deploy in real-world multi-robot setups."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1660,13 +1660,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project develops consensus control strategies for multi-vehicle systems operating in environments with partial observability.",
     "projectMethodology": [
-      " System Modeling: Define dynamics and observation models.",
-      " Control Design: Develop algorithms for achieving consensus under uncertainty.",
-      " Simulation: Use tools like MATLAB or Python for validation.",
-      " Implementation: Test with physical vehicles."
+      "• System Modeling: Define dynamics and observation models.",
+      "• Control Design: Develop algorithms for achieving consensus under uncertainty.",
+      "• Simulation: Use tools like MATLAB or Python for validation.",
+      "• Implementation: Test with physical vehicles."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1683,13 +1683,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project leverages multi-agent reinforcement learning (MARL) to enable distributed control of quadrotor swarms for tasks like formation flying and collaborative exploration.",
     "projectMethodology": [
-      " Model Setup: Simulate quadrotor dynamics and swarm behavior.",
-      " Algorithm Development: Train MARL agents using techniques like Q-learning.",
-      " Simulation: Validate performance in tasks like obstacle avoidance.",
-      " Deployment: Test on quadrotor swarms in controlled environments."
+      "• Model Setup: Simulate quadrotor dynamics and swarm behavior.",
+      "• Algorithm Development: Train MARL agents using techniques like Q-learning.",
+      "• Simulation: Validate performance in tasks like obstacle avoidance.",
+      "• Deployment: Test on quadrotor swarms in controlled environments."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
@@ -1706,13 +1706,13 @@ export const projectData = [
     "researchField": "Control Systems",
     "projectDescription": "This project explores MARL for distributed control of car-like robots, enabling them to coordinate in tasks like traffic management or collaborative navigation.",
     "projectMethodology": [
-      " System Modeling: Simulate car dynamics and interactions.",
-      " Reinforcement Learning: Train agents using MARL frameworks.",
-      " Simulation Testing: Validate in realistic traffic scenarios.",
-      " Real-world Validation: Deploy algorithms on miniature car robots."
+      "• System Modeling: Simulate car dynamics and interactions.",
+      "• Reinforcement Learning: Train agents using MARL frameworks.",
+      "• Simulation Testing: Validate in realistic traffic scenarios.",
+      "• Real-world Validation: Deploy algorithms on miniature car robots."
     ],
     "qualifications": [
-      " Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
+      "• Must be eligible to undertake a B.Sc. thesis in Mechatronics Engineering."
     ],
     "furtherComments": "",
     "eligibleDepartments": [
